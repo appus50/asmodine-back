@@ -1,0 +1,4080 @@
+# style.morphology.yml
+
+# Regex Femme :
+#    \n[\s]{12}- "(.*)"\t\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t([1-3])
+#    \n            "$1":\n                fin:\n                    small: { h: $8, o: $9, a: $10, v: $11, 8: $12, x: $13 }\n                    tall:  { h: $2, o: $3, a: $4, v: $5, 8: $6, x: $7 }\n                curve:\n                    small: { h: $20, o: $21, a: $22, v: $23, 8: $24, x: $25 }\n                    tall:  { h: $14, o: $15, a: $16, v: $17, 8: $18, x: $19 }
+
+#############
+### FEMME ###
+#############
+"Femme":
+    "Vêtements":
+        "Jupes":
+            "Portefeuille":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+            "Plissées":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+            "Moulantes":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 1, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 1, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 1, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+            "Patineuses":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+            "Fourreau / Crayon":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "Trapèze":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "Mini jupe":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+            "Jupe jean":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+            "Droite":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+            "Enveloppante":
+                fin:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+            "Evasée":
+                fin:
+                    small: { h: 1, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 1, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "Crayon":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+            "Jupe culotte":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 2, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 2, a: 1, v: 2, 8: 1, x: 1 }
+            "Mini":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+            "Courte":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+            "Genoux":
+                fin:
+                    small: { h: 1, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 1, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                curve:
+                    small: { h: 1, o: 3, a: 2, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 2, v: 1, 8: 3, x: 3 }
+            "Midi":
+                fin:
+                    small: { h: 1, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 1, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 1, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+            "Longue":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Extra longue":
+                fin:
+                    small: { h: 1, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 3, x: 3 }
+            "Jupe en maille":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 1, v: 1, 8: 2, x: 2 }
+            "Jupes asymétriques":
+                fin:
+                    small: { h: 3, o: 2, a: 1, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 1, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 1, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 1, v: 3, 8: 2, x: 3 }
+            "Jupes en cuir":
+                fin:
+                    small: { h: 3, o: 2, a: 1, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 1, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 1, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 1, v: 3, 8: 3, x: 3 }
+            "tube":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 3 }
+            "jupe-short":
+                fin:
+                    small: { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+
+        "Robes":
+            "Trapeze":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "bandeau":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "Robes de plage":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 2, x: 2 }
+            "Corsage":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+            "Moulante":
+                fin:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 1, v: 1, 8: 2, x: 2 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+            "Robes pull":
+                fin:
+                    small: { h: 3, o: 2, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 1, x: 1 }
+            "Fourreau":
+                fin:
+                    small: { h: 2, o: 2, a: 1, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 1, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 1, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 1, v: 2, 8: 2, x: 2 }
+            "Droite":
+                fin:
+                    small: { h: 2, o: 3, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 3, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 2, v: 3, 8: 2, x: 2 }
+            "Robes chemise":
+                fin:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+            "Patineuse":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+            "Robes nuisette":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+            "La robe tunique":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+            "Robes t-shirt":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+            "Cintrée":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 3, x: 3 }
+            "Ajustée":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+            "Taille empire":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 1, x: 1 }
+            "Froncée":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+            "Robes drapées":
+                fin:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+            "Mini":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "Courte":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+            "Genoux":
+                fin:
+                    small: { h: 1, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 2, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 1, 8: 3, x: 3 }
+            "Midi":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 3, v: 1, 8: 2, x: 2 }
+                curve:
+                    small: { h: 1, o: 2, a: 2, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 1, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+            "Longue":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Extra longue":
+                fin:
+                    small: { h: 1, o: 2, a: 1, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "Dos nu":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+            "V plongeant":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+            "Droite":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 2, x: 2 }
+            "3 trous":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 1, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 1, 8: 3, x: 3 }
+            "Plissée":
+                fin:
+                    small: { h: 1, o: 2, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 2, a: 1, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 2, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 2, a: 2, v: 2, 8: 1, x: 1 }
+            "Manches courtes":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+            "Manches longues":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Manches 3/4":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Sans manches":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "Bustier":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "Encolure ronde":
+                fin:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+            "Encolure carrée":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Encolure bateau":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+            "Col montant / cheminé / roulé":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+            "Evasé":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+            "Robe en maille":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+            "Robes asymétriques":
+                fin:
+                    small: { h: 3, o: 2, a: 1, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 1, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 1, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 1, v: 3, 8: 2, x: 3 }
+            "Robes casual":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+            "Robes d’été":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+            "Robes de plage":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+            "Robes de soirée":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "Robes en jean":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "robe portfeuille":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+            "en jean":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "kimono":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+            "col v":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+            "col tunisien ":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+            "cache-coeur":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "col montant":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+
+        "Combinaisons":
+            "Combinaisons de plage":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "Salopettes":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 3, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+            "Ajusté":
+                fin:
+                    small: { h: 1, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 1, o: 1, a: 2, v: 2, 8: 2, x: 2 }
+            "Combis moulantes":
+                fin:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+            "Combis de soirée":
+                fin:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "Manches longues":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Manches courtes":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+            "Bretelles":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+            "Bustier":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+            "Combinaison Casual":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "combi-pantalon":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+            "combinaison portefeuille":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+            "combinaison col montant":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+            "jambe 3/4":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+            "décolleté":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "cache-coeur":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "coupe régular":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "bateau":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+
+        "Combishorts":
+            "Combishorts de plage":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+            "Combishorts":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 2 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 2 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 2 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 2 }
+            "ras de cou":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+            "col montant":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+            "col bardot":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+            "col bateau":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+            "coup régular":
+                fin:
+                    small: { h: 2, o: 3, a: 1, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 1, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 1, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 1, v: 2, 8: 3, x: 3 }
+            "cache-coeur":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "portefeuille":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+            "bandeau":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+
+        "Shorts":
+            "Short jean mini":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+            "Short jean boyfriend":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+            "Bermuda droit":
+                fin:
+                    small: { h: 2, o: 2, a: 2, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 1, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 1, v: 2, 8: 3, x: 3 }
+            "Bermuda classique a revers":
+                fin:
+                    small: { h: 3, o: 2, a: 1, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+            "Bermuda large":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "Jupes-shorts":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Taille haute":
+                fin:
+                    small: { h: 1, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "taille basse":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 2, a: 2, v: 2, 8: 1, x: 1 }
+            "Taille normale":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+            "Short capri":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+            "Short cargo":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+            "Short casual":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+            "Short de ville":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 2, a: 3, v: 1, 8: 2, x: 2 }
+            "Short jean":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "SHORTS":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "Short en maille":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+            "pantacourt":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+            "short regular":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+
+        "Jeans":
+            "Bootcut":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Boyfriend":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 2, a: 3, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+            "Droit":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+            "Evasés":
+                fin:
+                    small: { h: 1, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Flare":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "Large":
+                fin:
+                    small: { h: 1, o: 2, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 2, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 2, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 2, a: 2, v: 2, 8: 1, x: 1 }
+            "Skinny":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "Slim":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+            "Super skinny":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "Court":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "Coloré":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+            "Jeans mom":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Jeggings":
+                fin:
+                    small: { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "Jupes-culottes":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 2, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 2, a: 1, v: 1, 8: 2, x: 2 }
+            "Salopettes":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+            "Shorts en jean":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+            "7/8e":
+                fin:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+            "Corsaire":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 2, a: 2, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+            "Brut/Foncé":
+                fin:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Patte d'elephant":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+            "Chambray/Clair":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+            "Baggy & Large":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+            "Fuselé & Carotte":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Stretch":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+            "Taille haute":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+            "taille basse":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+            "jean mom":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "capri":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+            "taille mi-haute":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+
+        "Pantalons":
+            "Droit":
+                fin:
+                    small: { h: 2, o: 3, a: 2, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+            "Large":
+                fin:
+                    small: { h: 1, o: 2, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 2, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 2, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 2, a: 2, v: 2, 8: 1, x: 1 }
+            "Cigarette":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Carotte":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 1, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+            "Fuseau":
+                fin:
+                    small: { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 1, o: 2, a: 1, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 1, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+            "Legging":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "Evasé":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Fluide":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Cuir & faux cuir":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+            "Baggy":
+                fin:
+                    small: { h: 1, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+            "Corsaire":
+                fin:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "7/8e":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+            "Taille haute":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Taille basse":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+            "Taille normale":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "jogging":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 1, 8: 2, x: 2 }
+            "court":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "Jegging":
+                fin:
+                    small: { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+            "Tube":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+            "bootcut":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "A pont":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 2 }
+            "Cargos":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+            "Chinos":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+            "Pantalons classiques":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Pantalons Skinny":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+            "Pantalons Slim ":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+            "Pantalons stretch":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 3 }
+            "cintré":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 3, x: 3 }
+            "pantalon culotte":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+            "flare":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "habillé":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "paperbag":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 3 }
+            "moulant":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+
+        "Pulls":
+            "Gilets":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+            "Gilet col rond":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+            "Gilet col V":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "Twin set":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+            "Pull encolure ronde":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+            "Pull col cheminée":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Pull col roulé":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Pull encolure bateau":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+            "Pull encolure carrée":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "Pull V":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "Pull manche droite":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Pull manche raglan":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Pull manches tombantes":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+            "Pull manche chauve souris":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+            "Boléros":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+            "Cardigans":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+            "Kimonos":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+            "pull cintré":
+                fin:
+                    small: { h: 3, o: 3, a: 1, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 1, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 1, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 1, v: 2, 8: 3, x: 3 }
+            "pull coupe droite":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+            "col tunisiens / bardot":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+            "coupe ample":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 3 }
+            "col boule":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+            "coupe slim":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+            "col claudine":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+            "col chale":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+            "manche ballon":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+
+        "Vestes":
+            "Blazers":
+                fin:
+                    small: { h: 1, o: 2, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 2, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 2, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 2, a: 3, v: 1, 8: 1, x: 1 }
+            "Vestes cintrées":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+            "Tailleurs et costumes":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+            "Vestes casual":
+                fin:
+                    small: { h: 1, o: 2, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 2, a: 1, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 2, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 2, a: 1, v: 1, 8: 1, x: 1 }
+            "Vestes en jean":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+            "Vestes droite":
+                fin:
+                    small: { h: 2, o: 3, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 3, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 3, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 3, a: 2, v: 1, 8: 1, x: 1 }
+            "Kimonos":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 1, o: 1, a: 3, v: 2, 8: 3, x: 3 }
+            "Vestes en cuir":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+            "Perfecto":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+            "Smoking":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Vestes légères":
+                fin:
+                    small: { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+            "Epaulettes":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 3, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 3, a: 3, v: 1, 8: 2, x: 2 }
+            "Basques":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+            "Ajusté":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 3, x: 3 }
+            "Bombers":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Vestes matelassées":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Teddy":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "blouson":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "blouson aviateur":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "oversize":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+            "matelassé":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+            "style motard":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 3 }
+            "classique":
+                fin:
+                    small: { h: 2, o: 3, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 3, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 3, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 3, a: 2, v: 2, 8: 1, x: 1 }
+            "cargo":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+            "courte":
+                fin:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 1, v: 3, 8: 2, x: 3 }
+            "boléro":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 2, x: 3 }
+        "Tops": 
+            "Tops":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+            "Croped top":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "croptop":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+            "body":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }  
+            "Brassiere":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 1, o: 3, a: 3, v: 3, 8: 3, x: 3 }                    
+        "Manteaux":
+            "Manteaux":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Blousons aviateur":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+            "Capes":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+            "Duffle-coats":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+            "Manteaux longs":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Fausse fourrure":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+            "Trenchs":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 1, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 1, 8: 3, x: 3 }
+            "Manteaux oversize":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 1, o: 2, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+            "Parkas":
+                fin:
+                    small: { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+            "Cabans":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+            "Imperméables":
+                fin:
+                    small: { h: 2, o: 3, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 1, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+            "Manteaux trapèze":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "A capuche":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Court":
+                fin:
+                    small: { h: 3, o: 2, a: 1, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 1, v: 1, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 1, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 1, v: 1, 8: 2, x: 2 }
+            "Mi long":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Long":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "doudoune":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+            "coupe droite":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+            "poncho":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+
+        "Sweats":
+            "A capuche":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Sweatshirts":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+            "coupe droite (regular)":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+            "ajusté / ceintré":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 2, x: 3 }
+            "fluide":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 3 }
+            "col arrondi":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 2 }
+            "col V":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "col claudine":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+            "manche ballon (bouffante)":
+                fin:
+                    small: { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 2, 8: 2, x: 3 }
+            "ample":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 2 }
+                    tall:  { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 2 }
+                    tall:  { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 2 }
+            "SWEAT ZIPPE":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+
+        "Chemises":
+            "Chemisier col classique":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Chemisier col claudine":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+            "Chemisier col lavalière":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Chemisier sans col":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 2, v: 1, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 2, v: 1, 8: 2, x: 2 }
+            "Chemisier col mao":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+            "Chemisier long":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Chemisier court":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+            "Chemise de peintre":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+            "Chemisier cintrés":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+            "Manches longues":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Manches courtes":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+            "Sans manches":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "Fluide":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Moulant":
+                fin:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+            "Long":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Court":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+            "Droit":
+                fin:
+                    small: { h: 2, o: 3, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 3, a: 1, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 3, a: 1, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 3, a: 1, v: 2, 8: 2, x: 2 }
+            "Ajusté / Cintré":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 3, x: 3 }
+            "Cache cœur":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 3, x: 3 }
+            "Poche poitrine":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Boutonnés devant":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Sans boutons":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+            "dos nu":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 1, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 1, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+            "Asymetrique":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "Blouse":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 3 }
+            "blouse col v":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "chemise en jean":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 1, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 1, 8: 2, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 1, 8: 2, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 1, 8: 2, x: 3 }
+            "manche 3/4":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "encolure ronde":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+            "coupe boxy":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 3 }
+
+        "T-shirts, Débardeurs":
+            "T-shirts classique":
+                fin:
+                    small: { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Manches 3/4":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Manches longues":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "Manches courtes":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+            "Manches raglans":
+                fin:
+                    small: { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Manches ballons":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Manches kimono":
+                fin:
+                    small: { h: 1, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 3, x: 3 }
+                curve:
+                    small: { h: 1, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 1, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+            "Manches chauve souris":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 3, a: 3, v: 2, 8: 2, x: 2 }
+            "Encolure bateau":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 1, 8: 3, x: 3 }
+            "Encolure carrée":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 2, 8: 3, x: 3 }
+            "Encolure danseuse":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 2, x: 2 }
+            "Encolure ronde":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+            "Débardeur classique":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 1, x: 1 }
+            "Débardeur dos nageur":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+            "Débardeur fine brette":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+            "Caracos":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+            "Bustier":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+            "Fluide":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Moulant":
+                fin:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+            "Cintré":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+            "Long":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Court":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+            "Cache cœur":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 3, x: 3 }
+            "Croped top":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "Brassiere":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 1, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Dos nu":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 1, v: 1, 8: 1, x: 1 }
+            "Tops":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+            "Peplum":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 1, 8: 1, x: 1 }
+            "Asymetrique":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+            "col V":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "coupe ajusté":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+            "coupe trapèze":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 2, 8: 3, x: 3 }
+            "coupe oversize":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+            "près du corp":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 2, 8: 1, x: 3 }
+            "ample":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+            "col cheminé":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+            "style baseball":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 3 }
+            "croptop":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 3 }
+            "body":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+
+        "Collants":
+            "Unis":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Imprimés":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+
+        "Legging":
+            "Unis":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Imprimés":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+            "Legging":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+        "Maillots de bain":
+            "Une pièce classique":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+            "Une pièce nageur":
+                fin:
+                    small: { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Une pièce fine brettelle":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 3, x: 3 }
+            "Une pièce bustier":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+            "Une pièce ceinture":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 1, 8: 2, x: 2 }
+            "Bikini":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "Soutien gorge triangle":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 3, o: 2, a: 3, v: 1, 8: 1, x: 1 }
+            "Soutien gorge triangle foulard":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Soutien gorge corbeille":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Une brettelle asymetrique":
+                fin:
+                    small: { h: 3, o: 2, a: 1, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 1, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+            "Bandeau":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 2, 8: 1, x: 1 }
+            "Tankini":
+                fin:
+                    small: { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+            "Avec Armatures":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Sans Armatures":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 1, 8: 1, x: 1 }
+            "Culotte":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Echancrée":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 2, x: 2 }
+            "Bresilien":
+                fin:
+                    small: { h: 3, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 2, x: 2 }
+            "String":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "Shorty":
+                fin:
+                    small: { h: 2, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+
+    "Chaussures":
+        "Bottes":
+            "Tige cheville":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+            "Tige bas de mollet":
+                fin:
+                    small: { h: 1, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "Tige mollet":
+                fin:
+                    small: { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "Tige dessous de genoux":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 1, x: 1 }
+            "Tige genoux":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+            "Bottillons":
+                fin:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 3, v: 3, 8: 1, x: 1 }
+            "Low boots / Chelsea":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Bottes":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "Cuissardes":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 1, v: 3, 8: 1, x: 1 }
+            "Haut <5 cm":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "Haut 5 à 10 cm":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+            "Haut > 10 cm":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+
+        "Talons":
+            "Escarpins":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+            "Talon Aiguille":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+            "Talon fin":
+                fin:
+                    small: { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 2, x: 2 }
+            "Talon epais":
+                fin:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 2, v: 2, 8: 3, x: 3 }
+            "Talon plat":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 2, 8: 2, x: 2 }
+            "Talon compensé":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 3, x: 3 }
+            "Haut <5 cm":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "Haut 5 à 10 cm":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+            "Haut > 10 cm":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+
+        "Compensées":
+            "Plateforme":
+                fin:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                curve:
+                    small: { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+                    tall:  { h: 1, o: 1, a: 2, v: 2, 8: 1, x: 1 }
+            "Haut <5 cm":
+                fin:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 3, o: 2, a: 3, v: 3, 8: 3, x: 3 }
+            "Haut 5 à 10 cm":
+                fin:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 3, a: 3, v: 3, 8: 2, x: 2 }
+            "Haut > 10 cm":
+                fin:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                curve:
+                    small: { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+                    tall:  { h: 2, o: 1, a: 2, v: 3, 8: 1, x: 1 }
+
+        "Mocassins et bateaux":
+            "Mocassins":
+                fin:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+                curve:
+                    small: { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+                    tall:  { h: 2, o: 1, a: 1, v: 2, 8: 2, x: 2 }
+
+        "Sandales":
+            "Sandales":
+                fin:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                curve:
+                    small: { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+                    tall:  { h: 3, o: 2, a: 2, v: 3, 8: 2, x: 2 }
+
+        "Derbies":
+            "Derbies":
+                fin:
+                    small: { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                curve:
+                    small: { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+                    tall:  { h: 2, o: 3, a: 2, v: 3, 8: 3, x: 3 }
+
+
+#############
+### HOMME ###
+#############
+"Homme":
+    "Vêtements":
+        "Jeans":
+            "Bootcut":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 3 }
+                    tall:  { a: 3, v: 2, h: 2, o: 3 }
+                curve:
+                    small: { a: 1, v: 1, h: 3, o: 3 }
+                    tall:  { a: 1, v: 2, h: 3, o: 3 }
+            "Droit":
+                fin:
+                    small: { a: 3, v: 3, h: 2, o: 1 }
+                    tall:  { a: 3, v: 2, h: 2, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 1, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+            "Flare":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 2 }
+                    tall:  { a: 2, v: 2, h: 3, o: 3 }
+                curve:
+                    small: { a: 1, v: 2, h: 2, o: 2 }
+                    tall:  { a: 1, v: 2, h: 3, o: 3 }
+            "Stracking":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 2, o: 2 }
+            "Large":
+                fin:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 1, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 1, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+            "Skinny":
+                fin:
+                    small: { a: 1, v: 3, h: 3, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 1, h: 1, o: 1 }
+                    tall:  { a: 1, v: 1, h: 1, o: 1 }
+            "Slim":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 1, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 2 }
+                    tall:  { a: 2, v: 2, h: 1, o: 1 }
+            "Slim medium":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 3, v: 3, h: 2, o: 2 }
+                    tall:  { a: 3, v: 3, h: 2, o: 2 }
+            "Court":
+                fin:
+                    small: { a: 1, v: 2, h: 3, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 1, o: 1 }
+                    tall:  { a: 2, v: 2, h: 1, o: 1 }
+            "Coloré":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 1, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+            "Salopettes":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+            "7/8e":
+                fin:
+                    small: { a: 1, v: 1, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 1, h: 1, o: 1 }
+                    tall:  { a: 2, v: 1, h: 1, o: 1 }
+            "Taille haute":
+                fin:
+                    small: { a: 3, v: 2, h: 2, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+            "Taille basse":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 1, h: 1, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+            "Taille normale":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "coupe ample":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+            "jean fuselé":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+            "coupe décontracté":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 2 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 2 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+            "oversize":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+
+        "Pantalons":
+            "Droit":
+                fin:
+                    small: { a: 3, v: 3, h: 2, o: 2 }
+                    tall:  { a: 3, v: 2, h: 2, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+            "Large":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 1, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 1, h: 1, o: 1 }
+                    tall:  { a: 1, v: 1, h: 1, o: 1 }
+            "Cigarette":
+                fin:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 2, o: 2 }
+            "A pinces":
+                fin:
+                    small: { a: 1, v: 3, h: 3, o: 3 }
+                    tall:  { a: 1, v: 2, h: 2, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Evasé":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 1, v: 1, h: 3, o: 3 }
+                    tall:  { a: 1, v: 2, h: 3, o: 3 }
+            "Cuir & faux cuir":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+            "Baggy":
+                fin:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+            "7/8e":
+                fin:
+                    small: { a: 1, v: 1, h: 3, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 1, h: 1, o: 1 }
+                    tall:  { a: 2, v: 1, h: 2, o: 2 }
+            "Chino":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 2 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+            "Taille haute":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Taille basse":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 2 }
+                    tall:  { a: 1, v: 1, h: 1, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 2, o: 2 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+            "Taille normale":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Cargos":
+                fin:
+                    small: { a: 1, v: 3, h: 3, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 3, h: 3, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 1 }
+            "Joggings":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+            "Leggings & Treggings":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+            "Pantalons classiques":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+            "Pantalons Slim & Skinny ajustée étroite":
+                fin:
+                    small: { a: 1, v: 3, h: 2, o: 1 }
+                    tall:  { a: 1, v: 3, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 3, h: 2, o: 1 }
+                    tall:  { a: 1, v: 3, h: 2, o: 1 }
+            "Pantalons courts":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+            "costume, smocking, à galon":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "fuselé, carotte":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "oversize":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+            "5 poches":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "pantalon en jean":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+
+        "Shorts":
+            "Short jean":
+                fin:
+                    small: { a: 1, v: 3, h: 3, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 1, h: 1, o: 1 }
+                    tall:  { a: 1, v: 1, h: 1, o: 1 }
+            "Short toile":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+            "Bermuda classique":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Bermuda à poches laterales":
+                fin:
+                    small: { a: 2, v: 3, h: 2, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 1, o: 1 }
+            "Bermuda long":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 2 }
+                    tall:  { a: 1, v: 1, h: 2, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 2 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+            "Droit":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Large":
+                fin:
+                    small: { a: 2, v: 2, h: 1, o: 2 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 2, o: 2 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+            "short coupe chino":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "pantacourt":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 2 }
+                    tall:  { a: 1, v: 2, h: 2, o: 2 }
+                curve:
+                    small: { a: 1, v: 2, h: 2, o: 2 }
+                    tall:  { a: 1, v: 2, h: 2, o: 2 }
+
+        "Vestes":
+            "Blazers":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 3 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 1, o: 1 }
+            "Veste croisée":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 2, v: 2, h: 1, o: 1 }
+            "Vestes droite":
+                fin:
+                    small: { a: 1, v: 1, h: 1, o: 1 }
+                    tall:  { a: 1, v: 1, h: 1, o: 1 }
+                curve:
+                    small: { a: 2, v: 1, h: 1, o: 1 }
+                    tall:  { a: 2, v: 1, h: 1, o: 1 }
+            "Veste cintrées":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 1, v: 3, h: 2, o: 2 }
+                    tall:  { a: 1, v: 3, h: 2, o: 2 }
+            "Veste ajustée":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 1, v: 3, h: 3, o: 3 }
+                    tall:  { a: 1, v: 3, h: 3, o: 3 }
+            "Smoking":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 2 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 2 }
+                    tall:  { a: 2, v: 3, h: 2, o: 2 }
+            "Vestes légères":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 2 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 2 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+            "veste 1 bouton":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 3 }
+                    tall:  { a: 2, v: 2, h: 2, o: 3 }
+                curve:
+                    small: { a: 1, v: 2, h: 3, o: 3 }
+                    tall:  { a: 1, v: 2, h: 3, o: 3 }
+            "Veste 2 boutons":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Veste 3 boutons":
+                fin:
+                    small: { a: 1, v: 3, h: 3, o: 3 }
+                    tall:  { a: 1, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 3 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+            "Costume 3 pieces":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 3, h: 1, o: 1 }
+                    tall:  { a: 2, v: 3, h: 1, o: 1 }
+            "Smoking":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 3, h: 1, o: 1 }
+                    tall:  { a: 2, v: 3, h: 1, o: 1 }
+            "Vestes en cuir":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 1, v: 3, h: 2, o: 2 }
+                    tall:  { a: 1, v: 3, h: 3, o: 3 }
+            "Perfecto":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 3, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 2, o: 2 }
+            "Vestes casual":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 2 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 2 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+            "Vestes en jean":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 3, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 2, o: 2 }
+            "Gilets":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 2 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 2 }
+                    tall:  { a: 3, v: 2, h: 2, o: 2 }
+            "Grands revers (large)":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 2 }
+                    tall:  { a: 3, v: 3, h: 2, o: 2 }
+            "Bombers":
+                fin:
+                    small: { a: 1, v: 2, h: 3, o: 1 }
+                    tall:  { a: 1, v: 2, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 1, o: 1 }
+            "Vestes matelassées":
+                fin:
+                    small: { a: 2, v: 1, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 1, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 1, o: 1 }
+                    tall:  { a: 2, v: 2, h: 1, o: 1 }
+            "Teddy":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 2 }
+            "blouson ":
+                fin:
+                    small: { a: 3, v: 2, h: 2, o: 2 }
+                    tall:  { a: 3, v: 2, h: 2, o: 2 }
+                curve:
+                    small: { a: 3, v: 2, h: 2, o: 2 }
+                    tall:  { a: 3, v: 2, h: 2, o: 2 }
+
+        "Costumes":
+            "pantalon de costume":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "pantalon ajusté, ceintré":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 1 }
+            "super skinny":
+                fin:
+                    small: { a: 1, v: 3, h: 3, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 3, h: 3, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 1 }
+            "skinny":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 1 }
+            "slim":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+            "Veste , coupe classique":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "veste ceintré":
+                fin:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+            "veste ultra ceintré / super skinny":
+                fin:
+                    small: { a: 1, v: 1, h: 2, o: 1 }
+                    tall:  { a: 1, v: 1, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 1, h: 2, o: 1 }
+                    tall:  { a: 1, v: 1, h: 2, o: 1 }
+            "gilet slim/ceintré":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+            "veste coupe skinny":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+
+        "Manteaux":
+            "Manteau long":
+                fin:
+                    small: { a: 2, v: 1, h: 2, o: 2 }
+                    tall:  { a: 2, v: 3, h: 2, o: 3 }
+                curve:
+                    small: { a: 2, v: 1, h: 2, o: 2 }
+                    tall:  { a: 3, v: 1, h: 3, o: 3 }
+            "Manteau 3/4":
+                fin:
+                    small: { a: 3, v: 2, h: 2, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Duffle-coats":
+                fin:
+                    small: { a: 3, v: 2, h: 2, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+            "Cabans":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 3 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 2, o: 2 }
+            "Parkas":
+                fin:
+                    small: { a: 3, v: 2, h: 3, o: 2 }
+                    tall:  { a: 3, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 2 }
+                    tall:  { a: 3, v: 2, h: 2, o: 2 }
+            "Blousons aviateur":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 2, o: 2 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 2, o: 2 }
+            "Trenchs":
+                fin:
+                    small: { a: 3, v: 1, h: 2, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 1, h: 3, o: 3 }
+                    tall:  { a: 2, v: 2, h: 3, o: 3 }
+            "Imperméables":
+                fin:
+                    small: { a: 2, v: 1, h: 2, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 1, h: 2, o: 2 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+            "A capuche":
+                fin:
+                    small: { a: 2, v: 1, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 2, v: 1, h: 1, o: 1 }
+                    tall:  { a: 2, v: 1, h: 1, o: 1 }
+            "Grands cols":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 2 }
+                    tall:  { a: 3, v: 3, h: 2, o: 2 }
+            "doudoune":
+                fin:
+                    small: { a: 3, v: 2, h: 3, o: 2 }
+                    tall:  { a: 3, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 2 }
+                    tall:  { a: 3, v: 2, h: 3, o: 2 }
+            "doudoune coupe droite":
+                fin:
+                    small: { a: 3, v: 3, h: 2, o: 3 }
+                    tall:  { a: 3, v: 3, h: 2, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 2, o: 3 }
+                    tall:  { a: 3, v: 3, h: 2, o: 3 }
+            "doudoune coupe ceintré":
+                fin:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+            "pardessus":
+                fin:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+            "coupe-vent":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+            "fourrure":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+            "manteau court":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 2 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 3, o: 2 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+            "paletot":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+
+        "Pulls":
+            "Gilet col V":
+                fin:
+                    small: { a: 1, v: 2, h: 2, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+            "Gilet à col chale":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 1, o: 1 }
+            "Pull col polo":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 3 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+            "Pull encolure ronde":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+            "Pull col cheminée":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 3 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 1, v: 3, h: 3, o: 3 }
+                    tall:  { a: 2, v: 3, h: 2, o: 2 }
+            "Pull col roulé":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 3 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 1, v: 3, h: 3, o: 3 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+            "Pull encolure bateau":
+                fin:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+            "Pull V":
+                fin:
+                    small: { a: 1, v: 1, h: 2, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 1, h: 1, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+            "Pull manche droite":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Pull manche raglan":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 2, o: 2 }
+            "Pull manches tombantes":
+                fin:
+                    small: { a: 1, v: 1, h: 2, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 1, h: 1, o: 1 }
+                    tall:  { a: 1, v: 1, h: 1, o: 1 }
+            "Maille epaisse":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 1, o: 1 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "avec capuche":
+                fin:
+                    small: { a: 3, v: 2, h: 3, o: 1 }
+                    tall:  { a: 3, v: 2, h: 3, o: 1 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 1 }
+                    tall:  { a: 3, v: 2, h: 3, o: 1 }
+            "pull ajusté":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 2 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 3, o: 2 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+            "coupe droite":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "col comioneur":
+                fin:
+                    small: { a: 3, v: 1, h: 2, o: 1 }
+                    tall:  { a: 3, v: 1, h: 2, o: 1 }
+                curve:
+                    small: { a: 3, v: 1, h: 2, o: 1 }
+                    tall:  { a: 3, v: 1, h: 2, o: 1 }
+            "col chale":
+                fin:
+                    small: { a: 3, v: 3, h: 1, o: 2 }
+                    tall:  { a: 3, v: 3, h: 1, o: 2 }
+                curve:
+                    small: { a: 3, v: 3, h: 1, o: 2 }
+                    tall:  { a: 3, v: 3, h: 1, o: 2 }
+            "gilet col rond":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+            "gilet ajusté":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+            "gilet droit":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+
+        "Sweats":
+            "A capuche":
+                fin:
+                    small: { a: 2, v: 1, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 1, v: 1, h: 1, o: 1 }
+                    tall:  { a: 1, v: 1, h: 2, o: 2 }
+            "col arondi":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+            "col V":
+                fin:
+                    small: { a: 3, v: 3, h: 2, o: 1 }
+                    tall:  { a: 3, v: 3, h: 2, o: 1 }
+                curve:
+                    small: { a: 3, v: 3, h: 2, o: 1 }
+                    tall:  { a: 3, v: 3, h: 2, o: 1 }
+            "Col montant":
+                fin:
+                    small: { a: 3, v: 3, h: 2, o: 2 }
+                    tall:  { a: 3, v: 3, h: 2, o: 2 }
+                curve:
+                    small: { a: 3, v: 3, h: 2, o: 2 }
+                    tall:  { a: 3, v: 3, h: 2, o: 2 }
+            "Sweats zippés":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+            "coupe droite":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "ajusté":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 1 }
+
+        "Chemises":
+            "Chemise classique":
+                fin:
+                    small: { a: 3, v: 2, h: 1, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 2, o: 2 }
+            "Chemise ajustée":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 1, v: 3, h: 2, o: 2 }
+                    tall:  { a: 1, v: 3, h: 3, o: 3 }
+            "Chemise cintrée":
+                fin:
+                    small: { a: 2, v: 3, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 2, o: 2 }
+            "Chemise col classique à boutons":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Chemise col classique sans bouton":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Chemise col cassé":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 2 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+            "Chemise col tunisien":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 1, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+            "Manches longues":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Manches courtes":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+            "Long":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 1, v: 1, h: 2, o: 2 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+            "Court":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 1, o: 2 }
+                curve:
+                    small: { a: 3, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 2 }
+            "slim":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+            "extra slim":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+                curve:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 1 }
+
+        "T-shirts":
+            "T-shirts classique":
+                fin:
+                    small: { a: 3, v: 3, h: 2, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 3 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+            "Manches 3/4":
+                fin:
+                    small: { a: 3, v: 2, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 2, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Manches longues":
+                fin:
+                    small: { a: 2, v: 2, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 2 }
+                    tall:  { a: 2, v: 3, h: 2, o: 2 }
+            "Manches courtes":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 3 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+            "Manches raglans":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 2, o: 2 }
+            "Tunisien":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 1, o: 1 }
+                    tall:  { a: 2, v: 3, h: 2, o: 2 }
+            "T-shirt ajusté":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 1 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 1, v: 1, h: 1, o: 1 }
+                    tall:  { a: 1, v: 1, h: 3, o: 3 }
+            "T-shirt cintré":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 1 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 2, o: 2 }
+            "T-shirt moulant":
+                fin:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 1, h: 1, o: 1 }
+                curve:
+                    small: { a: 1, v: 1, h: 1, o: 1 }
+                    tall:  { a: 1, v: 1, h: 1, o: 1 }
+            "Encolure carrée":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 2, h: 2, o: 2 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+            "Encolure bateau":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 3 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+            "Encolure ronde":
+                fin:
+                    small: { a: 3, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 2, h: 3, o: 3 }
+                    tall:  { a: 2, v: 2, h: 3, o: 3 }
+            "Débardeur classique":
+                fin:
+                    small: { a: 2, v: 3, h: 2, o: 1 }
+                    tall:  { a: 2, v: 3, h: 2, o: 2 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 2, o: 2 }
+            "Débardeur dos nageur":
+                fin:
+                    small: { a: 2, v: 3, h: 1, o: 1 }
+                    tall:  { a: 2, v: 3, h: 1, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+            "Polos":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "coupe chino":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 3, o: 1 }
+            "col camioneur":
+                fin:
+                    small: { a: 3, v: 1, h: 2, o: 1 }
+                    tall:  { a: 3, v: 1, h: 2, o: 1 }
+                curve:
+                    small: { a: 3, v: 1, h: 2, o: 1 }
+                    tall:  { a: 3, v: 1, h: 2, o: 1 }
+            "col V":
+                fin:
+                    small: { a: 1, v: 1, h: 2, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 1, h: 1, o: 1 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+        "Marcel":
+            "Débardeur classique":
+                fin:
+                    small: { a: 3, v: 3, h: 2, o: 1 }
+                    tall:  { a: 3, v: 3, h: 2, o: 1 }
+                curve:
+                    small: { a: 3, v: 3, h: 2, o: 1 }
+                    tall:  { a: 3, v: 3, h: 2, o: 1 }
+            "Débardeur dos nageur":
+                fin:
+                    small: { a: 2, v: 3, h: 2, o: 1 }
+                    tall:  { a: 2, v: 3, h: 2, o: 1 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 1 }
+                    tall:  { a: 2, v: 3, h: 2, o: 1 }
+            "Tank tops":
+                fin:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+
+        "Maillots de bain":
+            "Slip classique":
+                fin:
+                    small: { a: 2, v: 3, h: 2, o: 1 }
+                    tall:  { a: 2, v: 3, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 2, h: 1, o: 1 }
+                    tall:  { a: 1, v: 2, h: 1, o: 1 }
+            "Boxer":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 2, o: 1 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 1, o: 1 }
+            "Short de bain court":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 1 }
+                    tall:  { a: 2, v: 3, h: 2, o: 1 }
+                curve:
+                    small: { a: 2, v: 3, h: 1, o: 1 }
+                    tall:  { a: 2, v: 3, h: 1, o: 1 }
+            "Short de bain mi cuisses":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 1 }
+                curve:
+                    small: { a: 3, v: 3, h: 2, o: 2 }
+                    tall:  { a: 3, v: 3, h: 1, o: 1 }
+            "Short de bain genoux":
+                fin:
+                    small: { a: 2, v: 2, h: 2, o: 3 }
+                    tall:  { a: 2, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 2, v: 2, h: 3, o: 3 }
+                    tall:  { a: 3, v: 2, h: 3, o: 3 }
+            "Short de bain long":
+                fin:
+                    small: { a: 2, v: 1, h: 1, o: 1 }
+                    tall:  { a: 2, v: 1, h: 2, o: 2 }
+                curve:
+                    small: { a: 1, v: 1, h: 1, o: 1 }
+                    tall:  { a: 1, v: 1, h: 2, o: 2 }
+
+    "Chaussures":
+        "Chaussures de ville":
+            "Chaussures basses bout carré":
+                fin:
+                    small: { a: 2, v: 3, h: 1, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 2 }
+                    tall:  { a: 2, v: 3, h: 2, o: 2 }
+            "Chaussures basses bout rond":
+                fin:
+                    small: { a: 3, v: 3, h: 2, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 3, v: 3, h: 2, o: 2 }
+                    tall:  { a: 3, v: 3, h: 2, o: 2 }
+            "Chaussures basses bout pointu (italienne)":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 2, h: 1, o: 2 }
+                curve:
+                    small: { a: 1, v: 2, h: 2, o: 2 }
+                    tall:  { a: 1, v: 2, h: 2, o: 2 }
+        "Baskets":
+            "Basket":
+                fin:
+                    small: { a: 1, v: 3, h: 3, o: 1 }
+                    tall:  { a: 1, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 1, v: 3, h: 1, o: 1 }
+                    tall:  { a: 1, v: 3, h: 2, o: 2 }
+            "Chaussures montantes sportswear":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 2 }
+                    tall:  { a: 2, v: 3, h: 2, o: 2 }
+        "Bottes":
+            "Boots bout rond":
+                fin:
+                    small: { a: 3, v: 3, h: 2, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 3 }
+                    tall:  { a: 3, v: 3, h: 3, o: 3 }
+            "Boots bout pointu":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 3 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+                curve:
+                    small: { a: 2, v: 2, h: 3, o: 3 }
+                    tall:  { a: 2, v: 2, h: 2, o: 2 }
+            "chealsea & boots":
+                fin:
+                    small: { a: 3, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 2 }
+                curve:
+                    small: { a: 3, v: 3, h: 3, o: 2 }
+                    tall:  { a: 3, v: 3, h: 3, o: 2 }
+
+        "Mocassins et bateaux":
+            "Bateau":
+                fin:
+                    small: { a: 2, v: 3, h: 3, o: 2 }
+                    tall:  { a: 2, v: 2, h: 3, o: 2 }
+                curve:
+                    small: { a: 2, v: 3, h: 2, o: 2 }
+                    tall:  { a: 2, v: 3, h: 2, o: 2 }

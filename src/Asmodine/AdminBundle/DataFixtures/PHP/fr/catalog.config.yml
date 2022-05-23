@@ -1,0 +1,1536 @@
+# catalog.config.yml
+
+########################################################################################################################
+########################################################################################################################
+# AWIN
+########################################################################################################################
+########################################################################################################################
+Awin:
+    Asics:
+        advertisers: 
+            - 20785
+        model: false
+        columns: 
+            external_id: aw_product_id
+            model_id: ['product_name', 'colour']
+            name: product_name
+            brand: brand_name
+            category: 
+                # - product_type
+                - merchant_category
+                - { type: string, value: '>'}
+                - { type: string, value: ' sneaker '}
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            image_2: alternate_image
+            image_3: alternate_image_two
+            image_4: alternate_image_three
+            image_5: alternate_image_four
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            color: colour
+            size: 'Fashion:size'
+            
+    'Asics Onitsuka Tiger':
+        advertisers: 
+            - 20787
+        model: false
+        columns: 
+            external_id: aw_product_id
+            model_id: ['product_name', 'colour']
+            name: product_name
+            brand: brand_name
+            category: 
+                - merchant_category
+                - { type: string, value: '>'}                
+                - { type: string, value: ' sneaker '}
+            description: description 
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            image_2: alternate_image
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            color: colour
+            size: 'Fashion:size'
+            
+    Asos:
+        advertisers:
+            - 17599
+        model: true
+        columns:
+            external_id: aw_product_id
+            ean: ean
+            model_id: ['model_number', 'colour']
+            name: product_name
+            brand: brand_name
+            category: merchant_product_category_path
+            description: description
+            description_short: product_short_description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            image_2: alternate_image
+            image_3: alternate_image_two
+            image_4: alternate_image_three
+            image_5: alternate_image_four
+            currency: currency
+            unit_price: search_price
+            discount_old_price: product_price_old
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            composition: 'Fashion:material'
+            size: 'Fashion:size'
+            color: colour
+
+    Armor-lux: 
+        is_enabled: false
+        advertisers: 
+            - 24633
+        model: false
+        columns: 
+            external_id: aw_product_id
+            model_id: ['merchant_image_url', 'description']
+            ean: ean
+            name: product_name
+            brand:
+                - { type: string, value: 'ARMOR LUX'}
+            category: merchant_product_category_path
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            color: 
+                - { type: inside, column: product_name, start: 'Coloris -', end: ',' }            
+            size: 
+                - { type: inside, column: product_name, start: 'Taille ', end: ' ' }                
+    
+    Bestseller: 
+        advertisers: 
+            - 19553
+        model: false
+        columns: 
+            external_id: aw_product_id
+            model_id: ['product_name', 'brand_name', 'description']
+            ean: ean
+            name: product_name
+            brand: brand_name
+            category: 
+                - 'Fashion:suitable_for'
+                - { type: string, value: ' > '}
+                - merchant_product_category_path 
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            discount_old_price: product_price_old
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            color: colour
+            size: 'Fashion:size'
+        
+    Brice: 
+        advertisers: 
+            - 22961
+        model: false
+        columns: 
+            external_id: aw_product_id
+            model_id: ['product_name', 'description', 'colour']
+            ean: ean
+            name: product_name
+            brand: brand_name
+            category: merchant_product_category_path
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            image_2: alternate_image_two
+            image_3: alternate_image_three
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_information: delivery_time
+            color: colour
+            size: 'Fashion:material'
+            
+    Boden:
+        advertisers:
+            - 15221
+        model: true
+        columns:
+            external_id: aw_product_id
+            model_id: aw_product_id
+            name: product_name
+            brand: brand_name
+            category: merchant_category
+            description: description
+            description_short: product_short_description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_information: delivery_time
+            composition: 'Fashion:material'
+            size: 'Fashion:size'
+            color: colour
+
+    Bonobo:
+        is_enabled: false
+        advertisers:
+            - 15371
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['colour', 'description']
+            name: product_name
+            brand: brand_name
+            category:
+                - 'Fashion:suitable_for'
+                - { type: string, value: ' > '}
+                - product_type
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: alternate_image
+            image_2: alternate_image_two
+            image_3: alternate_image_three
+            image_4: alternate_image_four
+            image_5: custom_3
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            size: 'Fashion:size'
+            color: colour
+
+    'Boohoo':
+        advertisers:
+            - 15255
+        model: false
+        columns:
+            external_id: aw_product_id
+            ean: ean
+            model_id: ['product_name', 'description', 'colour']
+            name: product_name
+            brand: brand_name
+            category:
+                - 'Fashion:suitable_for'
+                - { type: string, value: ' > '}
+                - merchant_category
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: alternate_image
+            image_2: alternate_image_two
+            image_3: alternate_image_three
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            composition: Fashion:material
+            size: Fashion:size
+            color: colour
+
+    'Cache Cache':
+        #is_enabled: false
+        advertisers:
+            - 17927
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['description', 'colour']
+            name: product_name
+            brand: brand_name
+            category:
+                - { type: string, value: ' femme '}
+                - { type: string, value: ' > '}
+                - product_type
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            image_2: alternate_image
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            delivery_cost: delivery_cost
+            color: colour
+            size: 'Fashion:size'
+
+    Converse:
+        advertisers:
+            - 16525
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['brand_name', 'product_name', 'description']
+            name: product_name
+            brand: brand_name
+            category:
+                - Fashion:size
+                - { type: string, value: ' > '}
+                - merchant_product_category_path
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: alternate_image_two
+            image_2: alternate_image_three
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            color: colour
+            size: 'Fashion:size'
+            composition: 'Fashion:material'
+
+    'Dorothy Perkins':
+        is_enabled: false
+        advertisers:
+            - 15389
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: aw_product_id
+
+            name: product_name
+            brand: brand_name
+            category: merchant_product_category_path
+            description: description
+            url: aw_deep_link
+
+            image_1: large_image
+
+            currency: currency
+            unit_price: search_price
+
+            stock_in: in_stock
+
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            size: custom_2
+            color: custom_1
+            
+    Esprit:
+        advertisers:
+            - 15099
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['product_name', 'description', 'colour']
+            ean: ean
+            name: product_name
+            brand: brand_name
+            category: 
+                - merchant_product_second_category
+                - { type: string, value: ' > '}               
+                - merchant_product_category_path
+            description: description
+            description_short: product_short_description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            composition: 'Fashion:material'
+            size: 'Fashion:size'
+            color: colour
+    Farfetch: 
+        advertisers: 
+            - 24921
+        model: true
+        columns:
+            external_id: aw_product_id
+            model_id: aw_product_id
+            ean: ean
+            name: product_name
+            brand: brand_name
+            category: 
+                - 'Fashion:suitable_for'
+                - merchant_product_category_path
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: large_image
+            image_2: alternate_image
+            image_3: alternate_image_two
+            image_4: alternate_image_three
+            image_5: alternate_image_four
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            composition: 'Fashion:material'
+            size: 'Fashion:size'
+            color: colour       
+    
+    Forever21:
+        advertisers: 
+            - 15361
+        model: false
+        columns: 
+            external_id: aw_product_id
+            model_id: ['product_name', 'colour']
+            name: product_name
+            brand: 
+                - { type: string, value: 'Forever 21' }
+            category: merchant_category
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            image_2: alternate_image
+            currency: currency
+            unit_price: search_price
+            discount_old_price: base_price
+            stock_in: in_stock
+            color: colour
+            size: 'Fashion:size'     
+    Guess:
+        advertisers:
+            - 15079
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['brand_name', 'product_name', 'description', 'colour']
+            name: product_name
+            brand:
+                - { type: string, value: Guess }
+            category: merchant_product_category_path
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            color: colour
+            size: 'Fashion:size'
+
+    'Happy Socks':
+        is_enabled: false
+        advertisers:
+            - 15327
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['brand_name', 'product_name', 'description']
+            ean: ean
+            name: product_name
+            brand: brand_name
+            category: merchant_product_category_path
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            composition: 'Fashion:material'
+            color: colour
+            size: 'Fashion:size'
+
+    'Jack & Jones':
+        advertisers:
+            - 19545
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['mpn', 'description']
+            name: product_name
+            brand: brand_name
+            category:
+                - { type: string, value: 'Homme > '}
+                - merchant_category
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: size_stock_amount
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            color: colour
+            size: 'Fashion:size'
+    'Jules':
+        is_enabled: false
+        advertisers:
+            - 22959
+        model: true
+        columns: 
+            external_id: aw_product_id
+            model_id: aw_product_id
+            name: product_name
+            brand: brand_name
+            category: merchant_category
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            image_2: alternate_image_two
+            image_3: alternate_image_three
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_information: delivery_time
+            composition: 'Fashion:material'
+            color: colour
+            size: 'Fashion:size'
+                   
+    'La Redoute':
+        advertisers:
+            - 17951
+            - 17847
+        model: true
+        columns:
+            external_id: aw_product_id
+            ean: ean
+            model_id: ['aw_product_id', 'colour']
+
+            name: product_name
+            brand: brand_name
+            category:
+                - merchant_product_category_path
+            description: description
+            description_short: product_short_description
+            url: aw_deep_link
+
+            image_1: merchant_image_url
+
+            currency: currency
+            unit_price: search_price
+
+            stock_in: in_stock
+
+            discount_old_price: product_price_old
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+
+            composition: 'Fashion:material'
+            size: 'Fashion:size'
+            color: colour
+
+    Lesara:
+        is_enabled: false
+        advertisers:
+            - 17821
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['brand_name', 'product_name', 'description']
+            ean: ean
+            name: product_name
+            brand: brand_name
+            category: merchant_product_category_path
+            description: description
+            description_short: product_short_description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_cost: delivery_cost
+            color: colour
+            size: 'Fashion:size'
+
+    'Madeleine': 
+        is_enabled: false
+        advertisers: 
+            - 15415
+        model: true
+        columns: 
+            external_id: aw_product_id
+            model_id: aw_product_id
+            name: product_name
+            brand: brand_name
+            category: 
+                - 'Fashion:suitable_for'
+                - { type: string, value: ' > '}   
+                - merchant_product_category_path
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            discount_old_price: product_price_old
+            stock_in: in_stock
+            delivery_cost: delivery_cost
+            size: 'Fashion:size'
+            color: colour
+            
+    'Miss Selfridge':
+        is_enabled: false
+        advertisers:
+            - 15435
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: aw_product_id
+            name: product_name
+            brand: brand_name
+            category:
+                - 'Fashion:suitable_for'
+                - { type: string, value: ' > '}
+                - merchant_product_category_path
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: large_image
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            size: 'Fashion:size'
+            color: colour
+
+    Missguided:
+        advertisers:
+            - 14979
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['brand_name', 'product_name', 'description']
+            name: product_name
+            brand: brand_name
+            category:
+                - { type: string, value: 'Femme > '}
+                - merchant_product_category_path
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: alternate_image
+            image_2: alternate_image_two
+            image_3: alternate_image_three
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            composition: 'Fashion:material'
+            size: 'Fashion:size'
+            color: colour
+            
+    Only:
+        advertisers:
+            - 20225
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['brand_name', 'product_name', 'description']
+            name: product_name
+            brand: brand_name
+            category:
+                - { type: string, value: 'Femme > '}
+                -  merchant_category
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            discount_old_price: product_price_old
+            stock_in: in_stock
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            color: colour
+            size: 'Fashion:size'
+
+    'Pretty Little Thing':
+        advertisers:
+            - 18025
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: model_number
+            ean: custom_1
+            name: product_name
+            brand: brand_name
+            category:
+                - { type: string, value: 'Femme > '}            
+                - custom_4
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            size: 'Fashion:size'
+            color: colour
+
+    'Pull & Bear':
+        is_enabled: false
+        advertisers:
+            - 17831
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['ean', 'colour']
+            ean: ean
+            name: product_name
+            brand: brand_name
+            category: merchant_product_category_path
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: large_image
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            composition: 'Fashion:material'
+            size: 'Fashion:size'
+            color: colour
+
+    'Ralph Lauren':
+        is_enabled: false
+        advertisers:
+            - 20605
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['brand_name', 'product_name', 'description']
+            name: product_name
+            brand: brand_name
+            category:
+                - merchant_category
+                - { type: string, value: '>'}                
+                - product_name
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: large_image
+            image_2: alternate_image_two
+            image_3: alternate_image_three
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            color: product_type
+            size: 'Fashion:suitable_for'
+
+    'River Island':
+        advertisers:
+            - 15085
+        model: false
+        columns:
+            external_id: aw_product_id
+            ean: ean
+            model_id: model_number
+            name: product_name
+            brand: brand_name
+            category: merchant_category
+            description: description
+            description_short: product_short_description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            composition: custom_5
+            size: custom_2
+            color: colour
+
+    Stradivarius:
+        advertisers:
+            - 15311
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id: ['ean', 'colour']
+            ean: ean
+            name: product_name
+            brand: custom_5
+            category: merchant_product_category_path
+            description: description
+            description_short: product_short_description
+            url: aw_deep_link
+            image_1: large_image
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_cost: delivery_cost
+            composition: custom_4
+            size:
+                - { type: inside, column: description, start: 'taille ', end: ' ' }
+            color:
+                - { type: inside, column: description, start: 'couleur ', end: ',' }
+
+    Strellson:
+        advertisers:
+            - 19905
+        model: false
+        columns:
+            external_id: aw_product_id
+            model_id:
+                - custom_4
+            ean: ean
+            name: product_name
+            brand: brand_name
+            category: 
+                - { type: string, value: 'Homme > '} 
+                - merchant_product_category_path
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: alternate_image
+            image_2: alternate_image_two
+            image_3: alternate_image_three
+            image_4: alternate_image_four
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            delivery_cost: delivery_cost
+            color: colour
+            size: 'Fashion:size'
+            
+    Superdry: 
+        advertisers: 
+            - 15407
+        model: false 
+        columns: 
+            ean: ean
+            external_id: aw_product_id
+            model_id: ['product_name', 'description', 'colour']
+            name: product_name
+            brand: brand_name
+            # category: product_type
+            category:
+                - custom_1
+                - { type: string, value: 'Homme > '}            
+                - merchant_category
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            color: colour
+            size: 'Fashion:size'
+            composition: 'Fashion:material'
+            
+        
+    TopMan:
+        advertisers:
+            - 15363
+        model: true
+        columns:
+            external_id: aw_product_id
+            model_id: model_number
+            name: product_name
+            brand: brand_name
+            category:
+                - { type: string, value: 'Homme > '}
+                - merchant_category
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            color: colour
+            size: 'Fashion:size'
+
+    TopShop:
+        advertisers:
+            - 15353
+        model: true
+        columns:
+            external_id: aw_product_id
+            model_id: model_number
+            name: product_name
+            brand: brand_name
+            category:
+                - { type: string, value: 'Femme > '}            
+                - merchant_category
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            stock_amount: stock_quantity
+            delivery_cost: delivery_cost
+            delivery_information: delivery_time
+            color: colour
+            size: Fashion:size
+
+    Volcom:
+        advertisers:
+            - 17605
+        model: true
+        columns:
+            external_id: aw_product_id
+            model_id: aw_product_id
+            ean: ean
+            name: product_name
+            brand: brand_name
+            category: 
+                - 'Fashion:suitable_for'
+                - merchant_category
+            description: description
+            description_short: description
+            url: aw_deep_link
+            image_1: merchant_image_url
+            currency: currency
+            unit_price: search_price
+            stock_in: in_stock
+            delivery_cost: delivery_cost
+            color: colour
+            size: 'Fashion:size'
+
+########################################################################################################################
+########################################################################################################################
+# EFFILIATION
+########################################################################################################################
+########################################################################################################################
+Effiliation:
+    'Comptoir des cotonniers':
+        reference: 21825480
+        model: false
+        columns: 
+            external_id: sku
+            model_id: ['name', 'description', 'color']
+            ean: ean
+            name: name 
+            brand: brand
+            category: 
+                - sex
+                - { type: string, value: ' > ' }
+                - merchant_univers_name
+            description: description
+            description_short: description
+            url: url_product
+            image_1: url_image
+            currency: 
+                - { type: string, value: 'EUR'}
+            unit_price: price
+            discount_old_price: pricenorebate
+            stock_in: availability
+            delivery_cost: shipping_cost
+            color: color
+            size: size
+                
+    GrainDeMalice:
+        is_enabled: false
+        reference: 21714808
+        model: false
+        columns:
+            external_id: sku
+            model_id: custom_label_4
+            ean: ean
+            name: name
+            brand: brand
+            category:
+                - gender
+                - { type: string, value: ' > ' }
+                - merchant_store_name
+            description: description
+            description_short: description
+            url: url_product
+            image_1: url_image
+            currency:
+                - { type: string, value: 'EUR'}
+            unit_price: price
+            discount_old_price: pricenorebate
+            stock_in: availability
+            delivery_cost: shipping_cost
+            color: color
+            size: size
+    DIM: 
+        reference: 21728229
+        model: false
+        columns:
+            external_id: sku
+            name: name
+            model_id:
+                - { type: inside, column: sku, end: '-' }
+            brand: brand
+            category: 
+                - gender
+                - { type: string, value: ' > ' }
+                - merchant_department_name
+            description: description
+            description_short: description
+            url: url_product
+            image_1: url_image
+            currency: 
+                - { type: string, value: 'EUR'}
+            unit_price: price
+            discount_old_price: pricenorebate
+            stock_in: availability
+            color: color
+            size: size
+          
+    123: 
+        reference: 21728223
+        model: true
+        columns: 
+            external_id: sku
+            name: name
+            brand: brand
+            model_id: sku
+            category: 
+                - genre
+                - { type: string, value: ' > ' }
+                - merchant_store_name
+            description: description
+            description_short: short_description
+            url: url_product
+            image_1: url_image
+            image_2: image_detail_1
+            image_3: image_detail_2
+            currency: currency
+            unit_price: price
+            discount_old_price: pricenorebate            
+            stock_in: availability
+            delivery_information: delivery_time
+            color: libelle_couleur
+            size: size
+            composition: composition
+    
+    unkut:
+        is_enabled: false
+        reference: 21728242
+        model: false
+        columns: 
+            external_id: sku
+            ean: ean
+            name: name
+            brand: brand
+            model_id: identifiant_unique
+            category: 
+                - sex
+                - type
+            description: description
+            description_short: description
+            url: url_product
+            image_1: url_image
+            currency: 
+                - { type: string, value: 'EUR'}
+            unit_price: price
+            discount_old_price: pricenorebate            
+            stock_in: availability
+            delivery_cost: shipping_cost
+            color: colour
+            size: size
+            composition: matiere
+    
+    pimkie: 
+        reference: 21728236
+        model: false
+        columns: 
+            external_id: sku
+            model_id: item_group_id
+            name: name
+            brand: brand
+            category: 
+                - gender
+                - merchant_category_name
+            description: description
+            description_short: description
+            url: url_product
+            image_1: url_image
+            image_2: additional_image_link
+            currency: 
+                - { type: string, value: 'EUR'}
+            unit_price: price
+            discount_old_price: pricenorebate
+            stock_in: availability
+            delivery_information: delivery_time
+            color: color
+            size: size
+            composition: material 
+
+    PrincesseTamTam: 
+        reference: 21757947
+        model: false
+        columns: 
+            external_id: sku
+            model_id: upc
+            ean: ean
+            name: name
+            brand: brand
+            category: 
+                - sex
+                - { type: string, value: ' > '}
+                - merchant_category_name
+            description: description
+            description_short: description
+            url: url_product
+            image_1: url_image
+            currency: 
+                - { type: string, value: 'EUR'}
+            unit_price: price
+            discount_old_price: pricenorebate
+            stock_in: availability
+            delivery_information: delivery_time
+            color: color
+            size: size
+    
+    Balsamik: 
+        reference: 21822928
+        model: true
+        columns: 
+            external_id: sku
+            model_id: ['url_image', 'color']
+            ean: ean
+            name: name
+            brand: brand
+            category: 
+                - { type: string, value: 'Femme > '}  
+                - adwords_grouping
+            description: description
+            description_short: description
+            url: url_product
+            image_1: url_image
+            currency: 
+                - { type: string, value: 'EUR'}
+            unit_price: price
+            discount_old_price: pricenorebate
+            stock_in: availability
+            delivery_cost: shipping_cost
+            delivery_information: delivery_time
+            composition: material
+            color: Color
+            size: size
+    
+    Daxon: 
+        reference: 21759810
+        model: true 
+        columns: 
+            external_id: sku
+            model_id: sku
+            ean: ean
+            name: name
+            brand: brand
+            category: 
+                - merchant_univers_name
+                - merchant_category_name
+            description: description
+            description_short: description
+            url: url_product
+            image_1: url_image
+            currency: currency
+            unit_price: price
+            discount_old_price: pricenorebate
+            stock_in: in_stock
+            delivery_information: delivery_time
+            color: colour
+            size: size
+    
+    'Eden Park':
+        reference: 21661428
+        model: false
+        columns: 
+            external_id: sku
+            model_id: ['name', 'description', 'colour']
+            ean: ean
+            name: name
+            brand: 
+                - { type: string, value: 'Eden Park'}
+            category: 
+                - sex
+                - merchant_category_name
+            description: description
+            description_short: short_description
+            url: url_product
+            image_1: url_image
+            currency:
+                - { type: string, value: 'EUR'}
+            unit_price: price
+            discount_old_price: pricenorebate
+            stock_in: in_stock
+            delivery_information: delivery_time
+            delivery_cost: shipping_cost
+            color: colour
+            size: size
+            
+    'La Halle':
+        reference: 21757946
+        model: false
+        columns: 
+            external_id: sku
+            model_id: ecotax
+            ean: ean
+            name: name
+            brand: brand
+            category: 
+                - sex
+                - { type: string, value: '>'}
+                - merchant_category_name
+            description: description
+            description_short: description
+            url: url_product
+            currency: currency
+            unit_price: price
+            image_1: url_image
+            discount_old_price: pricenorebate
+            delivery_cost: shipping_cost
+            delivery_information: delivery_time
+            color: color
+            size: size
+            composition: matiere   
+
+    helline:
+        reference: 20393188
+        model: false
+        columns: 
+            external_id: sku
+            model_id: ['name', 'description']
+            ean: ean
+            name: name
+            brand: brand
+            category:
+                - sex
+                - { type: string, value: '>'}
+                - merchant_category_name
+                - { type: string, value: '>'}
+                - merchant_department_name
+            description: description
+            description_short: description
+            url: url_product
+            image_1: url_image
+            currency: currency
+            unit_price: price
+            discount_old_price: pricenorebate
+            delivery_cost: shipping_cost
+            color: color
+            size: size
+            
+    tao:
+        reference: 21728239
+        model: false
+        columns: 
+            external_id: sku
+            model_id: ['name', 'description', 'colour']
+            ean: ean 
+            name: name
+            brand: brand
+            category: merchant_category_name
+            description: description
+            description_short: description
+            url: url_product
+            image_1: url_image
+            currency: currency
+            unit_price: price
+            discount_old_price: pricenorebate
+            delivery_information: delivery_time
+            stock_in: availability
+            color: colour
+            size: size
+########################################################################################################################
+########################################################################################################################
+# TRADEDOUBLER
+########################################################################################################################
+########################################################################################################################
+
+Tradedoubler:
+    Armani:
+        is_enabled: false
+        myFeed: 15240570552823684
+        myFormat: 14934774442823684
+        model: true
+        columns:
+            external_id: TDProductId
+            model_id: TDProductId
+            name: name
+            brand: brand
+            category: merchantCategoryName
+            description: description
+            description_short: shortDescription
+            url: productUrl
+            image_1: imageUrl
+            currency: currency
+            unit_price: price
+            stock_in: inStock
+            delivery_cost: shippingCost
+            delivery_information: deliveryTime
+            size: size
+            color:
+                - { type: inside, column: fields, start: 'color:', end: ; }
+
+    Blancheporte:
+        is_enabled: false
+        myFeed: 15065075002823684
+        myFormat: 14934774442823684
+        model: false
+        columns:
+            external_id: TDProductId
+            model_id: TDProductId
+            name: name
+            brand: brand
+            category:
+                - TDCategoryName
+                - { type: string, value: ' > '}
+                - merchantCategoryName
+            description: description
+            description_short: description
+            url: productUrl
+            image_1: imageUrl
+            currency: currency
+            unit_price: price
+            stock_in: availability
+            stock_amount: availability
+            delivery_cost: shippingCost
+            delivery_information: deliveryTime
+
+    Desigual:
+        myFeed: 15282679562823684
+        myFormat: 14934774442823684
+        model: false
+        columns:
+            external_id: TDProductId
+            model_id: ['description', 'brand']
+            name: name
+            brand: brand
+            category: merchantCategoryName
+            description: description
+            description_short: description
+            url: productUrl
+            image_1: imageUrl
+            image_2:
+                - { type: inside, column: fields, start: 'g:additional_image_link:', end: ; }
+            currency: currency
+            unit_price: price
+            stock_in: availability
+            #delivery_cost: shippingCost
+            #delivery_information: deliveryTime
+            composition:
+                - { type: inside, column: fields, start: 'g:material:', end: ; }
+            size:
+                - { type: inside, column: fields, start: 'g:size:', end: ; }
+            color:
+                - { type: inside, column: fields, start: 'g:color:', end: ; }
+
+    Roxy:
+        is_enabled: false
+        myFeed: 15065097922823684
+        myFormat: 14934774442823684
+        model: true
+        columns:
+            external_id: TDProductId
+            model_id: TDProductId
+            ean: ean
+            sku: sku
+            name: name
+            brand: brand
+            category:
+                - { type: string, value: 'Femme > '}            
+                - merchantCategoryName
+            description: description
+            description_short: shortDescription
+            url: productUrl
+            image_1: imageUrl
+            currency: currency
+            unit_price: price
+            delivery_information: deliveryTime
+            size: size
+    Bonprix:
+        myFeed: 15203539832823684
+        myFormat: 14934774442823684
+        model: true
+        columns: 
+            external_id: TDProductId 
+            model_id: TDProductId
+            ean: ean
+            sku: sku
+            name: name
+            brand: brand 
+            category: merchantCategoryName 
+            description: description
+            description_short: description
+            url: productUrl 
+            image_1: imageUrl             
+            currency:
+                - { type: string, value: 'EUR'}
+            unit_price: price
+            delivery_cost: shippingCost            
+            color:
+                - { type: inside, column: fields, start: 'Colour:', end: ; }             
+            size: 
+                - { type: inside, column: fields, start: 'Size:'} 
+                
+    Mango: 
+        myFeed: 15203381742823684
+        myFormat: 14934774442823684
+        model: true
+        columns: 
+            external_id: TDProductId
+            model_id: TDProductId
+            name: name
+            brand: brand
+            category: merchantCategoryName
+            description: description
+            description_short: description
+            url: productUrl
+            image_1: imageUrl
+            currency: currency
+            unit_price: price
+            delivery_cost: shippingCost
+            size: size
+            color: 
+                - { type: inside, column: fields, start: 'Color:' } 
+
+    Promod: 
+        myFeed: 15220620422823684 
+        myFormat: 14934774442823684
+        model: true
+        columns:
+            external_id: TDProductId
+            model_id: TDProductId
+            name: name
+            brand: brand
+            category: merchantCategoryName
+            description: description
+            description_short: description
+            url: productUrl
+            image_1:
+                - { type: inside, column: fields, start: 'image2:', end: ; }            
+            currency: currency
+            unit_price: price
+            discount_old_price: previousPrice
+            size: size
+            color:
+                - { type: inside, column: fields, start: 'color:', end: ; }
+
+########################################################################################################################
+########################################################################################################################
+# NETAFFILIATION
+########################################################################################################################
+########################################################################################################################
+NetAffiliation:
+    'Des Marques et Vous':
+        #is_enabled: false
+        maff: 4C395F0EP436BD5688432118107104555L530E09V4
+        model: false
+        columns:
+            external_id: reference_interne
+            model_id: ['reference_fabricant', 'couleur']
+            name: libelle
+            brand: marque
+            category: type_article_boutique
+            description: description
+            description_short: description
+            url: url
+            image_1: urlImgGrand
+            currency: devise
+            unit_price: prix
+            discount_old_price: prix_barre
+            size: taille
+            color: couleur
+
+
+########################################################################################################################
+########################################################################################################################
+# MANUAL
+########################################################################################################################
+########################################################################################################################
+Manual:
+    Flamenzo:
+        path: http://public.beta.asmodine.com/files/catalog/flamenzo.csv
+        model: true
+        configuration:
+            extension: '.csv'
+            archive: ''
+        columns:
+            external_id: Référence
+            model_id: Référence
+            name: nom
+            brand:
+                - { type: string, value: 'Flamenzo'}
+            category:
+                - { type: string, value: 'Femme > '}
+                - 'Nom de la catégorie par défaut'
+            description: 'Déscription'
+            description_short: 'Déscription'
+            url: 'URL du produit'
+            image_1: 'images 1'
+            image_2: 'image 2'
+            image_3: 'image 3'
+            image_4: 'image 4'
+            image_5: 'image 5'
+            currency:
+                - { type: string, value: 'EUR'}
+            unit_price: 'Prix de vente'
+            further_information: 'Caractéristiques'
+            color: "Déclinaison: Valeur de l'attribut 2"
+            size: "Déclinaison: Valeur de l'attribut 1"
+
+    Lengow:
+        is_enabled: false
+        path: http://public.beta.asmodine.com/files/catalog/lengow.xml
+        model: false
+        configuration:
+            extension: '.xml'
+            archive: ''
+        columns:
+            external_id: 'identifiant_unique'
+            model_id: 'identifiant_parent'
+            name:
+            brand:
+            category:
+                - univers
+                - { type: string, value: ' > '}
+                - boutique
+                - { type: string, value: ' > '}
+                - sous_rayon
+            description: ''
+            description_short: ''
+            url: 'URL_produit'
+            image_1: 'vue1'
+            image_2: 'vue2'
+            image_3: 'vue3'
+            image_4: 'vue4'
+            image_5: 'vue_detail'
+            currency:
+                - { type: string, value: 'EUR'}
+            unit_price: 'prix'
+            discount_old_price: 'prix_barre'
+            composition: 'matiere'
+            further_information: 'prix'
+            color: "couleur_normalise"
+            size: ""
+
+

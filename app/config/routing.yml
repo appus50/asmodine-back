@@ -1,0 +1,19 @@
+asmodine_admin:
+    resource: "@AsmodineAdminBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+asmodine_customer:
+    resource: "@AsmodineCustomerBundle/Controller/"
+    type:     annotation
+    prefix:   /cmi
+
+
+#asmodine_size_advisor:
+#    resource: "@AsmodineSizeAdvisorBundle/Controller/"
+#    type:     annotation
+#    prefix:   /sas
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc

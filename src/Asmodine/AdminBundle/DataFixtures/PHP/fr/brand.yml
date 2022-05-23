@@ -1,0 +1,893 @@
+# brand.yml
+123: 
+    name: '123'
+    description: '123'
+    logo: 'http://insiti.com/system/logos/2507/big_square/logo-123-NOIR.png'
+    iframe: false
+
+agnesmason:
+    is_enabled: false
+    name: 'Agnes Mason'
+    description: 'Agnes Mason'
+    logo: 'https://cdn.lesara.io/wysiwyg/agnesmason140px.jpg'
+    
+'alice-&-you':
+    name: 'Alice & You'
+    description: 'Alice & You'
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/alice-and-you.png' 
+    iframe: false
+            
+allstar:
+    name: 'All Star'
+    description: 'All star'
+    logo: 'https://seeklogo.com/images/C/Converse_All_Star-logo-E09D891053-seeklogo.com.png'
+    iframe: false
+
+andrea-conti: 
+    name: 'Andrea Conti'
+    description: Andrea Conti
+    logo: 'https://homepages.sabu.de/wp-content/uploads/3009-andrea-conti.png'
+    iframe: false
+    
+anneweyburn:
+    name: 'Anne Weyburn'
+    description: 'Anne Weyburn'
+    logo: 'http://www.wouldlike.fr/wp-content/uploads/2016/12/LOGO-ANNE-WEYBURN.jpg' 
+
+another-influence: 
+    name: Another Influence
+    description: Another Influence
+    logo: 'http://justconsultancies.co.uk/wp-content/uploads/2013/06/ANOTHER-INFLUENCE-LOGO.jpg'
+    iframe: false
+        
+armanijean:
+    is_enabled: false
+    name: 'Armani Jean'
+    description: 'Armani Jean'
+    logo: 'http://logolist.ru/uploads/posts/2016-05/0_armani_jeans_logo.jpg'
+
+armor-lux: 
+    is_enabled: false
+    name: 'Armor Lux'
+    description: Armor Lux
+    logo: 'https://www.staderennais.com/sites/default/files/sponsors-staderennais-logo-armor-lux.png'
+    iframe: false
+    
+ashley-brooke: 
+    name: 'Ashley Brooke'
+    description: Ashley Brooke
+    logo: 'https://logos-download.com/wp-content/uploads/2016/03/Ashley_Brooke_logo_logotype.jpg'
+    iframe: false
+    
+asics-tiger: 
+    name: 'Asics Tiger'
+    description: 'Asics Tiger'
+    logo: 'https://seeklogo.com/images/A/Asics_Tiger-logo-4293F5D60A-seeklogo.com.png'
+    iframe: false
+    
+asos:
+    name: Asos
+    description: 'Lancée en juin 2000, ASOS est la boutique en ligne indépendante consacrée à la mode et à la beauté la plus importante au Royaume-Uni, proposant plus de 60 000 articles griffés ainsi qu''une gamme de produits de sa propre marque pour le prêt-à-porter féminin robes, chaussures, bijoux, lingerie et cosmétiques – et masculin jeans,t-shirts, chaussures et chemises.'
+    logo: 'https://prodassets.asosservices.com/MasterLayout/images/_header/asos-logo.png'
+    iframe: false
+
+aventures-des-toiles:
+    is_enabled: false
+    name: Aventures des toiles
+    description: Aventures des toiles 
+    logo: 'http://jaines-mode.fr/img/cms/Logos%20marques/aventures-des-toiles.jpg'
+    iframe: false
+    
+balsamik: 
+    name: Balsamik
+    description: balsamik
+    logo: http://www.blackfriday-france.com/rivetoile/uploads/2017/11/blackfriday-balsamik.png
+    iframe: false
+
+barena: 
+    name: Barena
+    description: Barena
+    logo: 'http://www.wplavori.com/wp-content/uploads/2012/05/barena.jpg'
+    iframe: false
+    
+best-connections: 
+    name: 'Best Connections'
+    description: Best Connections
+    logo: 'https://s3.amazonaws.com/ctm-tm/009362823.JPG'
+    iframe: false    
+    
+blancheporte:
+    is_enabled: false
+    name: BlanchePorte
+    description: BlanchePorte
+    logo: 'https://d2zlj0ie35lkp9.cloudfront.net/images/b/blancheporte_9.png'
+
+betty-barclay:
+    is_enabled: false 
+    name: Betty Barclay
+    description: Betty Barclay 
+    logo:  'https://www.shaws.ie/wp-content/uploads/2017/12/bettybarclaylogo.png'
+    iframe: false
+    
+boden:
+    name: Boden
+    description: Boden
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/7/7a/Boden..png'
+    iframe: false
+    
+bonobo:
+    is_enabled: false
+    name: Bonobo
+    description: Bonobo
+    logo: 'https://media.custplace.com/brands/1291842374bonobo__007159800_1511_19032010.png'
+    iframe: false
+
+bonprix:
+    name: Bonprix
+    description: bonprix
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/5/51/Bonprix_it%27s_me_logo.png'
+    iframe: false
+    
+boohoo:
+    name: Boohoo
+    description: Boohoo
+    logo: 'https://www.logosvgpng.com/wp-content/uploads/2018/04/boohoo-com-logo-vector.png'
+    iframe: false
+
+brice: 
+    name: Brice
+    description: Brice
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/4/41/LOGO_BRICE_Noir.png'
+    iframe: false
+
+bugatti: 
+    name: Bugatti
+    description: Bugatti
+    logo: 'http://www.insolitelemans.com/media/3950/crop/1170x400xCM/slider-bugatti.jpg'
+    iframe: false
+    
+cachecache:
+    #is_enabled: false
+    name: 'Cache Cache'
+    description: 'Cache Cache'
+    logo: 'https://www.cache-cache.fr/fr/ximg/logo.png'
+    iframe: true
+
+calvin-klein:
+    is_enabled: false 
+    name: 'Calvin Klein'
+    description: 'Calvin Klein'
+    logo: 'http://lamodedudimanche.com/wp-content/uploads/2016/01/calvin-klein-logo.png'
+    iframe: true
+    
+cambridge:
+    name: 'Cambridge'
+    description: Cambridge
+    logo: 'http://www.cambridge-legend.com/wp-content/uploads/2018/01/logo-e1517237678250.png'
+    iframe: false
+
+camps-united:
+    name: 'Camps United'
+    description: 'Camps United'
+    logo: 'https://vpf1.fr/camps-united.png'
+    iframe: false
+    
+cargo-club:
+    name: Cargo Club
+    description: Cargo Club
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/cargo-club.jpg'
+    iframe: false
+
+cardin:
+    name: Cardin
+    description: Cardin
+    logo: 'https://www.forum-des-sacs.fr/media/catalog/category/pierre_cardin.jpg'
+    iframe: false
+    
+castaluna:
+    name: Castaluna
+    description: Vêtement grande taille, livraison et retour gratuit sur La Redoute, large choix de vêtement grande taille tendance à petit prix pour femme.
+    logo: http://www.laredoute.fr/images/header/logov2-141652_1_fr-FR.png
+    iframe: true
+    
+castaluna-for-men:
+    name: 'Castaluna For Men'
+    description: Vêtement grande taille, livraison et retour gratuit sur La Redoute, large choix de vêtement grande taille tendance à petit prix pour homme.
+    logo: http://blog.asmodine.com/wp-content/uploads/2018/03/castaluna-for-men.png
+    iframe: true
+
+c-est-beau-la-vie:
+    is_enabled: false
+    name: C'est beau la vie
+    description: C'est beau la vie 
+    logo: 'http://cestbeaulavie.com/wp-content/themes/cblv/images/logo.png' 
+    iframe: false
+    
+charles-de-seyne:
+    name: Charles de Seyne
+    description: Charles de Seyne
+    logo: 'https://s3.amazonaws.com/ctm-tm/015871254.JPG'
+    iframe: false
+    
+charmance: 
+    name: Charmance
+    description: Charmance
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/01/logo-charmance.png'
+    iframe: false
+
+christine-laure:
+    name: Christine Laure
+    description: Christine Laure
+    logo: 'http://www.rivesdelorne.com/sites/default/files/shop/logo/christine_laure.jpg'
+    iframe: false
+    
+closet-london-plus: 
+    name: Closet London PLus
+    description: Closet London Plus
+    logo: 'https://www.closetlondon.com/skin/frontend/closet/closet_london2017_e/images/closet/svg/logo.svg'
+    iframe: false
+
+coast-plus: 
+    name: Coast Plus
+    description: Coast Plus
+    logo: 'https://coast.btxmedia.com/assets/images/coast_logo.svg'
+    iframe: false
+
+comma:
+    is_enabled: false 
+    name: Comma
+    description: Comma
+    logo: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST8BKev7w4eHLfYoU6TCqeI1jqRB5aPLVuiAFavJXhzxwAN2d9'
+    iframe: false
+    
+comptoir-des-cotonniers:
+    name: Comptoir des cotonniers
+    description: Comptoir des cotonniers
+    logo: 'https://vrdigitalprodcmsmedia.blob.core.windows.net/prod01-lrv/2241/comptoir-300x200-092013.png?mode=max&rnd=130838566140000000'
+    iframe: false
+    
+cons:
+    name: Cons
+    description: Cons
+    logo: 'http://logok.org/wp-content/uploads/2014/03/Converse-logo-2017-logotype.png'
+    iframe: false
+
+'couleurs-prix':
+    is_enabled: false
+    name: 'Couleurs & Prix'
+    description: 'Couleur & Prix'
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/01/couleur-prix.png'
+    iframe: false
+
+crealine: 
+    is_enabled: false
+    name: Créaline
+    description: Créaline
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/01/logo-crealine.png'
+    iframe: false
+
+creeks:
+    name: Creeks
+    description: Creeks
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/creeks.jpg'
+    iframe: false
+
+ddp:
+    is_enabled: false 
+    name: DDP
+    description: DDP
+    logo: 'https://www.alombredesmarques.fr/media/ddp__061713300_1701_21022018.png' 
+    iframe: false
+    
+desigual:
+    name: Desigual
+    description: Desigual
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/4/47/Desigual_logo.jpg'
+    iframe: false
+
+dereklam:
+    name: Derek Lam
+    description: Derek Lam
+    logo: 'http://www.uscustomerservicephonenumber.com/wp-content/uploads/2017/08/DEREK-LAM_padded-02.png'
+    iframe: false
+
+diane-laury: 
+    name: Diane Laury
+    description: Diane Laury
+    logo: 'http://www.dianelaury.fr/wp-content/themes/aka_theme/images/logo_marron.png'
+    iframe: false
+
+digel:
+    name: Digel
+    description: Digel 
+    logo: 'https://www.digel.de/images/logos/digel-dark.png'
+    iframe: false
+    
+DIM: 
+    name: DIM
+    description: DIM
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Logo_Dim.png/1200px-Logo_Dim.png'
+    iframe: true
+    
+dolce-gabbana:
+    name: 'Dolce & Gabbana'
+    description: 'Dolce & Gabbana' 
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Dolce_%26_Gabbana.svg/2000px-Dolce_%26_Gabbana.svg.png'
+    iframe: false
+    
+'Dolly & Delicious': 
+    name: Dolly & Delicious
+    description: Dolly & Delicious
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/dolly-and-delicious.png'
+    iframe: false
+    
+'Dorothy Perkins':
+    is_enabled: false
+    name: Dorothy Perkins
+    description: Dorothy Perkins
+    logo: 'http://media.dorothyperkins.com/wcsstore/ConsumerDirectStorefrontAssetStore/images/colors/color3/cms/pages/static/static-0000051241/images/DP_google_size.jpg'
+    iframe: false
+    
+'Eden Park': 
+    name: Eden Park
+    description: Eden Park
+    logo: 'http://www.lunettesgrasset.com/wp-content/uploads/2015/04/edenPark-new.png'
+    iframe: false    
+
+elisa-cavaletti:
+    is_enabled: false 
+    name: Elisa Cavaletti
+    description: Elisa Cavaletti
+    logo: 'https://static1.squarespace.com/static/55786715e4b004acf1e47ef7/56a9196a40667a71fdb9f196/5734d3c22eeb81c6d5733aa5/1463079885913/logo-elisa-cavaletti.jpg'
+    iframe: false
+    
+emporioarmani:
+    name: 'Emporio Armani'
+    description: 'Emporio Armani'
+    logo: 'http://lofrev.net/wp-content/photos/2017/04/emporio_armani_logo.png'
+    iframe: false
+
+esprit:
+    name: Esprit
+    description: Esprit
+    logo: 'http://logolist.ru/uploads/posts/2016-05/0_esprit_logo.jpg'
+    iframe: false
+etro: 
+    name: Etro
+    description: Etro
+    logo: 'http://logonoid.com/images/etro-logo.png'
+    iframe: false
+    
+fashion-studio:
+    name: Fashion Studio
+    description: Fashion Studio
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/fashion-studio.jpg'
+    iframe: false
+    
+farah: 
+    name: Farah
+    description: Farah
+    logo: 'https://www.farah.co.uk/on/demandware.static/Sites-farah-Site/-/en_GB/v1520227453805/images/logo.svg'
+    iframe: false
+    
+fila: 
+    name: Fila
+    description: Fila
+    logo : 'https://upload.wikimedia.org/wikipedia/fr/thumb/f/f9/Logo_Fila.svg/1280px-Logo_Fila.svg.png'
+    iframe: false
+    
+flamenzo:
+    name: Flamenzo
+    description: Flamenzo, habille les Grandes !
+    logo: https://www.flamenzo.com/img/flamenzo-1414058719.jpg
+    iframe: false
+
+flounce-london-plus: 
+    name: Flounce London Plus
+    description: Flounce London Plus
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/flounce-london-plus.png'
+    iframe: false
+
+forever21: 
+    name: Forever 21
+    description: Forever 21
+    logo: 'http://logo-logos.com/wp-content/uploads/2016/11/Forever_21_logo.png'
+    iframe: false
+    
+friend-or-faux: 
+    name: Friend or Faux
+    description: Friend or Faux
+    logo: 'http://justconsultancies.co.uk/wp-content/uploads/2013/06/Screen-Shot-2017-12-18-at-18.01.321.png'
+    iframe: false
+
+gabor:
+    name: Gabor
+    description: Gabor
+    logo: 'https://chaussuresgrandestaillesfemmehomme.files.wordpress.com/2017/10/gabor-e1507650057776.png'
+    iframe: false
+    
+gabrielle: 
+    name : Gabrielle
+    description: Gabrielle
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/gabrielle.png' 
+    iframe: false
+    
+guess:
+    name: Guess
+    description: Guess
+    logo: 'https://banner2.kisspng.com/20180411/ppw/kisspng-guess-logo-brand-retail-gucci-logo-5aceb3b013a2a8.5942903815234958560804.jpg'
+    iframe: false
+    
+graindemalice:
+    is_enabled: false
+    name: Grain de malice
+    description: Grain de malice
+    logo: 'https://yt3.ggpht.com/-Q31djaOrTu0/AAAAAAAAAAI/AAAAAAAAAAA/Jn1sWe0qlGE/s900-c-k-no-mo-rj-c0xffffff/photo.jpg'
+    iframe: false
+    
+happysocks:
+    is_enabled: false
+    name: 'Happy Socks'
+    description: 'Happy Socks'
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/0/0a/Happy_Socks.png'
+
+herno: 
+    name: Herno
+    description: Herno
+    logo: 'http://www.siola.it/img/brand/10000183.png'
+    iframe: false
+
+Honcelac: 
+    name: Honcelac
+    description: Honcelac
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/honcelac-logo.jpg'
+    iframe: false
+    
+j-lindeberg:
+    name: J.LINDEBERG
+    description: J.LINDEBERG
+    logo: 'https://cdn.shopify.com/s/files/1/0768/2961/collections/linderberg_650_600x600.png?v=1450115961'
+    iframe: false
+    
+jacamo: 
+    name: Jacamo
+    description: Jacamo
+    logo: 'https://oxfordcricketclub.files.wordpress.com/2017/12/jacamo1.png'
+    iframe: false
+    
+'jack&jones':
+    name: 'Jack & Jones'
+    description: 'Jack & Jones'
+    logo: 'http://www.brandattic.com/media/catalog/category/JACK_JONES_LOGO.png'
+    iframe: false
+    
+jackpurcell:
+    is_enabled: false
+    name: 'Jack Purcell'
+    description: 'Jack Purcell'
+    logo: 'http://fashion.ef360.com/EditManager/File/news/201607/201607121656166637_609x295.jpg'
+
+john-zack: 
+    name: 'John Zack'
+    description: 'John Zack'
+    logo: 'https://cdn.shopify.com/s/files/1/0748/4243/files/logo_b807e87e-c2e6-4d26-9ebc-a19dca8ce670_205x@2x.png?v=1485772396'
+    iframe: false
+
+jules:
+    is_enabled: false
+    name: Jules
+    description: Jules
+    logo: 'https://upload.wikimedia.org/wikipedia/fr/2/2e/Logo_Jules.png'
+    iframe: false
+
+julie-guerlande:
+    name: Julie Guerlande
+    description: Julie Guerlande
+    logo: 'https://www.diatem.net/wp-content/uploads/2015/10/logo.png'
+    iframe: false
+    
+katmai:
+    name: Katmai
+    description: Katmai
+    logo: 'http://www.polka-brides.fr/images/partenaires/katmai.jpg'
+    iframe: false
+
+'kent-curwen':
+    name: 'Kent & Curwen'
+    description: 'Kent & Curwen'
+    logo: 'https://www.kentandcurwen.com/pub/media/logo/websites/9/Kent_Curwen_Logo_Lock-Up_LARGE_Black.svg'
+    iframe: false
+        
+koko: 
+    name: Koko
+    description: Koko
+    logo : 'http://blog.asmodine.com/wp-content/uploads/2018/03/koko.png'
+    iframe: false 
+
+koko-by-koko: 
+    name: Koko by Koko
+    description: Koko by Koko
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/koko-by-koko.png'
+    iframe: false
+
+la-fee-maraboutee:
+    name: 'La Fée Maraboutée'
+    description: 'La Fée Maraboutée'
+    logo: 'http://www.moncommerce35.fr/sites/default/files/la-fee-maraboutee-logo.jpg'
+    iframe: false
+    
+la-redoute-collection:
+    name: La Redoute Collection
+    description: La Redoute Collection 
+    logo: 'http://lemag.laredoute.fr/wp-content/uploads/2018/01/logo.jpg'
+    iframe: false
+
+lee:
+    name: LEE
+    description: LEE
+    logo: 'https://d3uvg4s6zw7vmh.cloudfront.net/logos/_facebook600x314Fit/Lee_logo_sort.png?mtime=20160309082305'
+    iframe: false
+
+lee-cooper:
+    is_enabled: false 
+    name: Lee Cooper 
+    description: Lee Cooper
+    logo: 'http://logos-download.com/wp-content/uploads/2016/03/Lee_Cooper_logo.png'
+    iframe: false
+    
+lesara:
+    is_enabled: false
+    name: Lesara
+    description: Lesara
+    logo: 'https://daol3a7s7tps6.cloudfront.net/wysiwyg/Lesara-Logo2016.png'
+lh:
+    name: LH
+    description: LH
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/marque-lh-la-halle.jpg'
+    iframe: false
+
+linea-tesini: 
+    name: 'Linea Tesini'
+    description: Linea Tesini
+    logo: 'https://img.limango.de/media/outlet/brandlogos/linea_tesini_by_heine.jpg'
+    iframe: false 
+    
+lipsy-curve: 
+    name: Lipsy Curve
+    description: Lipsy Curve
+    logo : 'https://d337mqk8vr3mvq.cloudfront.net/uploads/media/logo_retailer/0001/31/thumb_30007_logo_retailer_1x.png'
+    iframe: false    
+
+lovedrobe: 
+    name: Lovedrobe
+    description: Lovedrobe
+    logo: 'https://www.lovedrobe.co.uk/skin/frontend/lovedrobe/default/images/logo.png'
+    iframe: false
+
+madeleine: 
+    is_enabled: false
+    name: Madeleine
+    brand: Madeleine
+    description: Madeleine
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Madeleine-Logo.svg/2000px-Madeleine-Logo.svg.png'
+    iframe: false
+    
+mademoiselle-r: 
+    name: Mademoiselle R
+    description: Mademoiselle R 
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/mademoiselle-r.png'
+    iframe: false
+
+maison-margiela:
+    name: Maison Margiela
+    description: Maison Margiela
+    logo: 'https://fontmeme.com/images/Maison_Margiela_logo_FONT.png'
+    iframe: false
+
+mango: 
+    name: Mango
+    description: Mango
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Logo_of_Mango_%28new%29.svg/2000px-Logo_of_Mango_%28new%29.svg.png'
+    iframe: false
+    
+mat-fashion:
+    name: Mat Fashion
+    description: Mat Fashion
+    logo: 'https://www.isicgreece.gr/wp-content/uploads/cache/images/remote/www-isicgreece-gr/mat_fashion-logo2-749439289.jpg' 
+    iframe: false
+    
+maritimi:
+    is_enabled: false
+    name: Maritimi
+    description: Maritimi
+    logo: 'https://daol3a7s7tps6.cloudfront.net/wysiwyg/maritimi140px.jpg'
+
+mens:
+    name: 'M.E.N.S.'
+    description: 'M.E.N.S.'
+    logo: 'http://commerce.meosix.fr/maisonbleue-mulhouse/wp-content/uploads/sites/99/2015/09/Mens.jpg'
+    iframe: false
+
+meyer: 
+    name: Meyer
+    description: Meyer
+    logo: 'https://www.smithandsmithonline.co.uk/ekmps/shops/smithsmith/resources/Design/meyer-logo-black-1c.jpg'
+    iframe: false
+    
+missguided:
+    name: Missguided
+    description: Missguided
+    logo: 'https://medias.oas.io/medias/2016/06/04/18/ab7a7dc062b7ca3761d27416052c7ca9-o.png'
+    iframe: false
+    
+missselfridge:
+    is_enabled: false
+    name: 'Miss Selfridge'
+    description: 'Miss Selfridge'
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/8/82/MissSelfridge.svg/800px-MissSelfridge.svg.png'
+
+modavista:
+    name: Modavista
+    description: Modavista
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/modavista.jpg'
+    iframe: false
+        
+nebulus:
+    is_enabled: false
+    name: Nebulus
+    description: Nebulus
+    logo: 'https://daol3a7s7tps6.cloudfront.net/wysiwyg/Nebulus.png'
+
+nina-kalio:
+    name: 'Nina Kalio'
+    description: 'Nina Kalio'
+    logo: 'http://www.ninakalio.com/wp-content/uploads/2017/03/cropped-LOGO-NINA-KALIO-NOIR.png'
+    iframe: false
+ODB:
+    name: 'ODB'
+    description: 'ODB'
+    logo: 'http://www.odb-urbanconcept.com/wp-content/uploads/2017/05/New-Logo-ODB.png'
+    iframe: false
+
+onitsuka-tiger: 
+    name: 'Onitsuka Tiger'
+    description: 'Onitsuka Tiger'
+    logo: 'https://seeklogo.com/images/O/onitsuka-tiger-logo-2E5D5B465B-seeklogo.com.png'
+    iframe: false
+    
+only:
+    name: Only
+    description: Only
+    logo: 'https://www.only.com/on/demandware.static/Sites-BSE-South-Site/-/default/dw6f9723c5/on/images/logo.svg'
+    iframe: false
+
+'only-&-sons': 
+    name: 'Only & Sons'
+    description: 'Only & Sons'
+    logo : 'https://www.brandattic.com/media/catalog/category/ONLY_SONS_LOGO.png'
+    iframe: false
+    
+patrizia-dini: 
+    name: 'Patrizia Dini'
+    description: Patrizia Dini
+    logo: 'https://img.limango.de/media/outlet/brandlogos/patrizia_dini_by_heine.jpg'
+    iframe: false     
+
+pieces: 
+    name: Pieces
+    description: Pieces
+    logo: 'https://www.pieces.com/on/demandware.static/Sites-BSE-South-Site/-/default/dwe98081fc/pc/images/logo.svg'
+    iframe: false
+    
+pierrecardin:
+    is_enabled: false
+    name: 'Pierre Cardin'
+    description: 'Pierre Cardin'
+    logo: 'http://logolist.ru/uploads/posts/2016-05/0_pierre_cardin_logo.jpg'
+
+pimkie: 
+    name: Pimkie
+    description: Pimkie
+    logo: 'https://black-friday.sale/fr/wp-content/uploads/sites/8/2016/10/pimkie.png'
+    iframe: false
+    
+pink-clove: 
+    name: 'Pink Clove'
+    description: 'Pink Clove'
+    logo : 'https://cdn.shopify.com/s/files/1/2819/0644/files/PINK_CLOVE_LOGO_BLACK_copy_e9c86447-b715-4257-8a61-22f92d0f89dc_800x.png?v=1516985705'
+    iframe: false
+    
+prettylittlething:
+    name: 'Pretty Little Thing'
+    description: 'Pretty Little Thing'
+    logo: 'https://cdn-skin.prettylittlething.com/frontend/prettylittlething/plt-theme/images/organization-logo.jpg?ts=1480013496'
+    iframe: false
+    
+princessetamtam: 
+    name: Princesse Tam Tam
+    description: Princesse Tam Tam
+    logo: 'https://static08.bonial.fr/Geschaefte/Princesse-Tam-Tam.v0571.jpg'
+    iframe: false
+    
+promod: 
+    name: Promod
+    description: Promod
+    logo: 'http://www.achetezaupuy.com/photos-produits-en-vente-au-puy-en-velay/promod-idc10124/W/1024/1484930294_logo-promod.jpg'
+    iframe: false
+    
+'pull&bear':
+    is_enabled: false
+    name: 'Pull & Bear'
+    description: 'Pull & Bear'
+    logo: 'http://logo-logos.com/wp-content/uploads/2016/10/Pull_Bear_logo.png'
+    iframe: false
+    
+puma: 
+    name: Puma
+    description: Puma
+    logo : 'https://upload.wikimedia.org/wikipedia/fr/thumb/4/49/Puma_AG.svg/1200px-Puma_AG.svg.png'
+    iframe: false
+
+pygmees:
+    name: Pygmees
+    description: Pygmees
+    logo: 'https://media.cdnws.com/_i/27007/p%7B325%7D-6/1/6/logo.jpeg'
+    iframe: false
+    
+rage-plus: 
+    name: Rage Plus
+    description: Rage Plus
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/rage-plus.png'
+    iframe: false
+    
+ralph-lauren:
+    is_enabled: false
+    name: 'Ralph Lauren'
+    description: 'Ralph Lauren'
+    logo: 'https://www.permanentstyle.com/wp-content/uploads/2008/01/Ralph_Lauren.jpg'
+
+reverse:
+    is_enabled: false
+    name: Re-verse
+    description: Re-verse
+    logo: 'https://daol3a7s7tps6.cloudfront.net/wysiwyg/reverse140px.jpg'
+
+rick-cardona: 
+    name: 'Rick Cardona'
+    description: Rick Cardona
+    logo: 'https://img.limango.de/media/outlet/brandlogos/rick_cardona_by_heine.jpg'
+    iframe: false     
+
+rieker: 
+    name: 'Rieker'
+    description: Rieker
+    logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Rieker_Logo.svg/1200px-Rieker_Logo.svg.png'
+    iframe: false
+    
+riverisland:
+    name: 'River Island'
+    description: 'Découvrez les dernières tendances pour vêtements femme, homme et enfant chez River Island. Achetez en ligne dans votre grand magasin préféré. Différentes options de livraison gratuite disponibles.'
+    logo: 'https://upload.wikimedia.org/wikipedia/en/thumb/6/6a/RiverIsland.svg/1280px-RiverIsland.svg.png'
+    iframe: false
+    
+roxy:
+    is_enabled: false
+    name: Roxy
+    description: Roxy
+    logo: 'https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/062016/untitled-1_200.png?itok=XeGjI1m3'
+
+secrets-de-mode:
+    name: Secrets de Mode
+    description: Secrets de Mode
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/secrets-de-mode-1.png'
+    iframe: false
+    
+simply-be: 
+    name: 'Simply Be'
+    description: 'Simply Be'
+    logo: 'https://d337mqk8vr3mvq.cloudfront.net/uploads/media/wide/0001/36/thumb_35106_wide_1x.jpeg'
+    iframe: false
+
+smash:
+    name: Smash
+    description: Smash 
+    logo: 'http://atlasmoda.marcasrenombradas.com/files//icons/logos/Smash%20Happy%20Barcelona%20Style%20logo.jpg'
+    iframe: false
+    
+southbeach: 
+    name: 'South Beach'
+    description: 'South Beach'
+    logo : 'https://i0.wp.com/dealslands.co.uk/wp-content/uploads/2015/09/South-Beach-logo1.jpg'
+    iframe: false
+            
+stradivarius:
+    name: Stradivarius
+    description: Stradivarius
+    logo: 'https://logos-download.com/wp-content/uploads/2016/06/Stradivarius_logo_logotype.png'
+    iframe: false
+    
+strellson:
+    name: Strellson
+    description: Strellson
+    logo: 'http://www.globalblue.com/brands/article171450.ece/alternates/FREE_300/Logo_STRELLSONa2013.png'
+    iframe: false
+
+superdry: 
+    name: Superdry
+    description: Superdry
+    logo: 'https://logos-download.com/wp-content/uploads/2016/12/Superdry_logo_logotipo.png'
+    iframe: false
+    
+tamaris:
+    name: 'Tamaris'
+    description: Tamaris
+    logo: 'https://tamaris.com/on/demandware.static/Sites-FR-Site/-/default/dw13cba406/images/logo-tamaris.svg'
+    iframe: false
+    
+tao:
+    name: tao
+    description: tao
+    logo: 'http://www.blackfriday-france.com/rivetoile/uploads/2017/11/blackfriday-tao.png'
+    iframe: false
+
+tibet:
+    name: Tibet
+    description: Tibet
+    logo: 'http://www.tibet-sportswear.com/wp-content/uploads/2017/06/cropped-tibet-logo-1.png'
+    iframe: false
+    
+tokyo-laundry: 
+    name: Tokyo Laundry
+    description: Tokyo Laundry
+    logo: 'http://www.tokyolaundry.com/media/header/logos/logo.png'
+    iframe: false
+    
+topman:
+    name: TopMan
+    description: TopMan
+    logo: 'http://ksassets.timeincuk.net/wp/uploads/sites/55/2016/09/Topman_logo_Awardsponsor-1-e1477919588944.jpg'
+    iframe: false
+    
+topshop:
+    name: Topshop
+    description: Topshop
+    logo: 'https://cdn.freebiesupply.com/logos/large/2x/topshop-1-logo-png-transparent.png'
+    iframe: false
+
+trois25:
+    name: Trois25
+    description: Trois25
+    logo: 'http://blog.asmodine.com/wp-content/uploads/2018/03/trois25.jpg'
+    iframe: false
+    
+unique-21-hero: 
+    name: Unique 21 Hero
+    description: Unique 21 Hero
+    logo : 'https://mark.trademarkia.com/logo-images/feng-qian/unique-21-86675692.jpg'
+    iframe: false 
+    
+unkut:
+    is_enabled: false
+    name: Unkut
+    description: Unkut
+    logo: 'http://www.logo00.com/logo-unkut/logo-unkut.png'
+    iframe: false
+
+
+violeta: 
+    name: Violeta By Mango
+    description: Violeta By Mango
+    logo: 'http://3.bp.blogspot.com/-z5QJR4qeK6g/Ux3j87_xVII/AAAAAAAAKuQ/mRl06oMW77w/s1600/violeta-by-mango-logo.png'
+    iframe: false
+    
+volcom:
+    name: Volcom
+    description: Volcom
+    logo: 'https://i.pinimg.com/originals/43/7c/a8/437ca871eea9f20319be139ce5f89a46.png'
+    iframe: false
+
+yumi: 
+    name: Yumi
+    description: Yumi
+    logo: 'https://cdn7.bigcommerce.com/s-1cxrfddc9m/images/stencil/250x100/yumi_logo_rgb-02-01-22_1493738363__15262_1495459111.png'
+    iframe: false

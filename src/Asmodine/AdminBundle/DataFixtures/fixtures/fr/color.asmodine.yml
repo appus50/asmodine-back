@@ -1,0 +1,256 @@
+# color.asmodine.yml
+
+-
+    filter: white
+    name: 'Blanc'
+    hexa: '#ffffff'
+
+-
+    filter: beige
+    name: 'Ecru'
+    hexa: '#fff4de'
+
+-
+    filter: beige
+    name: 'Beige'
+    hexa: '#f5f5DC'
+
+-
+    filter: brown
+    name: 'Camel'
+    hexa: '#9e4624'
+
+-
+    filter: brown
+    name: 'Brun'
+    hexa: '#5a3a23'
+
+-
+    filter: brown
+    name: 'Marron'
+    hexa: '#b18f6a'
+
+-
+    filter: brown
+    name: 'Chocolat'
+    hexa: '#512c1e'
+
+-
+    filter: green
+    name: 'Vert pastel'
+    hexa: '#99b9ae'
+
+-
+    filter: green
+    name: 'Vert mousse'
+    hexa: '#245c4e'
+
+-
+    filter: green
+    name: 'Vert foret'
+    hexa: '#c3e86c'
+
+-
+    filter: green
+    name: 'Vert emeraude'
+    hexa: '#009483'
+
+-
+    filter: green
+    name: 'Vert sapin'
+    hexa: '#006e51'
+
+-
+    filter: green
+    name: 'Kaki'
+    hexa: '#b9bf15'
+
+-
+    filter: yellow
+    name: 'Jaune paille'
+    hexa: '#ffc658'
+
+-
+    filter: yellow
+    name: 'Jaune poussin'
+    hexa: '#fae03c'
+
+-
+    filter: yellow
+    name: 'Jaune ocre'
+    hexa: '#d8ae47'
+
+-
+    filter: yellow
+    name: 'Jaune moutarde'
+    hexa: '#d8ae47'
+
+-
+    filter: orange
+    name: 'Abricot'
+    hexa: '#f88f58'
+
+-
+    filter: orange
+    name: 'Orange'
+    hexa: '#ff6d10'
+
+-
+    filter: pink
+    name: 'Rose pastel'
+    hexa: '#f3a9dd'
+
+-
+    filter: pink
+    name: 'Vieux rose'
+    hexa: '#f2bae0'
+
+-
+    filter: pink
+    name: 'Rose layette'
+    hexa: '#ffe3eb'
+
+-
+    filter: pink
+    name: 'Rose'
+    hexa: '#e280d2'
+
+-
+    filter: pink
+    name: 'Rose fushia'
+    hexa: '#d93cb4'
+
+-
+    filter: red
+    name: 'Rouge tomette'
+    hexa: '#c05727'
+
+-
+    filter: red
+    name: 'Rouge magenta'
+    hexa: '#fa364a'
+
+-
+    filter: purple
+    name: 'Aubergine'
+    hexa: '#923a80'
+
+-
+    filter: purple
+    name: 'Bordeaux'
+    hexa: '#850000'
+
+-
+    filter: purple
+    name: 'Lie de vin'
+    hexa: '#752e4a'
+
+-
+    filter: blue
+    name: 'Bleu glacier'
+    hexa: '#d6e2f2'
+
+-
+    filter: blue
+    name: 'Bleu clair'
+    hexa: '#9dc3d4'
+
+-
+    filter: blue
+    name: 'Bleu azur'
+    hexa: '#034f84'
+
+-
+    filter: blue
+    name: 'Bleu cyan'
+    hexa: '#5cc4c7'
+
+-
+    filter: blue
+    name: 'Bleu turquoise'
+    hexa: '#00abc0'
+
+-
+    filter: blue
+    name: 'Bleu canard'
+    hexa: '#097988'
+
+-
+    filter: blue
+    name: 'Bleu marine'
+    hexa: '#0f4c81'
+
+-
+    filter: blue
+    name: 'Bleu denim'
+    hexa: '#4c6a92'
+
+-
+    filter: blue
+    name: 'Bleu indigo'
+    hexa: '#0f206c'
+
+-
+    filter: gray
+    name: 'Gris'
+    hexa: '#58646d'
+
+-
+    filter: black
+    name: 'Noir'
+    hexa: '#000000'
+
+-
+    filter: highlighters
+    name: 'Fluos'
+    hexa: '#ccff00'
+
+-
+    filter: gold
+    name: 'Doré'
+    hexa: '#e5d68e'
+
+-
+    filter: silver
+    name: 'Argenté'
+    hexa: '#c5c6c7'
+
+-
+    filter: multicolored
+    name: 'Multicolore clair'
+    hexa: '#ffffff'
+
+-
+    filter: multicolored
+    name: 'Multicolore foncé'
+    hexa: '#ffffff'
+
+-
+    filter: printed
+    name: 'Imprimés floraux & bestiares clairs'
+    hexa: '#ffffff'
+
+-
+    filter: printed
+    name: 'Imprimés floraux & bestaires foncés'
+    hexa: '#ffffff'
+
+-
+    filter: printed
+    name: 'Imprimés tâches claires ( leopards, camouflage, zebre…)'
+    hexa: '#ffffff'
+
+-
+    filter: printed
+    name: 'Imprimés tâches foncés ( leopards, camouflage, zebre..)'
+    hexa: '#ffffff'
+
+-
+    filter: printed
+    name: 'Imprimés graphiques clairs'
+    hexa: '#ffffff'
+
+-
+    filter: printed
+    name: 'Imprimés graphiques foncés'
+    hexa: '#ffffff'

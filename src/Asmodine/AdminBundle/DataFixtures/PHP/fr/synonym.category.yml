@@ -1,0 +1,729 @@
+# synonym.category.yml
+
+category:
+    "/nobody":
+        - meuble
+        - enfant
+        - phone cases & accessories
+        - fragrance
+        - dog
+        - gadgets
+        - porte-clés
+        - accessoires festival
+        - cadeaux
+        - maison
+        - cuisine
+        - animal prints
+        - gadget
+        - parfums
+        - eau de toilette
+        - décoration
+        - papeterie
+        - parfumerie
+        - 9891
+        - unisex
+        - coques de portables
+        - inspirations >
+        
+    "/femme":
+        - femme
+        - anne weyburn
+        - mode-femme
+        - { name: 'woman', priority: 105}
+        - { name: 'female', priority: 105}
+        - { name: 'women', priority: 105}
+        - fille
+    "/homme":
+        - homme
+        - { name: 'man', priority: 95}
+        - { name: 'male', priority: 95}
+        - { name: 'men', priority: 95}
+        - garçon
+
+    "/femme/vetements/maillots-de-bain":
+        - { name: 'maillot de bain', priority: 110}
+        - { name: 'maillots de bain', priority: 110}        
+        - { name: 'maillot une pièce', priority: 110}
+        - tankini
+        - { name: 'bikini', priority: 120 }
+        - { name: 'bain', priority: 10}
+        - swimwear
+    "/femme/vetements/lingerie-de-nuit":
+        - déshabillé
+        - { name: 'pyjama', priority: 10}
+        - { name: 'nuit', priority: 85}
+        - { name: 'nuisette', priority: 110}
+        - { name: 'pyjama, pyjashort', priority: 125}
+        - chemise de nuit
+        - robe de chambre
+        - { name: 'babydolls et combishorts', priority: 120 }
+        - combinette
+        - grenouillère
+    "/femme/vetements/manteaux":
+        - { name: 'manteau', priority: 90}
+        - { name: 'aviateurs', priority: 110}
+        - aviateurs
+        - imperméablelinegr
+        - coupe-vent
+        - { name: 'coat', priority: 110}
+        - { name: 'manteaux en fourrure', priority: 110}
+        - { name: 'pardessus', priority: 120}
+        - bomber
+        - { name: 'trench', priority: 105 }
+        - kaway
+        - { name: 'Manteau, blouson > Parka', priority: 115}
+        - parka
+        - caban
+        - imper
+        - anorak
+        - teddy
+        - cape
+        - k-way
+        - { name: 'manteaux et vestes / manteau', priority: 125 }
+        - { name: 'veste trois-quarts', priority: 110 }
+        - { name: 'nouveau : manteaux', priority: 110 }
+        - { name: 'manteaux & vestes > manteau', priority: 125}
+        - { name: 'manteaux et vestes > manteau', priority: 125}
+        - { name: 'doudoune', priority: 120}
+        - { name: 'manteaux & vestes > Tre', priority: 120 }
+        - poncho
+        - { name: 'vestes & manteaux > manteaux', priority: 125}
+    "/femme/vetements/tailleurs":
+        - { name: 'tailleurs et costumes', priority: 105}
+        - costume
+        - tailleur
+        - { name: 'costumes complets', priority: 110}
+    "/femme/vetements/pantalons":
+        - { name: 'pantalon', priority: 90}
+        - { name: 'pantalon-jupe', priority: 115}
+        - baggy
+        - { name: 'pantalon slim', priority: 110 }
+        - { name: 'trousers', priority: 110}
+        - { name: 'pantalon bootcut', priority: 110}
+        - { name: 'jupes-culottes', priority: 120}
+        - pantalons de costumes
+        - chinos
+        - { name: 'pantalon tube', priority: 120}
+        - { name: 'pantalons carotte', priority: 120}
+        - { name: 'pantalons chino', priority: 120}
+        - { name: 'pantalons cigarette', priority: 120}
+        - { name: 'pantalons courts', priority: 120}
+        - { name: 'pantalons droits', priority: 120}
+        - { name: 'pantalons évasés', priority: 120}
+        - { name: 'pantalons larges', priority: 120}
+        - { name: 'pantalons palazzo', priority: 120}
+        - { name: 'pantalons skinny', priority: 120}
+        - { name: 'pantalons style workwear', priority: 110}
+        - { name: 'pantalons imprimés', priority: 120}
+        - { name: 'pantalons > straight & bootcut', priority: 110 }
+        - { name: 'pantalons > slim', priority: 110 }
+        - { name: 'pantalons style workwear', priority: 120 }
+        - { name: 'pantalon en sweat', priority: 120}
+        - { name: 'pantalon > basic', priority: 115}
+        - { name: 'pantalons de costume', priority: 110 }
+        - femme-chic-au-bureau
+        - tregging
+        - jogpant
+        - { name: 'Chic au Bureau > pantalons', priority: 115}
+        - pantacourt
+    "/femme/vetements/jeans":
+        - { name: 'jean', priority: 95 }
+        - { name: 'denim', priority: 95}
+        - slim
+        - skinny
+        - baggy
+        - { name: 'jean bootcut', priority: 110}
+        - jegging
+        - jeggings
+        - { name: 'bootcut & flared jeans', priority: 110 }
+        - { name: 'jeans > straight & bootcut', priority: 110 }
+        - { name: 'pantalon en jean', priority: 110 }
+        - { name: 'pantalon > denim', priority: 110} 
+        - { name: 'pantalons > jeans', priority: 110}
+    "/femme/vetements/combinaisons":
+        - combinaison
+        - { name: 'dungarees', priority: 110}
+        - { name: 'jumpsuits', priority: 115}
+        - salopette
+        - { name: 'jumpsuits & playsuits > combinaison', priority: 120 }
+        - { name: 'jumpsuits & playsuits > combi-jupe-culotte', priority: 120 }
+    "/femme/vetements/robes":
+        - { name: 'robe', priority: 95}
+        - { name: 'dress', priority: 110}
+        - dresses
+        - bodycon dresses
+        - { name: 'robes en maille', priority: 110}
+        - { name: 'robes chemise', priority: 110}
+        - cold shoulder
+        - { name: 'tuniques-caftans', priority: 110}
+        - { name: 'robe en jean', priority: 110}
+        - { name: 'robe t-shirt', priority: 110}
+        - { name: 'robe-chemise', priority: 110}
+        - { name: 'robe chemise', priority: 110}
+        - { name: 'robes >', priority: 110}
+        - { name: 'femmetablier', priority: 110}
+        - { name: 'robe bustier', priority: 110}
+        - { name: 'robe blazer', priority: 115}
+        - { name: 'robe-blazer', priority: 115}
+        - { name: 'cover ups', priority: 135}
+    "/femme/vetements/chemises":
+        - chemisier
+        - { name: 'chemise', priority: 95}
+        - { name: 'chemises en jean', priority: 105}
+        - { name: 'Chemise en jean', priority: 110}
+        - { name: 'chemises et blouses', priority: 110}
+        - { name: 'femaleblouse', priority: 105}
+        - { name: 'femmeblouse', priority: 105}
+        - { name: 'blouse', priority: 102}
+        - { name: 'Tops > Shirts', priority: 120}
+    "/femme/vetements/vestes":
+        - { name: 'veste', priority: 90}
+        - smocking
+        - { name: 'perfecto', priority: 110}
+        - costume
+        - { name: 'kimono', priority: 90 }
+        - { name: 'blazer', priority: 110}
+        - { name: 'vestes en cuir', priority: 110}
+        - { name: 'vestes festival', priority: 110}
+        - { name: 'vestes legeres', priority: 110}
+        - jacket
+        - oversize
+        - { name: 'manteaux et vestes / vestes', priority: 110 }
+        - { name: 'cuir', priority: 95 }
+        - bolero
+        - { name: 'vestes et manteaux > veste', priority: 125 }
+        - { name: 'vestes et manteaux > blouson', priority: 125}
+        - { name: 'manteaux et vestes > vestes', priority: 120}
+        - { name: 'manteaux & vestes > veste', priority: 120}
+        - { name: 'vestes & manteaux > veste', priority: 120}
+        - { name: 'gilets et vestes sans manches', priority: 110}
+        - blouson
+        - veston
+        - { name: 'manteaux d''hiver > veste', priority: 120}
+        - { name: 'vestes et manteaux tall > veste', priority: 120}
+        - { name: 'veste > basic', priority: 115}
+        - { name: 'veste de costume', priority: 110 }
+        - { name: 'Manteaux et vestes > Jackets', priority: 120}
+        
+    "/femme/vetements/tops":
+        - { name: 'top', priority: 90}
+        - { name: 'tunique', priority: 105 }
+        - { name: 'caraco', priority: 110}
+        - camisole
+        - hoodies
+        - { name: 'caracos et debardeurs', priority: 110}
+        - { name: 'body avec armatures', priority: 115}
+        - body
+        - cropped
+        - { name: 'crop top', priority: 115}
+        - { name: 'plain t-shirts', priority: 120}
+        - { name: 'Tops > Blouses', priority: 120}
+        - { name: 'top / kimonos', priority: 120}
+    "/femme/vetements/t-shirts-debardeurs":
+        - { name: 't-shirt', priority: 90 }
+        - { name: 'tops-sans-manche', priority: 115}
+        - t shirt
+        - tshirt
+        - { name: 'débardeur', priority: 110}
+        - { name: 'basic manches courtes', priority: 105}
+        - tee-shirt
+        - polo
+        - marinière
+        - { name: 'T-shirts > tops-manches-longues', priority: 135}
+        - { name: 'maillot', priority: 95}
+    "/femme/vetements/pulls":
+        - { name: 'tricot', priority: 90 }
+        - knitwear
+        - { name: 'cardigans_gilets', priority: 105 }
+        - { name: 'pull', priority: 105}
+        - cardigan
+        - gilet
+        - { name: 'maille', priority: 85 }
+        - { name: 'polaire', priority: 85}
+        - { name: 'Pulls & sweatshirts', priority: 120}
+    "/femme/vetements/sweats":
+        - { name: 'sweat', priority: 90 }
+        - jumpers
+        - { name: 'sweat-shirts', priority: 110}
+        - { name: 'Sweat oversize', priority: 110}
+        - { name: 'sweatshirts', priority: 110}
+        - { name: 'tops > sweat', priority: 110 }
+        - { name: 'sweat > basic', priority: 115}
+    "/femme/vetements/shorts":
+        - { name: 'bermuda', priority: 120 }
+        - capri
+        - { name: 'short', priority: 90}
+        - casual short
+        - denim short
+        - smart short
+        - { name: 'shorts ajustés', priority: 110}
+        - { name: 'shorts d''ete', priority: 110}
+        - { name: 'shorts en cuir', priority: 110}
+        - { name: 'shorts sexy', priority: 110}
+        - { name: 'shorts taille haute', priority: 110}
+        - { name: 'short en jean', priority: 110 }
+        - { name: 'short tailleur', priority: 110 }
+        - { name: 'Tailleurs > Short', priority: 110}
+        - { name: 'Shorts & pantacourts', priority: 115}
+    "/femme/vetements/jupes":
+        - { name: 'jupe', priority: 110}
+        - jupes tailleur
+        - skirts
+    "/femme/vetements/lingerie":
+        - { name: 'lingerie', priority: 115}
+        - { name: 'soutien-gorge', priority: 120}
+        - soutiens-gorge
+        - soutien gorge
+        - brassière
+        - { name: 'culotte', priority: 95}
+        - { name: 'shorty', priority: 115}
+        - corset
+        - { name: 'string', priority: 110}
+        - tanga
+        - slip
+        - { name: 'bas', priority: 90}
+        - { name: 'collant', priority: 95}
+        - { name: 'fond de robe', priority: 95}
+        - bonnet d et +
+        - { name: 'chaussette', priority: 110}
+        - { name: 'minimiseur', priority: 110}
+        - socks
+        - sous-vetements
+        - brassière
+        - avec armatures
+        - triangles
+        - push-up
+        - { name: 'bustier', priority: 95}
+        - corbeilles - balconnets
+        - bodies
+    "/femme/vetements/combishorts":
+        - combi-short
+        - { name: 'combi short', priority: 110}
+        - { name: 'combishort', priority: 110}
+        - { name: 'playsuits', priority: 110}
+        - { name: 'jumpsuits & playsuits > combishort', priority: 120}
+    "/femme/vetements/collants":
+        - collant
+        - { name: 'tights', priority: 110}
+    "/femme/vetements/legging":
+        - { name: 'legging', priority: 110 }
+        - { name: 'trousers > legging', priority: 115}
+        - { name: 'pantalons > leggings', priority: 120 }
+    "/femme/vetements/jogging":
+        - { name: 'jogging', priority: 105 }
+        - survetement
+        - { name: 'joggers', priority: 110 }
+        - { name: 'pantalons de jogging', priority: 120 }
+        - { name: 'pantalons sport', priority: 110 }
+        - { name: 'pantalon en sweat', priority: 115}
+    "/femme/chaussures/basket":
+        - { name: 'sneaker', priority: 125}
+        - { name: 'basket', priority: 115}
+        - tennis
+        - chaussure de sport
+        - fashion-sport
+        - chaussons
+        - { name: 'chaussures de sport', priority: 110}
+    "/femme/chaussures/bottes":
+        - bottine
+        - { name: 'botte', priority: 110}
+        - { name: 'boots', priority: 110}
+        - cuissarde
+        - { name: 'ChaussuresBoots', priority: 110}
+    "/femme/chaussures/compensees":
+        - compensée
+        - { name: 'talon compensé', priority: 110 }
+        - { name: 'plateformes', priority: 110}
+    "/femme/chaussures/ballerines":
+        - ballerine
+        - { name: 'chaussures plates', priority: 110}
+    "/femme/chaussures/talons":
+        - { name: 'talons', priority: 85 }
+        - { name: 'escarpin', priority: 110}
+        - { name: 'talons-hauts', priority: 105 }
+        - { name: 'chaussure à talon', priority: 110 }
+        - { name: 'chaussures à talon', priority: 110 }
+        - { name: 'ChaussuresEscarpins', priority: 110}
+    "/femme/chaussures/mocassins-et-bateaux":
+        - mocassin
+        - espadrille
+        - { name: 'chaussures confort', priority: 110}
+        - { name: 'ChaussuresMocassins', priority: 110}
+    "/femme/chaussures/derbies":
+        - { name: 'derbie', priority: 110}
+        - derbies
+    "/femme/chaussures/sandales":
+        - { name: 'sandale', priority: 115 }
+        - tongue
+        - tong
+        - mules
+        - { name: 'sandales à talons', priority: 110 }
+        - { name: 'chaussure plate ouverte', priority: 110 }
+        - { name: 'ChaussuresSandales', priority: 110}
+    "/femme/sacs/bagages":
+        - valise
+        - bagage
+        - valisette
+    "/femme/sacs/sacs-a-dos":
+        - sac à dos
+    "/femme/sacs/pochettes":
+        - { name: 'pochette', priority: 110}
+    "/femme/sacs/sacs-a-main":
+        - sac à main
+        - { name: 'sac', priority: 10}
+        - { name: 'cross body bags', priority: 110}
+        - { name: 'cabas', priority: 110 }
+    "/femme/sacs/totebags":
+        - { name: 'tote bags', priority: 110}
+    "/femme/accessoires/lunettes-de-soleil":
+        - lunette
+        - { name: 'sunglasses', priority: 110}
+    "/femme/accessoires/ceintures":
+        - { name: 'ceinture', priority: 80}
+        - belt
+    "/femme/accessoires/gants":
+        - gant
+        - mitaine
+        - moufle
+        - gloves
+    "/femme/accessoires/accessoires-de-cheveux":
+        - élastique
+        - barette
+        - pique
+        - épingle
+        - peigne
+        - pince
+        - cheveux
+        - hair accessories
+        - { name: 'bandeau', priority: 80}
+        - serre-têtes
+    "/femme/accessoires/echarpes-etoles":
+        - écharpe
+        - écharpes et capes
+        - châle
+        - chale
+        - foulard
+        - chèche
+        - scarves
+    "/femme/accessoires/portemonnaie-portefeuille":
+        - { name: 'porte-monnaie', priority: 10}
+        - portefeuille
+        - porte feuille
+        - portemonnaie
+        - bourse
+        - porte-monnaie
+        - porte monnaie
+        - porte billet
+        - porte-carte
+        - porte carte
+        - purses
+    "/femme/accessoires/montres":
+        - { name: 'montre', priority: 90}
+        - watch
+    "/femme/accessoires/chapeaux":
+        - chapeau
+        - bonnet
+        - casquette
+        - bob
+        - hats
+    "/femme/accessoires/parapluies":
+        - parapluie
+    "/femme/bijoux/bracelets":
+        - { name: 'bracelet', priority: 105 }
+    "/femme/bijoux/broches":
+        - broche
+    "/femme/bijoux/boucles-d-oreilles":
+        - boucle oreille
+        - créole
+        - oreilles
+        - { name: 'Earrings', priority: 110 }
+        - boucles d'oreilles
+        - boucles d oreille
+    "/femme/bijoux/colliers":
+        - { name: 'collier', priority: 95 }
+        - chaîne
+        - pendentif
+        - Necklace
+        - sautoir
+        - plastron
+        - chokers
+        - collar bibs
+    "/femme/bijoux/bagues":
+        - { name: 'bague', priority: 105 }
+        - chevalière
+        - alliance
+        - ring
+    "/homme/vetements/maillots-de-bain":
+        - { name: 'maillot de bain', priority: 110}
+        - { name: 'maillots de bain', priority: 110}
+        - { name: 'short de bain', priority: 110}
+    "/homme/vetements/manteaux":
+        - { name: 'manteau', priority: 90}
+        - { name: 'manteaux en laine', priority: 110}
+        - { name: 'manteaux courts', priority: 110}
+        - cape
+        - duffle coat
+        - duffle-coats
+        - { name: 'trench', priority: 105 }
+        - parka
+        - caban
+        - imper
+        - imperméable
+        - pardessus
+        - kaway
+        - coupe-vent
+        - coupe vent
+        - { name: 'doudoune', priority: 120}
+        - { name: 'coats', priority: 105}
+        - pardessus
+        - parkas
+        - { name: 'trench', priority: 120}
+        - { name: 'vest trois-quarts', priority: 110 }
+        - polaire
+        - { name: 'manteaux & vestes > manteaux', priority: 110}
+        - anoraks
+        - { name: 'manteau >  veste trois-quarts', priority: 110 }
+        - vareuse
+    "/homme/vetements/vestes":
+        - { name: 'veste', priority: 95}
+        - { name: 'gilet de costume', priority: 125}
+        - { name: 'blazer', priority: 110}
+        - { name: 'vestes en jean', priority: 110}
+        - { name: 'vestes de survetement', priority: 110}
+        - { name: 'vestes en cuir', priority: 110}
+        - { name: 'vestes en matelassées', priority: 110}
+        - { name: 'vestes matelassées', priority: 110}
+        - { name: 'vestes militaires', priority: 110}
+        - { name: 'vestes d''entraineur', priority: 110}
+        - { name: 'kimono', priority: 90}
+        - perfecto
+        - bomber
+        - { name: 'cuir', priority: 95 }
+        - { name: 'jacket', priority: 110}
+        - { name: 'manteaux & vestes > vestes', priority: 110}
+        - { name: 'manteaux & vestes > blazers', priority: 110 }
+        - { name: 'blouson', priority: 110}
+        - teddy
+    "/homme/vetements/jeans":
+        - { name: 'jean', priority: 90} # Short en jean => short
+        - { name: 'denim', priority: 90 }
+        - { name: 'denim basic', priority: 105}
+        - { name: 'pantalons en jean', priority: 110 }
+        - { name: 'pantalon denim', priority: 120}
+    "/homme/vetements/pulls":
+        - { name: 'tricot', priority: 90 }
+        - { name: 'maille', priority: 95 }
+        - gilet
+        - { name: 'pull', priority: 105 }
+        - cardigan
+        - { name: 'cardigans_gilets', priority: 105 }
+        - { name: 'SWEATS > Pull', priority: 120}
+    "/homme/vetements/pyjamas":
+        - { name: 'pyjama', priority: 90}
+        - grenouillière
+        - loungewear
+        - { name: 'peignoirs', priority: 115 }
+        - { name: 'pantalons-de-pyjama', priority: 105}
+        - { name: 'chemise-de-nuit', priority: 105 }
+        - { name: 'chemises-de-nuit', priority: 105 } 
+        - grenouillère        
+    "/homme/vetements/pantalons":
+        - { name: 'pantalon', priority: 95}
+        - { name: 'Pantalon de costume', priority: 120}
+        - legging
+        - chino
+        - trousers
+        - {name: 'pantalons chino', priority: 110}
+        - {name: 'pantalons et chinos', priority: 110}
+        - chic au bureau
+        - coupe-normale
+        - coupe-ajustés
+        - { name: 'pantalon en jean', priority: 110}
+        - { name: 'pantalon > de costume', priority: 115}
+        - { name: 'pantalons de costume', priority: 110}
+        - { name: 'pantacourt', priority: 85}
+    "/homme/vetements/chemises":
+        - { name: 'chemise', priority: 90}
+        - chemisier
+        - { name: 'sleeve shirts', priority: 110}
+        - { name: 'chemises en jean', priority: 110}
+        - { name: 'Chemise en jean', priority: 110}
+        - { name: 'denim,tops', priority: 110}
+    "/homme/vetements/shorts":
+        - { name: 'short', priority: 90}
+        - { name: 'bermuda', priority: 120 }
+        - { name: 'shorts chino', priority: 110}
+        - { name: 'shorts en jean', priority: 110}
+        - { name: 'denim,short', priority: 110}
+        - 1773
+    "/homme/vetements/costumes":
+        - costume
+        - smoking
+        - suits
+        - { name: 'smokings', priority: 110}
+        - tailleurs
+        - { name: 'suit jackets', priority: 120}
+        - { name: 'waistcoats', priority: 110}
+        - { name: 'suit trousers', priority: 110}
+        - { name: 'costumes / gilets', priority: 110 }
+        - { name: 'gilets de costume', priority: 115}
+    "/homme/vetements/sweats":
+        - { name: 'sweat', priority: 110}
+        - { name: 'sweat-shirt', priority: 120}
+        - { name: 'SWEATS > Sweat', priority: 120}
+    "/homme/vetements/t-shirts":
+        - t-shirt
+        - tshirt
+        - t shirt
+        - polo
+        - polos
+        - { name: 't-shirts', priority: 110}
+        - shirt
+        - manches longues
+        - 1374
+        - { name: 'maillots de rugby', priority: 120}
+        - { name: 'Vêtements > Hauts pour Homme', priority: 120}
+        - marinière
+        - maillot
+    "/homme/vetements/sous-vetements":
+        - { name: 'sous-vetements', priority: 110 }
+        - { name: 'sous vetement', priority: 110}
+        - boxer
+        - caleçon
+        - slip
+        - string
+        - culotte
+        - slips-boxers
+        - boxers
+        - boxer
+        - body
+        - hipsters
+        - socks
+        - trunks
+        - calesons
+        - chaussette
+    "/homme/vetements/marcel":
+        - marcel
+        - débardeur
+        - { name: 'bretelles', priority: 115}
+    "/homme/vetements/jogging":
+        - { name: 'jogging', priority: 105}
+        - survetement
+        - { name: 'joggers', priority: 110}
+        - vetement de sport
+        - { name: 'pantalons de jogging', priority: 120}
+        - { name: 'pantalons en sweat', priority: 120}
+    "/homme/chaussures/bottes":
+        - { name: 'bottes', priority: 95}
+        - low boots
+        - bottine
+        - { name: 'bottines et chaussures en cuir', priority: 110}
+        - { name: 'chaussures, bottes, baskets / bottes', priority: 110 }
+        - boots
+    "/homme/chaussures/chaussures-de-ville":
+        - chaussures de ville
+        - { name: 'chaussures', priority: 90}
+        - loafer
+        - derbies
+        - ballerines
+        - richelieu
+        - daim
+        - style casual
+        - { name: 'chassures habillées', priority: 110}
+    "/homme/chaussures/sandales":
+        - sandales
+        - tongues
+        - tongs
+    "/homme/chaussures/baskets":
+        - { name: 'baskets', priority: 95}
+        - tennis
+        - { name: 'chaussures, bottes, baskets / baskets', priority: 110 }
+        - { name: 'sneaker', priority: 125}
+        - jack purcell
+    "/homme/chaussures/mocassins-et-bateaux":
+        - mocassins
+        - espadrille
+        - bateau
+    "/homme/sacs/sacs-a-dos":
+        - sac à dos
+        - sacs à dos
+        - cartable
+        - backpack
+        - { name: 'sac', priority: 90 }
+    "/homme/sacs/pochettes":
+        - pochette
+        - sacs banane
+    "/homme/sacs/totebags":
+        - tote bag
+        - sacs en toile
+        - cabas
+        - { name: 'tote bags', priority: 105}
+    "/homme/sacs/bagages":
+        - bagage
+        - valise
+        - valisette
+        - holdalls
+    "/homme/sacs/sacoches":
+        - sacoche
+        - besaces
+        - satchel
+        - fourre-tout
+        - sac à bandoulière
+        - sac mallette
+        - serviettes
+    "/homme/accessoires/ceintures":
+        - ceinture
+        - belts
+    "/homme/accessoires/gants":
+        - gant
+        - mitaines
+        - moufles
+        - gloves
+    "/homme/accessoires/chapeaux":
+        - chapeau
+        - bonnet
+        - casquette
+        - bob
+        - hats
+    "/homme/accessoires/echarpes":
+        - écharpe
+        - scarves
+        - foulards
+        - chèche
+    "/homme/accessoires/lunettes-de-soleil":
+        - lunettes
+        - sunglasses
+        - { name: 'solaire', priority: 95}
+    "/homme/accessoires/portemonnaie-portefeuille":
+        - portefeuille
+        - portemonnaie
+        - bourse
+        - porte-monnaie
+        - porte monnaie
+        - porte billets
+        - porte-cartes
+        - wallets
+        - porte feuille
+    "/homme/accessoires/montres":
+        - { name: 'montre', priority: 10}
+        - { name: 'montres bracelet', priority: 110}
+        - watch
+    "/homme/accessoires/cravates":
+        - cravate
+        - ties
+        - Nœuds Papillon
+        - noeud pap
+    "/homme/bijoux/bracelets":
+        - bracelet
+    "/homme/bijoux/colliers":
+        - collier
+        - chaîne
+        - pendentif
+        - necklace
+        - neck chains
+        - chains
+    "/homme/bijoux/bagues":
+        - bague
+        - chevalière
+        - alliance
+        - ring

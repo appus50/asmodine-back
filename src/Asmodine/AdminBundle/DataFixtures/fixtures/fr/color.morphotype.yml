@@ -1,0 +1,361 @@
+# color.morphotype.yml
+# Regex :
+#    (.*)\t([1-3])\t([1-3])\t([1-3])\t([1-3])\t([1-3])
+#    "$1":\n    asmoclear: $2\n    asmonude: $3\n    asmogold: $4\n    asmosilver: $5\n    asmodark: $6\n
+
+"Blanc":
+    asmoclear: 1
+    asmonude: 2
+    asmogold: 2
+    asmosilver: 3
+    asmodark: 3
+ 
+"Ecru":
+    asmoclear: 2
+    asmonude: 3
+    asmogold: 2
+    asmosilver: 3
+    asmodark: 3
+ 
+"Beige":
+    asmoclear: 3
+    asmonude: 1
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 3
+ 
+"Camel":
+    asmoclear: 3
+    asmonude: 2
+    asmogold: 3
+    asmosilver: 1
+    asmodark: 2
+ 
+"Brun":
+    asmoclear: 3
+    asmonude: 2
+    asmogold: 3
+    asmosilver: 1
+    asmodark: 1
+ 
+"Marron":
+    asmoclear: 2
+    asmonude: 1
+    asmogold: 3
+    asmosilver: 1
+    asmodark: 2
+ 
+"Chocolat":
+    asmoclear: 2
+    asmonude: 1
+    asmogold: 3
+    asmosilver: 2
+    asmodark: 1
+ 
+"Vert pastel":
+    asmoclear: 1
+    asmonude: 3
+    asmogold: 1
+    asmosilver: 3
+    asmodark: 3
+ 
+"Vert mousse":
+    asmoclear: 2
+    asmonude: 2
+    asmogold: 2
+    asmosilver: 3
+    asmodark: 3
+ 
+"Vert foret":
+    asmoclear: 2
+    asmonude: 3
+    asmogold: 2
+    asmosilver: 2
+    asmodark: 2
+ 
+"Vert emeraude":
+    asmoclear: 2
+    asmonude: 2
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 3
+ 
+"Vert sapin":
+    asmoclear: 2
+    asmonude: 1
+    asmogold: 2
+    asmosilver: 3
+    asmodark: 3
+ 
+"Kaki":
+    asmoclear: 2
+    asmonude: 1
+    asmogold: 3
+    asmosilver: 2
+    asmodark: 3
+ 
+"Jaune paille":
+    asmoclear: 2
+    asmonude: 1
+    asmogold: 3
+    asmosilver: 1
+    asmodark: 2
+ 
+"Jaune poussin":
+    asmoclear: 1
+    asmonude: 2
+    asmogold: 1
+    asmosilver: 1
+    asmodark: 2
+ 
+"Jaune ocre":
+    asmoclear: 2
+    asmonude: 1
+    asmogold: 3
+    asmosilver: 2
+    asmodark: 3
+ 
+"Jaune moutarde":
+    asmoclear: 2
+    asmonude: 1
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 3
+ 
+"Abricot":
+    asmoclear: 3
+    asmonude: 2
+    asmogold: 3
+    asmosilver: 2
+    asmodark: 2
+ 
+"Orange":
+    asmoclear: 3
+    asmonude: 2
+    asmogold: 3
+    asmosilver: 2
+    asmodark: 2
+ 
+"Rose pastel":
+    asmoclear: 3
+    asmonude: 3
+    asmogold: 2
+    asmosilver: 2
+    asmodark: 3
+ 
+"Vieux rose":
+    asmoclear: 3
+    asmonude: 3
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 3
+ 
+"Rose layette":
+    asmoclear: 1
+    asmonude: 3
+    asmogold: 1
+    asmosilver: 3
+    asmodark: 3
+ 
+"Rose":
+    asmoclear: 1
+    asmonude: 3
+    asmogold: 2
+    asmosilver: 3
+    asmodark: 3
+ 
+"Rose fushia":
+    asmoclear: 1
+    asmonude: 3
+    asmogold: 2
+    asmosilver: 3
+    asmodark: 3
+ 
+"Rouge tomette":
+    asmoclear: 3
+    asmonude: 2
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 3
+ 
+"Rouge magenta":
+    asmoclear: 2
+    asmonude: 1
+    asmogold: 1
+    asmosilver: 3
+    asmodark: 3
+ 
+"Aubergine":
+    asmoclear: 3
+    asmonude: 2
+    asmogold: 3
+    asmosilver: 2
+    asmodark: 3
+ 
+"Bordeaux":
+    asmoclear: 2
+    asmonude: 1
+    asmogold: 3
+    asmosilver: 2
+    asmodark: 3
+ 
+"Lie de vin":
+    asmoclear: 2
+    asmonude: 1
+    asmogold: 2
+    asmosilver: 1
+    asmodark: 2
+ 
+"Bleu glacier":
+    asmoclear: 1
+    asmonude: 3
+    asmogold: 1
+    asmosilver: 3
+    asmodark: 3
+ 
+"Bleu clair":
+    asmoclear: 1
+    asmonude: 3
+    asmogold: 1
+    asmosilver: 3
+    asmodark: 3
+ 
+"Bleu azur":
+    asmoclear: 1
+    asmonude: 3
+    asmogold: 1
+    asmosilver: 3
+    asmodark: 3
+ 
+"Bleu cyan":
+    asmoclear: 1
+    asmonude: 2
+    asmogold: 1
+    asmosilver: 3
+    asmodark: 3
+ 
+"Bleu turquoise":
+    asmoclear: 3
+    asmonude: 3
+    asmogold: 2
+    asmosilver: 3
+    asmodark: 3
+ 
+"Bleu canard":
+    asmoclear: 3
+    asmonude: 2
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 3
+ 
+"Bleu marine":
+    asmoclear: 1
+    asmonude: 2
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 3
+ 
+"Bleu denim":
+    asmoclear: 2
+    asmonude: 3
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 3
+ 
+"Bleu indigo":
+    asmoclear: 2
+    asmonude: 1
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 3
+ 
+"Gris":
+    asmoclear: 1
+    asmonude: 3
+    asmogold: 2
+    asmosilver: 3
+    asmodark: 3
+ 
+"Noir":
+    asmoclear: 1
+    asmonude: 3
+    asmogold: 2
+    asmosilver: 3
+    asmodark: 3
+ 
+"Fluos":
+    asmoclear: 1
+    asmonude: 3
+    asmogold: 2
+    asmosilver: 3
+    asmodark: 3
+ 
+"Doré":
+    asmoclear: 3
+    asmonude: 2
+    asmogold: 3
+    asmosilver: 2
+    asmodark: 3
+ 
+"Argenté":
+    asmoclear: 1
+    asmonude: 3
+    asmogold: 1
+    asmosilver: 3
+    asmodark: 3
+
+"Multicolore clair":
+    asmoclear: 1
+    asmonude: 2
+    asmogold: 2
+    asmosilver: 1
+    asmodark: 3
+
+"Multicolore foncé":
+    asmoclear: 2
+    asmonude: 3
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 2
+
+"Imprimés floraux & bestiares clairs":
+    asmoclear: 2
+    asmonude: 2
+    asmogold: 2
+    asmosilver: 2
+    asmodark: 3
+
+"Imprimés floraux & bestaires foncés":
+    asmoclear: 2
+    asmonude: 3
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 3
+
+"Imprimés tâches claires ( leopards, camouflage, zebre…)":
+    asmoclear: 1
+    asmonude: 2
+    asmogold: 2
+    asmosilver: 1
+    asmodark: 2
+
+"Imprimés tâches foncés ( leopards, camouflage, zebre..)":
+    asmoclear: 2
+    asmonude: 3
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 2
+
+"Imprimés graphiques clairs":
+    asmoclear: 2
+    asmonude: 2
+    asmogold: 2
+    asmosilver: 2
+    asmodark: 3
+
+"Imprimés graphiques foncés":
+    asmoclear: 2
+    asmonude: 3
+    asmogold: 3
+    asmosilver: 3
+    asmodark: 2

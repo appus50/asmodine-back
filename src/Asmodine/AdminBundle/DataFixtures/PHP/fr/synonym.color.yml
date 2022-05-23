@@ -1,0 +1,1020 @@
+# synonym.color.yml
+
+color:
+    "Abricot":
+        - abricot
+        - apricot
+    "Argenté":
+        - { name: 'argenté', priority: 105}
+        - { name: 'argent', priority: 50}
+        - silver
+        - gunmetal
+        - { name: 'metallic', priority: 105}
+        - métal
+        - étain
+        - { name: 'métallisé', priority: 105}
+        - { name: 'one colour', priority: 105}
+    "Aubergine":
+        - aubergine
+        - cassis
+        - figue
+        - prune
+        - violet
+        - purple
+        - amaranth
+        - cordovan
+        - lavender
+        - purpura
+        - teja
+        - violeta
+        - deep berry
+        - G4-AH16-AFL-LGLA1
+        - viola
+        - nightshade
+        - wineberry
+        - fudge
+        - eggplant
+        - moonscape
+        - parme
+        - { name: 'grape', priority: 85}
+    "Beige":
+        - { name: 'beige', priority: 50}
+        - { name: 'beige/kaki', priority: 105}
+        - { name: 'beig', priority: 10}
+        - cream
+        - crème
+        - marfil
+        - tostado
+        - beige rosé
+        - { name : 'beige nude', priority:105}
+        - grège
+        - soft truffle
+        - { name: 'soft skin', priority: 110}
+        - mocca
+        - { name: 'ble', priority: 15}
+        - champignon
+        - cumin
+        - dijon
+        - sepia tint
+        - ash
+        - cafe late
+        - { name: 'nut', priority: 75}
+        - coriander
+        - cornstalk
+        - incense
+        - kelp
+        - safari
+        - sepiatint
+        - sponge
+        - mushroom
+        - crema
+        - { name: 'butter', priority: 85}
+        - taupe
+        - sable
+        - chanvre
+    "Blanc":
+        - { name: 'blanc', priority: 50}
+        - { name: 'white', priority: 50}
+        - { name: 'blanc/indigo', priority: 110}
+        - { name: 'kaolin', priority: 120}
+        - ivoire
+        - algodon
+        - { name: 'rayé blanc', priority: 105}
+        - nata
+        - ala
+        - perle
+        - pearl
+        - glace
+        - { name: 'os', priority: 40}
+        - vanille
+        - birch
+        - G1-SS17-RAYR
+        - micro-motif-w
+        - G4-FL-PRINT10A
+        - G4-SS17-A
+        - G4-SS17-DOTS-C
+        - G4-SS17-STARS1
+        - light washed
+        - { name: nature, priority: 80}
+        - vanilla
+        - { name: 'plume-cuivre', priority: 105}
+        - plumetis-gold-n
+        - plumetis-gold-w
+        - spw
+        - pale banana
+    "Bleu azur":
+        - { name: 'bleu', priority: 50}
+        - { name: 'blue', priority: 50}
+        - { name: 'azul', priority: 50}
+        - balneario
+        - nautical
+        - { name: 'bleu raye', priority: 105}
+        - { name: 'rayé bleu', priority: 110}
+        - cobalt
+        - azur
+        - azurro
+        - petrol
+    "Bleu canard":
+        - bleu canard
+        - { name: 'bleu pétrole', priority: 105}
+        - { name: 'pétrole', priority: 95}
+        - perse
+    "Bleu clair":
+        - { name: 'bleu clair', priority: 105}
+        - { name: 'bleu pastel', priority: 105}
+        - { name: 'indigo clair', priority: 105}
+        - { name: 'bleu ciel', priority: 110}
+        - { name: 'bleu porcelaine', priority: 110}
+        - { name: 'rayé bleu ciel', priority: 105}
+        - celeste
+        - cornflower
+        - aquarius
+        - teal
+        - { name: 'ciel', priority: 85}
+        - léger
+        - paon
+        - { name: 'sky', priority: 90}
+        - délavage à l'acide
+        - arctic
+        - trait-pastel-b
+        - eventide
+        - high-rise
+        - hydrangea
+        - wasabi
+        - pois-shirting
+        - reef waters
+        - G4-DS-PRINT1
+        - G4-FL-PRINT7B
+        - cedar
+        - celadon
+        - dark chambray
+        - dark grey blue
+        - fjord
+        - ocean
+        - brilliant
+        - seafoam
+        - fregate
+        - { name: 'clouddancer', priority: 110}
+        - sea glass
+        - zpp
+        - freebal light
+        - ebl
+        - sbl
+        - chl
+        - ligh sea
+        - shark
+        - { name: 'bleach wash', priority: 120}
+        - amande
+        - cascade
+        - faded
+        - cristal
+    "Bleu cyan":
+        - bleu cyan
+        - regatta
+        - { name: 'électrique', priority: 85}
+        - GRAPHIQUE-TOKYO-N
+        - peacock
+        - skydriver
+        - cyan
+        - tel
+        - { name: 'blu', priority: 95}
+        - faience
+        - { name: 'bleu profond', priority: 110}
+    "Bleu denim":
+        - { name: 'bleu denim', priority: 105}
+        - { name: 'bleu jean', priority: 105}
+        - { name: 'stone', priority: 90}
+        - { name: 'brut', priority: 90}
+        - denim
+        - jean
+        - tinta
+        - twilight
+        - délavé
+        - { name: 'medium washed', priority: 110}
+        - { name: 'dark washed', priority: 110}
+        - { name: 'dark indogo denim', priority: 105}
+        - { name: 'délavage marbré', priority: 105}
+        - rinse
+        - parisiannight
+        - vintage wash
+        - color_10002575-401
+        - { name: 'délavage bleu foncé', priority: 110}
+        - dep
+        - bpl
+        - { name: 'heavy worn faded', priority: 110}
+        - wrc
+        - svi
+        - { name: 'S Gene Selvedge', priority: 105}
+        - { name: 'chambray', priority: 95}
+        - ddi
+        - moody
+        - { name: 'lavage', priority: 115}
+        - { name: 'eclipse', priority: 90}
+    "Bleu glacier":
+        - bleu glacier
+        - glaciar
+        - bleu bleach
+        - { name: 'bleu grise', priority: 105}
+        - glacier
+        - stc
+    "Bleu indigo":
+        - { name: indigo, priority : 95}
+        - bleu électrique
+        - { name: 'bleu electrique', priority: 115}
+        - bleu royale
+        - diva
+        - legion
+        - reflecting
+        - royal
+        - encre
+        - roi
+        - allure
+        - limoges
+        - outremer
+        - mazarine
+        - france
+    "Bleu marine":
+        - { name: 'marine', priority: 50}
+        - { name: 'blau multi', priority: 110 }
+        - { name: 'marine deep', priority: 110}
+        - { name: 'marino', priority: 50}
+        - { name: 'navy', priority: 115}
+        - { name: 'marin', priority: 50}
+        - { name: 'bleu foncé', priority: 105}
+        - { name: 'bleu fonce', priority: 105}
+        - { name: 'bleu nuit', priority: 105}
+        - peacoat
+        - { name: 'marine pois', priority: 105}
+        - { name: 'rayé bleu marine', priority: 105}
+        - estado
+        - estate
+        - midnight
+        - startlight
+        - carreaux-lurex-b
+        - pois-bleu-marine
+        - G4-SS17-RAY2
+        - asfalto
+        - mouline
+        - { name: 'skycaptain', priority: 105}
+        - totaleclipse
+        - plumetis-gold-na
+        - matelot
+        - SHB
+        - sweat ray
+        - sevres 
+    "Bleu turquoise":
+        - bleu turquoise
+        - { name: 'pacific green', priority: 110}
+        - turquoise
+        - turquesa
+        - riffle
+        - { name: 'aqua', priority: 95}
+        - { name: 'canard', priority: 85}
+        - lagun
+        - lagune
+        - smaragd
+        - glb
+    "Bordeaux":
+        - bordeaux
+        - bordeau
+        - { name: 'rouge grenat', priority: 105}
+        - burdeos
+        - ciruela
+        - bourgogne
+        - merlot
+        - fruits des bois
+        - pourpre
+        - sang de
+        - vin
+        - baie
+        - burgundy
+        - raisin
+        - { name: 'plum', priority: 80}
+        - { name: 'wine', priority: 90}
+        - damson
+        - cabernet
+        - carreaux-lurex-r
+        - rhubarb
+        - cowhide
+        - G2-SS17-CAR2
+        - { name: 'berry', priority: 80}
+        - sassafras
+        - { name: 'MUL', priority: 95}
+        - dkp
+    "Brun":
+        - brun
+        - brown
+        - chestnut
+        - moka
+        - leather
+        - toffee
+        - minuit
+        - bison
+        - brindle
+        - coffeebean
+        - java
+        - teak
+    "Camel":
+        - camel
+        - amber
+        - tabaco
+        - tabacco
+        - tabac
+        - cuir
+        - coñac
+        - henné
+        - miel
+        - cannelle
+        - curcuma
+        - coffeeliquer
+        - ermine
+        - honey
+        - { name: 'tan', priority: 85}
+        - tobacco
+        - Mocha
+        - cheetah
+        - gravel
+        - { name: 'cop', priority: 95}
+        - whe
+        - meerkat
+        - cigar
+    "Chocolat":
+        - { name: 'chocolat', priority: 50}
+        - { name: 'coffee', priority: 85}
+        - copper
+        - dark nature
+        - rumraisin
+        - crl
+        - maple
+        - dark cocoa
+        - {name: 'nomad', priority: 110}
+    "Doré":
+        - { name: 'doré', priority: 50}
+        - { name: 'or', priority: 1 }
+        - { name: 'color:Or', priority: 105}
+        - mermaid
+        - gold
+        - dorado
+        - { name: 'mordoré', priority: 110}
+    "Ecru":
+        - ecru
+        - ficelle
+        - mina
+        - crudo
+        - grès
+        - ice
+        - ivory
+        - champagne
+        - avoine
+        - beurre frais
+        - mastic
+        - parchment
+        - corde chine
+        - eggshell
+        - coquille d'oeuf
+        - string
+        - kit
+        - sns
+        - lkh
+        - oatmeal
+        - { name: 'oat', priority: 95}
+        - { name: 'gri', priority: 45}
+        - { name: 'lin', priority: 85}
+    "Fluos":
+        - fluos
+        - { name: 'fluo', priority: 110 }
+        - corail fluo
+        - ELG
+    "Gris":
+        - { name: 'gris', priority: 50}
+        - { name: 'grey', priority: 50}
+        - { name: 'denim gris', priority: 105}
+        - { name: 'gris stone', priority: 105}
+        - { name: 'anthracite', priority: 105}
+        - { name: 'gris chiné', priority: 105}
+        - { name: 'gris chine clair', priority: 115} 
+        - { name: 'gris clair', priority: 115}
+        - { name: 'vigoré clair', priority: 115}
+        - { name: 'blanc/gris clair', priority: 115}
+        - { name: 'indigo/off white', priority: 115}
+        - métallisé
+        - acero
+        - antracita
+        - dusty
+        - kiwi
+        - foliage
+        - lunar
+        - smocked
+        - neutral
+        - { name: 'light heather', priority: 105}
+        - lotus
+        - hematite
+        - pewter
+        - { name: 'perle vigoré', priority: 105}
+        - { name: 'vigoré', priority: 95}
+        - cendre
+        - pierre
+        - marengo
+        - ardoise
+        - chine moyen
+        - colombe
+        - charcoal
+        - smoke
+        - beech
+        - obsidian
+        - oxford tan
+        - gray morn
+        - moonstruck
+        - khol
+        - { name: 'moon rock', priority: 105}
+        - { name: 'night sky', priority: 105}
+        - phantom
+        - satellite
+        - pied-puce
+        - trait-bico-n
+        - porpoise
+        - prince-galles
+        - elephant
+        - heather pastel
+        - light granit melange
+        - tuareg
+        - aluminium
+        - aluminum
+        - anthartica
+        - castlerock
+        - darkgullgray
+        - griffin
+        - microchip
+        - monument
+        - oystermushroom
+        - sleet
+        - clo
+        - flb
+        - rds
+        - mst
+        - { name: 'cab', priority: 95}
+        - bkh
+        - ceniza
+        - pigeon
+        - swamp
+        - almond
+        - { name: 'cocoa', priority: 85}
+    "Jaune moutarde":
+        - jaune moutarde
+        - { name: 'moutarde', priority: 95}
+        - soleil
+        - freesia
+        - ambre
+        - mustard
+        - safran
+    "Jaune ocre":
+        - jaune ocre
+        - { name: 'ocre', priority: 50}
+        - curry
+        - jaune curry
+        - jaune mais
+        - amorito
+        - bouton
+        - ochre
+    "Jaune paille":
+        - jaune paille
+        - jaune doux
+        - sand
+        - sun
+        - { name: 'marigold', priority: 110}
+        - amarillo
+    "Jaune poussin":
+        - { name: 'jaune', priority: 50}
+        - { name: 'yellow', priority: 50}
+        - { name: 'jaune rayé', priority: 105}
+        - chartreuse
+        - citron
+        - lemon
+        - buttercup
+        - fleurs-mix-j
+        - maize
+        - sulphur
+        - micro-motif-y
+        - dandelion
+    "Kaki":
+        - kaki
+        - caqui
+        - khaki
+        - vert militaire
+        - militar
+        - incienso
+        - feuille
+        - { name: 'mousse', priority: 80}
+        - { name: 'DeepLichenGreen	', priority: 115}
+        - incenso
+        - forest
+        - capers
+        - deepdepths
+        - forestnight
+        - grapeleaf
+        - seaturtle
+        - crocodile
+
+    "Lie de vin":
+        - lie de vin
+        - grenat
+        - { name: 'plumberry', priority: 105}
+        - {name: 'mauve sombre', priority: 110}
+        - purpur
+        - { name: 'winetasting', priority: 105}
+    "Marron":
+        - marron
+        - acajou
+        - caramel
+        - chataigne
+        - cognac
+        - { name: 'cuivre', priority: 90}
+        - ecureuil
+        - { name: 'rouille', priority: 85}
+        - bronze
+        - { name: 'bronze ', priority: 105}
+        - { name: 'safran foncé', priority: 110}
+        - fauve
+        - burnt
+        - roble
+        - tortoise
+        - bark
+        - terracota
+        - maroon
+        - chaudron
+        - argile
+        - cooper
+        - craie
+        - terracotta
+        - ethno3
+        - glazed ginger
+        - nutria
+        - pebble
+        - thyme
+        - mochabisque
+        - walnut
+        - ginger
+        - { name: 'she', priority: 95}
+        - dcl
+        - poivre
+        - { name: 'burgund', priority: 95}
+        - dune
+        - auburn
+        - puddle
+    "Noir":
+        - { name: 'noir', priority: 50}
+        - { name: 'black', priority: 50}
+        - { name: 'negro', priority: 50}
+        - { name: 'black/rust', priority: 110}
+        - { name: 'jean noir', priority: 110}
+        - { name: 'fond noir', priority: 110}
+        - chocofresa
+        - jet
+        - papikra
+        - raven
+        - { name: 'jacquard pois', priority: 105}
+        - after
+        - titan
+        - charbon
+        - plomb
+        - lichen fonce
+        - naturel
+        - bouquet-astral-n
+        - fl-dots2
+        - G1-SS17-SMALL2
+        - total eclipse
+        - micro-motif-n
+        - G4-AH16-KIMSTAR
+        - G4-CLCHECK1
+        - G4-SS17-BIRDS
+        - G4-SS17-TATTOO
+        - jacquard-lurex-n
+        - maxi-pois-n&b
+        - pluie-etoile-n
+        - pois-foil-n
+        - carbon
+        - asphalt
+        - beluga
+        - caviar
+        - chilioil
+        - darkslate
+        - tapshoe
+        - dark acid wash
+        - color_10003686-001
+        - color_4010001261-900
+        - G2-AH16-W1
+        - snake
+        - { name: 'mix', priority: 95}
+        - blt
+        - lead
+        - ciw
+        - wtc
+        - patriot
+    "Orange":
+        - { name: 'orange', priority: 50}
+        - { name: 'naranja', priority: 50}
+        - corail
+        - roux
+        - paprika
+        - { name: 'rayé corail', priority: 105}
+        - lilac
+        - coral
+        - { name: 'spice', priority: 95 }
+        - tuile
+        - flamme
+        - mandarine
+        - arabian spice
+        - hot sauce
+        - topaz
+        - rust
+        - cayenne
+        - papaya
+        - tangerine
+        - aragon
+        - guayabo
+        - psp
+        - { name: 'deep', priority: 85}
+        - carotte
+        - cantaloupe
+    "Rose":
+        - { name: 'rose', priority: 50}
+        - { name: 'pink', priority: 50}
+        - { name: 'rosa', priority: 50}
+        - { name: 'faded rose', priority: 105}
+        - { name: 'KeepsakeLilac', priority: 115}
+        - bubblegum
+        - raspberry
+        - framboise
+        - { name: 'rose orangé', priority: 105}
+        - { name: 'rio', priority: 85}
+        - salmon
+        - violine
+        - roche
+        - garance
+        - { name: 'saumon', priority: 80}
+        - cranberry
+        - berry mousse
+        - cupcake
+        - passion
+        - rse
+        - mve
+        - chicle
+        - bisque
+        - bonbon
+        - grenadine
+    "Rose fushia":
+        - fushia
+        - fuchsia
+        - fucsia
+        - brume
+        - fuschia
+        - azalea
+        - tulipe
+    "Rose layette":
+        - rose layette
+    "Rose pastel":
+        - { name: 'rose fluo', priority: 125}
+        - rose pastel
+        - chair
+        - { name: 'vison', priority: 95}
+        - { name: 'blush', priority: 95}
+        - { name: 'blush/', priority: 110}
+        - { name: 'rose pâle', priority: 115}
+        - neutre
+        - lavande
+        - { name: 'nude', priority: 95}
+        - marshmallow
+        - porcelain
+        - peach
+        - natural
+        - lilas
+        - {name: 'mauve', priority: 95}
+        - chalk
+        - { name: 'clair', priority: 40 }
+        - maquillage
+        - chewing-gum
+        - bubble gum
+        - poudre
+        - biscuit
+        - ballerina
+        - rugby tan
+        - nacre
+        - { name: 'no', priority: 10}
+        - soy
+        - mro
+        - peau
+        - marzipan
+        - suave
+        - pêche
+    "Rouge magenta":
+        - { name: 'rouge', priority: 50}
+        - { name: 'red', priority: 50}
+        - { name: 'rojo', priority: 50}
+        - griotte
+        - fresa
+        - rojisimo
+        - ruby
+        - rubis
+        - borgona
+        - { name: 'rouge orangé', priority: 105}
+        - magenta
+        - watermelon
+        - geranium
+        - cerise
+        - tomate
+        - scarlett
+        - grenade
+        - écarlate
+        - toreador
+        - G4-FL-PRINT8B
+        - cherry
+        - { name: 'fire', priority: 95}
+        - strawberry
+        - samba
+        - blr
+        - trr
+        - rur
+        - crimson
+        - poppy
+        - ribbon
+        - coquelicot
+        - tomato
+        - lollipop
+        - dragon
+        - fraise
+    "Rouge tomette":
+        - rouge tomette
+        - brick
+        - brique
+        - rouille brique
+        - cardinal
+        - carmin
+        - terre-cuite
+        - terre cuite
+        - cramoisi
+        - traits-graphic-r
+        - burgandy
+        - brugund
+        - syrha
+        - rust polkadot
+        - lobster bisque
+    "Vert emeraude":
+        - { name: 'vert', priority: 50}
+        - { name: 'verde', priority: 50}
+        - { name: 'green', priority: 50}
+        - emeraude
+        - { name: 'vert chiné', priority: 105}
+        - june
+        - emerald
+        - grass
+        - { name: 'met', priority: 85}
+        - seapine
+    "Vert foret":
+        - vert foret
+        - anthracite vert
+        - avocado
+        - avocat
+        - bouteille
+        - foret
+        - forêt
+        - dkg
+        - { name: 'vig', priority: 85}
+        - canopy
+        - { name: 'deep green', priority: 110}
+        - { name: 'dark teal green', priority: 110}
+    "Vert mousse":
+        - vert mousse
+        - vert absinthe
+        - vert acide
+        - musgo
+        - olive
+        - oliva
+        - willow
+        - antique
+        - { name: 'vineyardgreen', priority: 110}
+    "Vert pastel":
+        - { name: 'vert pastel', priority: 115}
+        - { name: 'vert clair', priority: 115}
+        - { name: 'silvergreen', priority: 115}
+        - lime
+        - apple
+        - 'vert d''eau'
+        - brasil
+        - menthe
+        - mint
+        - jade
+        - pistache
+        - anis
+        - opale
+        - lagon
+        - sauge
+        - limon
+        - sage
+        - pistachio
+    "Vert sapin":
+        - vert sapin
+        - fire tree
+        - cypres
+        - mng
+    "Vieux rose":
+        - vieux rose
+        - clay
+        - { name: 'mauve foncé', priority: 105}
+        - truffle
+        - saumon clair
+        - { name: 'dark blush', priority: 105}
+        - { name: 'dark nude', priority: 105}
+        - galet
+        - grape shake
+        - pay
+    "Multicolore clair": 
+        - multicolore clair
+        - wood
+        - { name: 'multicolore', priority: 90}
+        - cinnamon
+        - bimatiere
+        - { name: 'pastel multicolor', priority: 105}
+        - piedra
+        - hueso
+        - { name: 'multicolore', priority: 85}
+        - celery
+        - rainbow
+    "Multicolore foncé":
+        - multicolore foncé
+        - galapagos
+        - granate
+        - { name: 'bicolore', priority: 90}
+        - { name: 'multi', priority: 45}
+        - cobrizo
+        - rhododendro
+        - { name: 'foncé multicolore', priority: 105}
+        - goyave
+        - new
+        - fiesta
+        - fcr
+        - bfw
+        - { name: 'spectrum', priority: 45}
+        - persian
+    "Imprimés floraux & bestiares clairs":
+        - { name: 'tropical', priority: 90}
+        - imprime fleuri fond bleu
+        - oiseaux
+        - petite fleur
+        - shaded
+        - tiza
+        - balinais-n&b-r
+        - balinais-points
+        - balinais-vague-b
+        - bandes-florales-b
+        - DS-FOLK7
+        - DS-FOLK8
+        - ETHNO-FLEUR-R
+        - feuillages-
+        - { name: 'feuilles-oiseau', priority: 105}
+        - fleur-romantic-w
+        - fleur-romantique2
+        - fleurs-mix-r
+        - fleurs-tokyo-j
+        - fleurs-tokyo-o
+        - fleurs-tokyo-r
+        - floral-japonais2
+        - shirting-fleurs
+        - G4-AH16-LIB2
+        - japonais-fleurs-p
+        - japonais-fleurs-g
+        - japonais-fleurs-w
+        - shirting-floral-b
+        - fantaisie multicolore
+        - fog
+        - { name: 'floral', priority: 80}
+        - japonais-oiseau-w
+        - hamburgo
+        - hawai
+    "Imprimés floraux & bestaires foncés":
+        - tropical fonce
+        - { name: 'imprime fond rouge', priority: 110}
+        - { name: 'imprime fond vert', priority: 110}
+        - palmier
+        - { name: 'patchwork fleuri', priority: 110}
+        - place floral
+        - python
+        - serpent
+        - ink
+        - { name: fleuri, priority: 90}
+        - { name: 'floral', priority: 90}
+        - bandana-frise-y
+        - cachemire-fleurs-n
+        - feuilles-fushia
+        - flamand-pois
+        - fleur-romantic-n
+        - { name: 'fleur-romantique', priority: 85}
+        - fleurs-foil-n
+        - fleurs-folk-n
+        - fleurs-pois
+        - floral-japonais1
+        - G4-AH16-ADS-AUF2
+        - japonais-fleurs-n
+        - { name: 'imprimé', priority: 75}
+        - { name: 'animalier', priority: 105}
+        - seagrass
+        - G4-AH16-FRISE1
+        - japonais-oiseau-g
+        - bfp
+        - indienne-lurex
+        - racing
+        - grafito
+        - flox
+        - tutti
+        - quenny
+    "Imprimés tâches claires ( leopards, camouflage, zebre…)":
+        - { name: 'faux leopard', priority : 110}
+        - { name: 'leopard', priority : 85}
+        - { name: 'vison clair', priority: 105}
+        - G2-AH16-JOBR1
+        - G2-G4-AH16-GLIRSG
+        - G2-SS17-LEO
+        - G2-SS17-NSG
+        - G4-AH16-GO1
+        - { name: 'leo', priority: 95}
+        - grc
+   
+    "Imprimés tâches foncés ( leopards, camouflage, zebre..)":
+        - japonisant
+        - { name : 'imprime leopard', priority: 95}
+        - dirty
+        - { name : 'imprimé animal', priority: 105}
+        - camo
+        - camouflage
+        - { name: 'animal', priority: 90}
+        - picante
+        - G4-AH16-GG1
+        - G4-FE-PRINT8A
+        - G4-FL-PRINT9C
+        - G4-SS17-LEO1
+        - aloe
+        - plumes-multico-n
+    "Imprimés graphiques clairs":
+        - imprimé cravate
+        - { name: 'imprime ethnique noir/blanc', priority: 110}
+        - rayure graphique
+        - { name: 'rayure', priority: 95}
+        - bijou
+        - ducados
+        - desierto
+        - stripe
+        - houndstooth
+        - salicorne
+        - arabesque-base
+        - carreaux-ciel
+        - ethno-gom
+        - ethno-triangle
+        - { name: 'heather', priority: 85}
+        - scallop shell
+        - G4-AH16-BASE
+        - { name: 'GRAPHIQUE-TOKYO', priority: 85}
+        - jacquard-evasion2
+        - jacquard-grille
+        - vichy-n&b
+        - { name: 'carreaux', priority: 80}
+        - shadow
+        - dogtooth
+        - g-carreaux-rose
+        - dms
+        - { name: 'bro', priority: 85}
+        - biscotti
+    "Imprimés graphiques foncés":
+        - imprime carreaux
+        - imprime etoile
+        - { name: 'imprime geometrique noir/blanc', priority: 110}
+        - { name: 'imprime graphique noir blanc', priority: 110}
+        - imprimé jacquard
+        - { name: 'jacquard', priority: 95}
+        - mutlicolore
+        - naif
+        - { name: 'patch', priority: 95}
+        - { name: 'place', priority: 95}
+        - { name: 'pois fond bleu', priority: 110}
+        - retro
+        - wax
+        - pied de poule
+        - { name: 'rayé', priority: 90}
+        - { name: 'imprimé multicolore', priority: 105}
+        - { name: 'imprimé cachemire', priority: 105}
+        - monochrome
+        - port
+        - multicouleur
+        - carreaux-rock-r
+        - carreaux-rock-v 
+        - carreaux-rock-w   
+        - chevrons-ethno
+        - ethno-jacquard-y
+        - ethno-pointillé-2
+        - ethno-pointille
+        - etoile-or-n
+        - frise-ethno-b
+        - graphic-jacquard-n
+        - G4-FL-PRINT1B
+        - xmas-jacquard
+        - moonless
+        - { name: 'Imp. marine/beige', priority: 110}
+        - mozaic-cercle

@@ -1,0 +1,5 @@
+services:
+    # Repository
+    asmodine.admin.repository.physical_profile:
+        class: Asmodine\CustomerBundle\Repository\PhysicalProfileRepository
+        arguments: ['@doctrine.dbal.default_connection']

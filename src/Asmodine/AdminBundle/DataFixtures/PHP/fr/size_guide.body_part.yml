@@ -1,0 +1,263 @@
+# size_guide.body_part.yml
+
+default:
+    # Femme
+    '/femme/accessoires/gants': [hand_width]
+    '/femme/accessoires/montres': [wrist]
+    '/femme/bijoux/bagues': [finger]
+    '/femme/bijoux/bracelets': [wrist]
+    '/femme/bijoux/colliers': [neck]
+    '/femme/chaussures': [foot_length]
+    '/femme/vetements/chemises': [chest, hip, waist]
+    '/femme/vetements/collants': [waist_top, inside_leg]
+    '/femme/vetements/combinaisons': [chest, hip, waist]
+    '/femme/vetements/combishorts': [hip, waist]
+    '/femme/vetements/jeans': [waist_top, inside_leg]
+    '/femme/vetements/jogging': [waist_top, inside_leg]
+    '/femme/vetements/jupes': [hip, waist_top]
+    '/femme/vetements/legging': [hip, waist_top]
+    '/femme/vetements/lingerie': [chest, hip, waist_top]
+    '/femme/vetements/lingerie-de-nuit': [chest, hip, waist_top]
+    '/femme/vetements/maillots-de-bain': [chest, hip, waist_top]
+    '/femme/vetements/manteaux': [chest, hip, waist_top]
+    '/femme/vetements/pantalons': [waist_top, inside_leg]
+    '/femme/vetements/robes': [chest, hip, waist_top]
+    '/femme/vetements/shorts': [hip, waist_top]
+    '/femme/vetements/sweats': [chest, hip, waist_top]
+    '/femme/vetements/t-shirts-debardeurs': [chest, hip, waist_top]
+    '/femme/vetements/tailleurs': [chest, hip, waist_top]
+    '/femme/vetements/tops': [chest, hip, waist_top]
+    '/femme/vetements/pulls': [chest, hip, waist_top]
+    '/femme/vetements/vestes': [chest, hip, waist_top]
+    # Homme
+    '/homme/accessoires/ceintures': [waist]
+    '/homme/accessoires/chapeaux': [head]
+    '/homme/accessoires/cravates': [neck]
+    '/homme/accessoires/gants': [hand_width]
+    '/homme/accessoires/montres': [wrist]
+    '/homme/bijoux/bagues': [finger]
+    '/homme/bijoux/bracelets': [wrist]
+    '/homme/bijoux/colliers': [neck]
+    '/homme/chaussures': [foot_length]
+    '/homme/vetements/chemises': [chest, neck]
+    '/homme/vetements/costumes': [chest]
+    '/homme/vetements/jeans': [waist, inside_leg]
+    '/homme/vetements/maillots-de-bain': [waist]
+    '/homme/vetements/manteaux': [chest]
+    '/homme/vetements/marcel': [chest]
+    '/homme/vetements/pantalons': [waist, inside_leg]
+    '/homme/vetements/pyjamas': [chest, waist]
+    '/homme/vetements/shorts': [hip, waist]
+    '/homme/vetements/sous-vetements': [waist]
+    '/homme/vetements/sweats': [chest]
+    '/homme/vetements/t-shirts': [chest]
+    '/homme/vetements/pulls': [chest]
+    '/homme/vetements/vestes': [chest]
+
+boden:
+    '/homme/vetements/chemises': [arm_spine, chest, neck]
+    '/homme/vetements/vestes': [arm_spine, chest, shoulder_to_hip]
+    '/homme/vetements/manteaux': [arm_spine, chest, shoulder_to_hip]
+    '/homme/vetements/pantalons': [waist_bottom, inside_leg]
+    '/homme/vetements/jeans': [waist_bottom, inside_leg]
+    
+#castaluna:
+#    '/femme/vetements/combishorts': [hip, waist]
+#    '/femme/vetements/jeans': [hip, waist]
+#    '/femme/vetements/jogging': [hip, waist]
+#    '/femme/vetements/jupes': [hip, waist]
+#    '/femme/vetements/pantalons': [hip, waist]
+#    '/femme/chaussures': [foot_length, foot_width]
+#    '/homme/vetements/chemises': [neck]
+#    '/homme/vetements/jeans': [waist]
+#    '/homme/vetements/pantalons': [waist]
+#    '/homme/vetements/pyjamas': [waist]
+#    '/homme/vetements/shorts': [waist]
+
+castaluna-for-men:
+    '/homme/vetements/jeans': [waist_bottom]
+    '/homme/vetements/pantalons': [waist_bottom]
+
+pull-bear:
+    '/homme/vetements/jeans': [waist_top, waist_bottom]
+    '/homme/vetements/pantalons': [waist_top, waist_bottom]
+    
+asos: 
+    '/homme/vetements/jeans': [waist_top, inside_leg]
+    '/homme/vetements/pantalons': [waist_top, inside_leg]
+    
+desigual: 
+    '/homme/vetements/jeans': [waist_bottom, hip]
+    '/homme/vetements/pantalons': [waist_bottom, hip]
+    
+guess: 
+    '/homme/vetements/jeans': [waist_top, hip, thigh]
+    '/homme/vetements/pantalons': [waist_top, hip, thigh]
+    '/femme/vetements/jeans': [waist, hip, thigh]
+    '/femme/vetements/pantalons': [waist, hip, thigh]
+    
+bonobo: 
+    '/homme/vetements/jeans': [waist_top, hip]
+    '/homme/vetements/pantalons': [waist_top, hip]
+
+esprit: 
+    '/homme/vetements/jeans': [waist_top, inside_leg, hip]
+    '/homme/vetements/pantalons': [waist_top, inside_leg, hip] 
+    '/femme/vetements/jeans': [waist, inside_leg, hip]
+    '/femme/vetements/pantalons': [waist, inside_leg, hip]  
+
+jack-jones: 
+    '/homme/vetements/jeans': [waist_bottom, inside_leg]
+    '/homme/vetements/pantalons': [waist_bottom, inside_leg] 
+
+only: 
+    '/femme/vetements/jeans': [waist_top, inside_leg, hip]
+    '/femme/vetements/pantalons': [waist_top, inside_leg, hip] 
+    '/femme/vetements/chemises': [chest, hip, waist_top, arm_spine]
+    
+stradivarius: 
+    '/homme/vetements/jeans': [waist_top, hip]
+    '/homme/vetements/pantalons': [waist_top, hip]
+
+boohoo: 
+    '/homme/vetements/jeans': [waist_top, inside_leg]
+    '/homme/vetements/pantalons': [waist_top, inside_leg]
+
+volcom: 
+    '/homme/vetements/jeans': [waist_top, hip]
+    '/homme/vetements/pantalons': [waist_top, hip]    
+
+topman: 
+    '/homme/vetements/jeans': [waist_top, inside_leg]
+    '/homme/vetements/pantalons': [waist_top, inside_leg]  
+
+strellson:
+    '/homme/vetements/jeans': [waist_bottom, inside_leg, hip]
+    '/homme/vetements/pantalons': [waist_bottom, inside_leg, hip] 
+    
+bonprix:
+    '/homme/vetements/jeans': [waist_bottom, inside_leg]
+    '/homme/vetements/pantalons': [waist_bottom, inside_leg] 
+ 
+boohoo: 
+    '/homme/vetements/jeans': [waist_bottom, inside_leg, hip]
+    '/homme/vetements/pantalons': [waist_bottom, inside_leg, hip] 
+    
+ralph-lauren:
+    '/homme/vetements/chemises': [chest, neck, arm_spine]   
+
+eden-park: 
+    '/homme/vetements/jeans': [waist_top]
+    '/homme/vetements/pantalons': [waist_top]
+    
+puma: 
+    '/homme/vetements/jeans': [waist_bottom]
+    '/homme/vetements/pantalons': [waist_bottom]
+
+farah: 
+    '/homme/vetements/jeans': [waist_top, inside_leg]
+    '/homme/vetements/pantalons': [waist_top, inside_leg]
+
+jacamo: 
+    '/homme/vetements/jeans': [waist_top]
+    '/homme/vetements/pantalons': [waist_top] 
+
+la-redoute-collection: 
+    '/homme/vetements/jeans': [waist_bottom]
+    '/homme/vetements/pantalons': [waist_bottom]   
+
+forever-21: 
+    '/homme/vetements/jeans': [waist_bottom, inside_leg]
+    '/homme/vetements/pantalons': [waist_bottom, inside_leg] 
+
+honcelac: 
+    '/homme/vetements/jeans': [waist_bottom]
+    '/homme/vetements/pantalons': [waist_bottom]  
+
+Jules: 
+    '/homme/vetements/jeans': [waist_top, hip]
+    '/homme/vetements/pantalons': [waist_top, hip] 
+
+Brice: 
+    '/homme/vetements/jeans': [waist_top, hip]
+    '/homme/vetements/pantalons': [waist_top, hip]   
+
+lee:
+    '/homme/vetements/jeans': [waist_top, leg_lenght]
+    '/homme/vetements/pantalons': [waist_top, leg_lenght]  
+    
+Jules: 
+    '/homme/vetements/jeans': [waist_top, hip, inside_leg]
+    '/homme/vetements/pantalons': [waist_top, hip, inside_leg]      
+
+m-e-n-s:  
+    '/homme/vetements/jeans': [waist_top, leg_lenght]
+    '/homme/vetements/pantalons': [waist_top, leg_lenght]  
+    
+cambridge:  
+    '/homme/vetements/jeans': [waist_top, leg_lenght]
+    '/homme/vetements/pantalons': [waist_top, leg_lenght] 
+
+camps-united:
+    '/femme/vetements/jeans': [waist_top, leg_lenght]
+    '/femme/vetements/pantalons': [waist_top, leg_lenght] 
+
+cardin:  
+    '/homme/vetements/jeans': [waist_top, leg_lenght]
+    '/homme/vetements/pantalons': [waist_top, leg_lenght]
+
+charles-de-seyne:  
+    '/homme/vetements/jeans': [waist_top, leg_lenght]
+    '/homme/vetements/pantalons': [waist_top, leg_lenght]
+
+armor-lux: 
+    '/homme/vetements/jeans': [waist_top]
+    '/homme/vetements/pantalons': [waist_top]  
+
+odb:  
+    '/homme/vetements/jeans': [waist_top, leg_lenght]
+    '/homme/vetements/pantalons': [waist_top, leg_lenght]  
+
+c-est-beau-la-vie:
+    '/femme/vetements/jeans': [waist, leg_lenght]
+    '/femme/vetements/pantalons': [waist, leg_lenght]
+
+tibet:  
+    '/homme/vetements/jeans': [waist_top, leg_lenght]
+    '/homme/vetements/pantalons': [waist_top, leg_lenght]  
+
+julie-guerlande: 
+    '/femme/vetements/jeans': [waist, leg_lenght]
+    '/femme/vetements/pantalons': [waist, leg_lenght] 
+
+betty-barclay: 
+    '/femme/vetements/jeans': [waist, leg_lenght]
+    '/femme/vetements/pantalons': [waist, leg_lenght] 
+
+calvin-klein:
+    '/homme/vetements/jeans': [waist_top, leg_lenght]
+    '/homme/vetements/pantalons': [waist_top, leg_lenght] 
+
+comma: 
+    '/femme/vetements/jeans': [waist, leg_lenght]
+    '/femme/vetements/pantalons': [waist, leg_lenght]
+
+j-lindeberg:
+    '/homme/vetements/jeans': [waist_top, hip]
+    '/homme/vetements/pantalons': [waist_top, hip]   
+
+tao:
+    '/homme/vetements/jeans': [waist_top, hip]
+    '/homme/vetements/pantalons': [waist_top, hip]
+    '/homme/vetements/shorts': [waist_top, hip]
+    '/homme/vetements/chemises': [chest, neck, waist_top]
+    '/homme/vetements/costumes': [chest, waist_top]
+    '/homme/vetements/maillots-de-bain': [waist_top]
+    '/homme/vetements/manteaux': [chest, waist_top]
+    '/homme/vetements/marcel': [chest, waist_top]
+    '/homme/vetements/pyjamas': [chest, waist_top]
+    '/homme/vetements/sous-vetements': [waist_top]
+    '/homme/vetements/sweats': [chest, waist_top]
+    '/homme/vetements/t-shirts': [chest, waist_top]
+    '/homme/vetements/pulls': [chest, waist_top]
+    '/homme/vetements/vestes': [chest, waist_top]    

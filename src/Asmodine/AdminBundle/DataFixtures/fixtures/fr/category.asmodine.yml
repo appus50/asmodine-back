@@ -1,0 +1,424 @@
+# category.asmodine.yml
+
+############################
+### Catégorie "poubelle ####
+############################
+-
+    name: "nobody"
+    disable: true
+    gender: 'x'
+
+#############
+### FEMME ###
+#############
+-
+    name: "Femme"
+    icon: "icon-femme.png"
+    position: 1
+    gender: 'f'
+
+# Femme - Vêtements
+-
+    parent: '/femme'
+    name: 'Vêtements'
+    position: 1
+-
+    parent: '/femme/vetements'
+    name: "Maillots de bain"
+    icon: "vtements.png"
+-
+    parent: '/femme/vetements'
+    name: "Lingerie de nuit"
+    icon: "icon-lingeriedenuit.png"
+-
+    parent: '/femme/vetements'
+    name: "Manteaux"
+    icon: "icon-manteauxfemme.png"
+-
+    parent: '/femme/vetements'
+    name: "Tailleurs"
+    icon: "icon-tailleurs.png"
+-
+    parent: '/femme/vetements'
+    name: "Pantalons"
+    icon: "icon-pantalons.png"
+-
+    parent: '/femme/vetements'
+    name: "Jeans"
+    icon: "icon-jeans.png"
+-
+    parent: '/femme/vetements'
+    name: "Combinaisons"
+    icon: "icon-combinaisons.png"
+-
+    parent: '/femme/vetements'
+    name: "Robes"
+    icon: "icon-robes.png"
+-
+    parent: '/femme/vetements'
+    name: "Chemises"
+    icon: "icon-chemises.png"
+-
+    parent: '/femme/vetements'
+    name: "Vestes"
+    icon: "icon-vestes.png"
+-
+    parent: '/femme/vetements'
+    name: "Tops"
+    icon: "icon-tops.png"
+-
+    parent: '/femme/vetements'
+    name: "T-shirts, Débardeurs"
+    icon: "icon-htshirts.png"
+-
+    parent: '/femme/vetements'
+    name: "Pulls"
+    icon: "icon-tricots.png"
+-
+    parent: '/femme/vetements'
+    name: "Sweats"
+    icon: "icon-sweats.png"
+-
+    parent: '/femme/vetements'
+    name: "Shorts"
+    icon: "icon-shorts.png"
+-
+    parent: '/femme/vetements'
+    name: "Jupes"
+    icon: "icon-jupes.png"
+-
+    parent: '/femme/vetements'
+    name: "Lingerie"
+    icon: "icon-lingerie.png"
+-
+    parent: '/femme/vetements'
+    name: "Combishorts"
+    icon: "icon-combishort.png"
+-
+    parent: '/femme/vetements'
+    name: "Collants"
+    icon: "icon-collants.png"
+-
+    parent: '/femme/vetements'
+    name: "Legging"
+    icon: "icon-legging.png"
+-
+    parent: '/femme/vetements'
+    name: "Jogging"
+    icon: "icon-jogging.png"
+
+# Femme - Chaussures
+-
+    parent: '/femme'
+    name: 'Chaussures'
+    position: 2
+-
+    parent: '/femme/chaussures'
+    name: "Basket"
+    icon: "icon-basket.png"
+-
+    parent: '/femme/chaussures'
+    name: "Bottes"
+    icon: "icon-bottes.png"
+-
+    parent: '/femme/chaussures'
+    name: "Compensées"
+    icon: "icon-compensees.png"
+-
+    parent: '/femme/chaussures'
+    name: "Ballerines"
+    icon: "icon-ballerines.png"
+-
+    parent: '/femme/chaussures'
+    name: "Talons"
+    icon: "icon-talons.png"
+-
+    parent: '/femme/chaussures'
+    name: "Mocassins et bateaux"
+    icon: "icon-hmocassins.png"
+-
+    parent: '/femme/chaussures'
+    name: "Derbies"
+    icon: ""
+-
+    parent: '/femme/chaussures'
+    name: "Sandales"
+    icon: "icon-sandales.png"
+
+# Femme - Sacs
+-
+    parent: '/femme'
+    name: 'Sacs'
+    position: 3
+-
+    parent: '/femme/sacs'
+    name: "bagages"
+    icon: "icon-bagages.png"
+-
+    parent: '/femme/sacs'
+    name: "Sacs à dos"
+    icon: "icon-sacsados.png"
+-
+    parent: '/femme/sacs'
+    name: "Pochettes"
+    icon: "icon-pochettes.png"
+-
+    parent: '/femme/sacs'
+    name: "Sacs à main"
+    icon: "icon-sacsamain.png"
+-
+    parent: '/femme/sacs'
+    name: "Totebags"
+    icon: "icon-totebags.png"
+
+# Femme - Accessoires
+-
+    parent: '/femme'
+    name: 'Accessoires'
+    position: 4
+
+-
+    parent: '/femme/accessoires'
+    name: "Lunettes de soleil"
+    icon: "icon-lunettesoleil.png"
+-
+    parent: '/femme/accessoires'
+    name: "Ceintures"
+    icon: "icon-ceintures.png"
+-
+    parent: '/femme/accessoires'
+    name: "Gants"
+    icon: "icon-gants.png"
+-
+    parent: '/femme/accessoires'
+    name: "Accessoires de cheveux"
+    icon: "icon-accessoiresdecheveux.png"
+-
+    parent: '/femme/accessoires'
+    name: "Écharpes, étoles"
+    icon: "icon-echarpes.png"
+-
+    parent: '/femme/accessoires'
+    name: "Portemonnaie, portefeuille"
+    icon: "icon-portemonnaieportefeuille.png"
+-
+    parent: '/femme/accessoires'
+    name: "Montres"
+    icon: "montres.png"
+-
+    parent: '/femme/accessoires'
+    name: "Chapeaux"
+    icon: "icon-chapeaux.png"
+-
+    parent: '/femme/accessoires'
+    name: "Parapluies"
+    icon: "icon-parapluies.png"
+
+# Femme - Bijoux
+-
+    parent: '/femme'
+    name: 'Bijoux'
+    position: 5
+-
+    parent: '/femme/bijoux'
+    name: "Bracelets"
+    icon: "icon-bracelets.png"
+-
+    parent: '/femme/bijoux'
+    name: "Broches"
+    icon: "icon-broches.png"
+-
+    parent: '/femme/bijoux'
+    name: "Boucles d'oreilles"
+    icon: "icon-bouclesdoreilles.png"
+-
+    parent: '/femme/bijoux'
+    name: "Colliers"
+    icon: "icon-colliers.png"
+-
+    parent: '/femme/bijoux'
+    name: "Bagues"
+    icon: "icon-bagues.png"
+
+#############
+### HOMME ###
+#############
+-
+    name: "Homme"
+    icon: "icon-homme.png"
+    position: 2
+    gender: 'm'
+
+# Homme - Vêtements
+-
+    parent: '/homme'
+    name: 'Vêtements'
+    position: 1
+-
+    parent: '/homme/vetements'
+    name: "Maillots de bain"
+    icon: "icon-hmaillotsdebain.png"
+-
+    parent: '/homme/vetements'
+    name: "Manteaux"
+    icon: "icon-hmanteaux.png"
+-
+    parent: '/homme/vetements'
+    name: "Vestes"
+    icon: "icon-hvestes.png"
+-
+    parent: '/homme/vetements'
+    name: "Jeans"
+    icon: "icon-hjeans.png"
+-
+    parent: '/homme/vetements'
+    name: "Pulls"
+    icon: "icon-htricots.png"
+-
+    parent: '/homme/vetements'
+    name: "Pyjamas"
+    icon: "icon-hpyjamas.png"
+-
+    parent: '/homme/vetements'
+    name: "Pantalons"
+    icon: "icon-hpantalons.png"
+-
+    parent: '/homme/vetements'
+    name: "Chemises"
+    icon: "icon-hchemises.png"
+-
+    parent: '/homme/vetements'
+    name: "Shorts"
+    icon: "icon-hshorts.png"
+-
+    parent: '/homme/vetements'
+    name: "Costumes"
+    icon: "icon-hcostumes.png"
+-
+    parent: '/homme/vetements'
+    name: "Sweats"
+    icon: "icon-hsweats.png"
+-
+    parent: '/homme/vetements'
+    name: "T-shirts"
+    icon: "icon-htshirts.png"
+-
+    parent: '/homme/vetements'
+    name: "Sous-vêtements"
+    icon: "icon-hsousvetements.png"
+-
+    parent: '/homme/vetements'
+    name: "Marcel"
+    icon: "icon-marcel.png"
+-
+    parent: '/homme/vetements'
+    name: "Jogging"
+    icon: 'icon-jogging.png'
+
+# Homme - Chaussures
+-
+    parent: '/homme'
+    name: 'Chaussures'
+    position: 2
+-
+    parent: '/homme/chaussures'
+    name: "Bottes"
+    icon: "icon-hbottes.png"
+-
+    parent: '/homme/chaussures'
+    name: "Chaussures de ville"
+    icon: "icon-hchaussuredeville.png"
+-
+    parent: '/homme/chaussures'
+    name: "Sandales"
+    icon: "icon-hsandales.png"
+-
+    parent: '/homme/chaussures'
+    name: "Baskets"
+    icon: "icon-hbaskets.png"
+-
+    parent: '/homme/chaussures'
+    name: "Mocassins et bateaux"
+    icon: "icon-hmocassins.png"
+
+# Homme - Sacs
+-
+    parent: '/homme'
+    name: 'Sacs'
+    position: 3
+-
+    parent: '/homme/sacs'
+    name: "Sacs à dos"
+    icon: "icon-hsacados.png"
+-
+    parent: '/homme/sacs'
+    name: "Pochettes"
+    icon: "icon-hpochettes.png"
+-
+    parent: '/homme/sacs'
+    name: "Totebags"
+    icon: "icon-htotebags.png"
+-
+    parent: '/homme/sacs'
+    name: "Bagages"
+    icon: "icon-hbagages.png"
+-
+    parent: '/homme/sacs'
+    name: "Sacoches"
+    icon: "icon-sacoches.png"
+
+# Homme - Accessoires
+-
+    parent: '/homme'
+    name: 'Accessoires'
+    position: 4
+-
+    parent: '/homme/accessoires'
+    name: "Ceintures"
+    icon: "icon-hceintures.png"
+-
+    parent: '/homme/accessoires'
+    name: "Gants"
+    icon: "icon-hgants.png"
+-
+    parent: '/homme/accessoires'
+    name: "Chapeaux"
+    icon: "icon-hchapeaux.png"
+-
+    parent: '/homme/accessoires'
+    name: "Echarpes"
+    icon: "icon-hecharpes.png"
+-
+    parent: '/homme/accessoires'
+    name: "Lunettes de soleil"
+    icon: "icon-hlunettesdesoleil.png"
+-
+    parent: '/homme/accessoires'
+    name: "Portemonnaie, portefeuille"
+    icon: "icon-hportemonnaieportefeuille.png"
+-
+    parent: '/homme/accessoires'
+    name: "Montres"
+    icon: "icon-hmontres.png"
+-
+    parent: '/homme/accessoires'
+    name: "Cravates"
+    icon: "icon-hcravates.png"
+
+# Homme - Bijoux
+-
+    parent: '/homme'
+    name: 'Bijoux'
+    position: 5
+-
+    parent: '/homme/bijoux'
+    name: "Bracelets"
+    icon: "icon-hbracelets.png"
+-
+    parent: '/homme/bijoux'
+    name: "Colliers"
+    icon: "icon-hcolliers.png"
+-
+    parent: '/homme/bijoux'
+    name: "Bagues"
+    icon: "icon-hbagues.png"

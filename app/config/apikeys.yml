@@ -1,0 +1,19 @@
+parameters:
+
+    ##################
+    # Server
+    ##################
+    api_keys.server:
+        asmodine_front:
+            key: "%api_keys.server.front.key%"
+            authorized_routes:
+                - route: asmodine.customer.api_front.user_profile
+
+    ##################
+    # Client
+    ##################
+    api_keys.client.key: '%api_keys.client_key%'
+    api_keys.client.api_end_points:
+        asmodine_front:
+            front_update_brands:   "%asmodine_front_url%/api/back/brands"
+            front_update_categories:   "%asmodine_front_url%/api/back/categories"

@@ -1,0 +1,24 @@
+services:
+    asmodine.size_advisor.note:
+        class: Asmodine\SizeAdvisorBundle\Service\NoteService
+        arguments: ['@service_container', '@monolog.logger.asmodine_size_advisor_note']
+    asmodine.size_advisor.size_guide:
+        class: Asmodine\SizeAdvisorBundle\Service\SizeGuideService
+        arguments: ['@asmodine.sizeadvisor.repository.size_guide', '@monolog.logger.asmodine_size_advisor_size_guide']
+    asmodine.size_advisor.user_score:
+        class: Asmodine\SizeAdvisorBundle\Service\UserScoreService
+        arguments: ['@asmodine.sizeadvisor.repository.user_product_score', '%kernel.root_dir%', '@monolog.logger.asmodine_size_advisor_user_score']
+
+    # Repository
+    asmodine.sizeadvisor.repository.note_color:
+        class: Asmodine\SizeAdvisorBundle\Repository\NoteColorRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.sizeadvisor.repository.note_style:
+        class: Asmodine\SizeAdvisorBundle\Repository\NoteStyleRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.sizeadvisor.repository.size_guide:
+        class: Asmodine\SizeAdvisorBundle\Repository\SizeGuideRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.sizeadvisor.repository.user_product_score:
+        class: Asmodine\SizeAdvisorBundle\Repository\UserProductScoreRepository
+        arguments: ['@doctrine.dbal.default_connection']

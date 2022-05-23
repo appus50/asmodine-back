@@ -1,0 +1,63 @@
+services:
+    # Admin
+    monolog.logger.asmodine_admin_import:
+        class: Symfony\Bridge\Monolog\Logger
+        arguments: [asmodine_admin_import]
+    monolog.logger.asmodine_admin_associate:
+        class: Symfony\Bridge\Monolog\Logger
+        arguments: [asmodine_admin_associate]
+    monolog.logger.asmodine_admin_front:
+        class: Symfony\Bridge\Monolog\Logger
+        arguments: [asmodine_admin_front]
+
+    # Size Advisor System
+    monolog.logger.asmodine_size_advisor_note:
+        class: Symfony\Bridge\Monolog\Logger
+        arguments: [asmodine_size_advisor_note]
+    monolog.logger.asmodine_size_advisor_size_guide:
+        class: Symfony\Bridge\Monolog\Logger
+        arguments: [asmodine_size_advisor_size_guide]
+    monolog.logger.asmodine_size_advisor_user_score:
+        class: Symfony\Bridge\Monolog\Logger
+        arguments: [asmodine_size_advisor_user_score]
+monolog:
+    handlers:
+        # Admin
+        asmodine_admin_import:
+            type:       rotating_file
+            max_files:  30
+            path:       %kernel.logs_dir%/%kernel.environment%.admin.import.log
+            level:      %logger.level.asmodine_admin%
+            channels:   [asmodine_admin_import]
+        asmodine_admin_associate:
+            type:       rotating_file
+            max_files:  30
+            path:       %kernel.logs_dir%/%kernel.environment%.admin.associate.log
+            level:      %logger.level.asmodine_admin%
+            channels:   [asmodine_admin_associate]
+        asmodine_admin_front:
+            type:       rotating_file
+            max_files:  30
+            path:       %kernel.logs_dir%/%kernel.environment%.admin.front.log
+            level:      %logger.level.asmodine_admin%
+            channels:   [asmodine_admin_front]
+
+        # Size Advisor System
+        asmodine_size_advisor_note:
+            type:       rotating_file
+            max_files:  5
+            path:       %kernel.logs_dir%/%kernel.environment%.size_advisor.note.log
+            level:      %logger.level.asmodine_sizeadvisor%
+            channels:   [asmodine_size_advisor_note]
+        asmodine_size_advisor_size_guide:
+            type:       rotating_file
+            max_files:  5
+            path:       %kernel.logs_dir%/%kernel.environment%.size_advisor.size_guide.log
+            level:      %logger.level.asmodine_sizeadvisor%
+            channels:   [asmodine_size_advisor_size_guide]
+        asmodine_size_advisor_user_score:
+            type:       rotating_file
+            max_files:  5
+            path:       %kernel.logs_dir%/%kernel.environment%.size_advisor.user_score.log
+            level:      %logger.level.asmodine_sizeadvisor%
+            channels:   [asmodine_size_advisor_user_score]

@@ -1,0 +1,1145 @@
+# catalog.brand.yml
+123: 
+    catalog: 123
+    brand: 123
+    configuration: 
+        separator: 
+            size: [',']
+agnes-mason:
+    catalog: lesara
+    brand: agnes-mason
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: ['Agnes Mason'], keep: true }
+            
+'alice-&-you':
+    catalog: asos
+    brand: alice-you
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [Alice & You], keep: true }
+        separator:
+            size: [','] 
+all-star:
+    catalog: converse
+    brand: all-star
+    configuration:
+        simple_filter:
+            all-star: { column: brand, position: start, contents: ['all star'], keep: true }
+            enfant: { column: category, position: start, contents: [enfant], keep: false }
+
+andrea-conti:
+    catalog: helline
+    brand: andrea-conti
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: 'start', contents: ['Andrea Conti'], keep: true}  
+            
+anne-weyburn: 
+    catalog: daxon
+    brand: anne-weyburn
+    configuration: 
+        simple_filter:
+            anne-weyburn: {column: brand, position: start, contents: ['anne weyburn'], keep: true}
+        separator: 
+            ean: [',']
+            size: [',']
+            color: [',']
+
+                anne-weyburn:
+                    catalog: la-redoute
+                    brand: anne-weyburn
+                    configuration:
+                        simple_filter:
+                            anne-weyburn: {column: brand, position: start, contents: ['anne weyburn'], keep: true}
+                        separator:
+                            size: [';']
+                            ean:  [';']
+
+another-influence:
+    catalog: asos
+    brand: another-influence
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [another influence], keep: true }
+        separator:
+            size: [',']
+            
+armani-jeans:
+    catalog: armani
+    brand: armani-jean
+    configuration:
+        simple_filter:
+            jeans: { column: name, position: middle, contents: ['ARMANI - Jeans -'], keep: true }
+        separator:
+            size: [',']
+
+armor-lux: 
+    catalog: armor-lux
+    brand: armor-lux
+    configuration:
+        simple_filter: 
+            enfant: { column : category, position: start, contents: [enfant], keep: false }
+    action: 
+        delete-fr: { action: replace, column: product_name, contents: { 'Taille FR - ': 'Taille ' } }
+        delete-al: { action: replace, column: product_name, contents: { 'Taille US - ': 'Taille ' } }
+        delete-us: { action: replace, column: product_name, contents: { 'Taille AL - ': 'Taille ' } }
+
+ashley-brooke: 
+    catalog: helline
+    brand: ashley-brooke
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [Ashley Brooke], keep: true} 
+asics-tiger: 
+    catalog: asics
+    brand: asics-tiger
+    configuration: 
+        simple_filter:
+            marque: { column: category, position: start, contents: [kids], keep: false }
+asos:
+    catalog: asos
+    brand: asos
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [ASOS], keep: true }
+            #taille_eu: { column: 'Fashion:size', position: start, contents: [EU], keep: false }
+        separator:
+            size: [',']
+            
+aventures-des-toiles: 
+    catalog: des-marques-et-vous
+    brand: aventures-des-toiles
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: 'start', contents: ['AVENTURES DES TOILES'], keep: true }
+            
+balsamik: 
+    catalog: balsamik
+    brand: balsamik
+    configuration: 
+        simple_filter: 
+            balsamik: { column: brand, position: middle, contents: [balsamik], keep: true}
+        action:
+            Delete_point: { action: replace, column: brand, contents: { '.': '' } }
+
+barena:
+    catalog: farfetch
+    brand: barena
+    configuration: 
+        simple_filter:
+            barena: { column: brand, position: start, contents: ['Barena'], keep: true }
+        separator:
+            size: ['-']  
+            
+best-connections: 
+    catalog: helline
+    brand: best-connections
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: ['B.C. Best Connections'], keep: true}             
+blancheporte:
+    #catalog: blancheporte
+    catalog: lengow
+    brand: blancheporte
+    configuration: null
+
+betty-barclay: 
+    catalog: des-marques-et-vous
+    brand: betty-barclay
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: 'start', contents: ['BETTY BARCLAY'], keep: true }    
+boden:
+    catalog: boden
+    brand: boden
+    configuration:
+        simple_filter:
+            boden: { column: brand, position: start, contents: [boden], keep: true }
+            categorie: { column: category, position: start, contents: [Homme, Femme], keep: true, glue: or }
+        separator:
+            size: [',']
+
+bonobo:
+    catalog: bonobo
+    brand: bonobo
+    configuration: null
+
+bonprix:
+    catalog: bonprix
+    brand: bonprix
+    configuration: 
+        simple_filter: 
+            enfant: { column: category, position: start, contents: [enfant], keep: false }
+            maison: { column: category, position: start, contents: [maison], keep: false }
+        separator: 
+            size: [',']
+boohoo:
+    catalog: boohoo
+    brand: boohoo
+    configuration: 
+        simple_filter: null
+            #beaut: { column: merchant_category, position: start, contents: [beaut], keep: false }
+            #cadeau: { column: merchant_category, position: start, contents: [cadeaux], keep: false }
+            #gift: { column: merchant_category, position: start, contents: [gift], keep: false }
+            #accessoire: { column: merchant_category, position: start, contents: [accessoire], keep: false }
+            #accessories: { column: merchant_category, position: start, contents: [accessories], keep: false }
+            #bijoux: { column: merchant_category, position: start, contents: [bijoux], keep: false }
+            #jewellerie: { column: merchant_category, position: start, contents: [jewellery], keep: false }
+
+brice:
+    catalog: brice
+    brand: brice
+    configuration: null
+
+bugatti: 
+    catalog: des-marques-et-vous
+    brand: bugatti
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: start, contents: ['BUGATTI'], keep: true}
+
+cache-cache:
+    catalog: cache-cache
+    brand: cache-cache
+    configuration: null
+
+calvin-klein: 
+    catalog: des-marques-et-vous
+    brand: calvin-klein
+    configuration: 
+        simple_filter: 
+            marque: {column: marque, position: start, contents: ['CLAVIN KLEIN'], keep: true }
+    
+cargo-club: 
+        catalog: la-halle
+        brand: 'cargo-club'
+        simple_filter: 
+            marque: { column: brand, position: start, contents: ['CARGO CLUB'], keep: true }
+            categorie: { column: category, position: start, contents: ['Homme', 'Femme'], keep: true, glue: or }      
+cambridge: 
+    catalog: des-marques-et-vous
+    brand: cambridge
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: start, contents: ['CAMBRIDGE'], keep: true}
+            
+camps-united: 
+    catalog: des-marques-et-vous
+    brand: camps-united
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: start, contents: ['CAMPS UNITED'], keep: true} 
+           
+castaluna:
+    catalog: la-redoute
+    brand: castaluna
+    configuration:
+        simple_filter:
+            marque: { column: 'brand', position: 'start', contents: ['CASTALUNA'], keep: true }
+            marque: { column: 'brand', position: 'start', contents: ['FOR MEN'], keep: false }
+        separator:
+            size: ['.',';']
+            color: [',',';']
+            ean: [';']
+            
+castaluna-for-men:
+    catalog: la-redoute
+    brand: castaluna-for-men
+    configuration:
+        simple_filter:
+            marque: { column: 'brand', position: 'start', contents: ['CASTALUNA FOR MEN'], keep: true }
+        separator:
+            size: ['.',';']
+            color: [',',';']
+            ean: [';']
+
+cardin: 
+    catalog: des-marques-et-vous
+    brand: cardin
+    configuration:
+        simple_filter: 
+            marque: {column: brand, position: 'start', contents: ['CARDIN'], keep: true}
+
+c-est-beau-la-vie:
+    catalog: des-marques-et-vous
+    brand: c-est-beau-la-vie
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: 'start', contents: ['EST BEAU LA VIE'], keep: true} 
+
+christine-laure:
+    catalog: des-marques-et-vous
+    brand: christine-laure
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: 'start', contents: ['CHRISTINE LAURE'], keep: true} 
+            
+charles-de-seyne: 
+    catalog: des-marques-et-vous
+    brand : charles-de-seyne
+    configuration: 
+        simple_filter: 
+            charles-de-seyne: {column: brand, position: 'start', contents: ['CHARLES DE SEYNE'], keep: true}
+charmance: 
+    catalog: daxon
+    brand: charmance
+    configuration:
+        simple_filter:
+            anne-weyburn: {column: brand, position: start, contents: ['charmance'], keep: true}
+        separator: 
+            ean: [',']
+            size: [',']   
+            color: [',']
+            
+'closet-london-plus': 
+    catalog: asos
+    brand: closet-london-plus
+    configuration: 
+        simple_filter:
+            marque: { column: brand, position: start, contents: [Closet London Plus], keep: true }
+        separator:
+            size: [',']        
+
+'coast-plus': 
+    catalog: asos
+    brand: coast-plus
+    configuration: 
+        simple_filter:
+            marque: { column: brand, position: start, contents: [coast plus], keep: true }
+        separator:
+            size: [',']
+
+comma: 
+    catalog: des-marques-et-vous
+    brand: comma
+    configuration: 
+        simple_filter:
+            marque: { column: marque, position: start, contents: ['COMMA'], keep: true }
+            
+comptoir-des-cotonniers:
+    catalog: comptoir-des-cotonniers
+    brand: comptoir-des-cotonniers
+    configuration: null
+    
+cons:
+    catalog: converse
+    brand: cons
+    configuration:
+        simple_filter:
+            cons: { column: brand, position: start, contents: [cons], keep: true }
+            enfant: { column: category, position: start, contents: [enfant], keep: false }
+
+'couleurs-prix':
+    catalog: daxon
+    brand: couleurs-prix
+    configuration:
+        simple_filter:
+            anne-weyburn: {column: brand, position: start, contents: ['couleurs & prix'], keep: true}
+        separator: 
+            ean: [',']
+            size: [',']  
+            color: [',']
+            
+crealine: 
+    catalog: daxon 
+    brand: crealine
+    configuration:
+        simple_filter:
+            anne-weyburn: {column: brand, position: start, contents: ['crealine'], keep: true}
+        separator: 
+            ean: [',']
+            size: [',']  
+            color: [',']
+            
+creeks: 
+    catalog: la-halle
+    brand: creeks
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: ['CREEKS'], keep: true }
+            categorie: { column: category, position: start, contents: ['Homme', 'Femme'], keep: true, glue: or }   
+
+ddp: 
+    catalog: des-marques-et-vous
+    brand: ddp
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: ['DDP'], keep: true }
+            
+desigual:
+    catalog: desigual
+    brand: desigual
+    configuration:
+        simple_filter:
+            Habitation: { column: category, position: start, contents: [living], keep: false }
+            Enfant: { column: category, position: start, contents: [vetement-enfant], keep: false }
+            Sans_Catégorie: { column: category, position: start, contents: [indultados], keep: false }
+
+dereklam: 
+    catalog: farfetch
+    brand: derek-lam
+    configuration: 
+        simple_filter:
+            derek: { column: brand, position: start, contents: ['Derek Lam'], keep: true }
+        separator:
+            size: ['-']
+
+diane-laury: 
+    catalog: des-marques-et-vous
+    brand: diane-laury
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: 'start', contents: ['DIANE LAURY'], keep: true}
+            
+digel: 
+    catalog: des-marques-et-vous
+    brand: digel
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: 'start', contents: ['DIGEL'], keep: true}
+dim: 
+    catalog: dim
+    brand: dim
+    configuration:
+        simple_filter: 
+            enfant: { column: size, position: start, contents: [ans], keep: false }
+            
+dolce-gabbana:
+    catalog: farfetch
+    brand: 'dolce-gabbana'
+    configuration: 
+        simple_filter:
+            dolce: { column: brand, position: start, contents: ['Dolce & Gabbana'], keep: true }
+            kid: { column: brand, position: start, contents: ['kid'], keep: false }
+        separator:
+            size: ['-']     
+            
+'dolly-&-delicious':
+    catalog: asos
+    brand: dolly-delicious
+    configuration: 
+        simple_filter:
+            marque: { column: brand, position: start, contents: [Dolly & Delicious], keep: true }
+        separator:
+            size: [','] 
+            
+dorothy-perkins:
+    catalog: dorothy-perkins
+    brand: dorothy-perkins
+    configuration: null
+
+eden-park: 
+    catalog: eden-park
+    brand: eden-park
+    configuration: null
+
+elisa-cavaletti: 
+    catalog: des-marques-et-vous
+    brand: elisa-cavaletti
+    configuration: 
+        simple_filter: 
+            marque: { column: marque, position: start, contents: ['ELISA CAVALETTI'], keep: true }
+    
+emporio-armani:
+    catalog: farfetch
+    brand: emporio-armani
+    configuration:
+        simple_filter:
+            emporio: { column: brand, position: start, contents: ['emporio armani'], keep: true }
+            kid: { column: brand, position: start, contents: ['kid'], keep: false }
+        separator:
+            size: ['-']
+etro: 
+    catalog: farfetch
+    brand: etro
+    configuration: 
+        simple_filter:
+            etro: { column: brand, position: start, contents: ['etro'], keep: true }
+        separator:
+            size: ['-']        
+esprit:
+    catalog: esprit
+    brand: esprit
+    configuration:
+        simple_filter:
+            garcons: { column: category, position: start, contents: [garçons], keep: false }
+            fille: { column: category, position: start, contents: [fille], keep: false }
+            baby: { column: category, position: start, contents: [baby], keep: false }
+            bebe: { column: category, position: start, contents: [new_born], keep: false }
+            unisexe: { column: category, position: start, contents: [unisexe], keep: false }
+            
+Farah:
+    catalog: asos
+    brand: farah
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [Farah], keep: true }
+        separator:
+            size: [',']
+
+fashion-studio: 
+    catalog: la-halle
+    brand: fashion-studio
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: ['FASHION STUDIO'], keep: true }
+            categorie: { column: category, position: start, contents: ['Homme', 'Femme'], keep: true, glue: or } 
+            
+fila: 
+    catalog: asos
+    brand: fila
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [fila], keep: true }
+        separator:
+            size: [',']
+flamenzo:
+    catalog: flamenzo
+    brand: flamenzo
+
+flounce-london-plus: 
+    catalog: asos
+    brand: flounce-london-plus    
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [flounce london plus], keep: true }
+        separator:
+            size: [','] 
+forever21: 
+    catalog: forever21
+    brand: forever-21
+    configuration: 
+        separator: 
+            size: ['|']
+
+friend-or-faux: 
+    catalog: asos
+    brand: friend-or-faux
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [Friend or Faux], keep: true }
+        separator:
+            size: [',']
+
+gabor: 
+    catalog: helline
+    brand: gabor
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [Gabor], keep: true }   
+            marque: { column: brand, position: start, contents: ['Gabor Comfort'], keep: false }
+            marque: { column: brand, position: start, contents: ['Gabor home'], keep: false }            
+            marque: { column: brand, position: start, contents: ['GABOR ROLLINGSOFT'], keep: false }
+            
+gabrielle: 
+    catalog: la-redoute
+    brand: gabrielle
+    configuration:
+        simple_filter:
+            marque: { column: 'brand', position: 'start', contents: ['gabrielle'], keep: true }
+        separator:
+            size: ['.',';']
+            color: [',',';']
+            ean: [';']
+    
+guess:
+    catalog: guess
+    brand: guess
+    configuration:
+        simple_filter:
+            enfants: { column: category, position: start, contents: [enfants], keep: false }
+            junior: { column: category, position: start, contents: [junior], keep: false }
+            bebe: { column: category, position: start, contents: [bebe], keep: false }
+            marciano: { column: name, position: start, contents: [marciano], keep: false }
+        action:
+            Delete_FR: { action: replace, column: brand, contents: { (FR): '' } }
+
+graindemalice:
+    catalog: graindemalice
+    brand: grain-de-malice
+    configuration: null
+
+happy-socks:
+    catalog: happy-socks
+    brand: happy-socks
+    configuration:
+        simple_filter:
+            enfants: { column: name, position: start, contents: [enfant], keep: false }
+            
+herno: 
+    catalog: farfetch
+    brand: herno
+    configuration: 
+        simple_filter:
+            kent: { column: brand, position: start, contents: ['Herno'], keep: true }
+        separator:
+            size: ['-'] 
+
+honcelac:
+    catalog: daxon
+    brand: honcelac
+    configuration: 
+        simple_filter:
+            honcelac: {column: brand, position: start, contents: ['honcelac'], keep: true}
+        separator: 
+            ean: [',']
+            size: [',']
+            color: [',']
+
+j-lindeberg:
+    catalog: bestseller
+    brand: j-lindeberg
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [J.LINDEBERG], keep: true }
+            
+jacamo: 
+    catalog: asos
+    brand: jacamo
+    configuration: 
+        simple_filter:
+            marque: { column: brand, position: start, contents: [Jacamo], keep: true }
+        separator:
+            size: [',']    
+            
+'jack-&-jones':
+    catalog: jack-jones
+    brand: jack-jones
+    configuration: null
+
+jack-purcell:
+    catalog: converse
+    brand: jack-purcell
+    configuration:
+        simple_filter:
+            all-star: { column: brand, position: start, contents: ['jack purcell'], keep: true }
+            enfant: { column: category, position: start, contents: [enfant], keep: false }
+'john-zack':
+    catalog: asos
+    brand: john-zack
+    configuration: 
+        simple_filter:
+            marque: { column: brand, position: start, contents: [John Zack], keep: true }
+        separator:
+            size: [',']
+jules: 
+    catalog: jules
+    brand: jules
+    configuration: 
+        separator: 
+            size: [',']
+           
+julie-guerlande: 
+    catalog: des-marques-et-vous
+    brand: julie-guerlande
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: 'start', contents: ['JULIE GUERLANDE'], keep: true }
+           
+katmai: 
+    catalog: des-marques-et-vous
+    brand: katmai
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: 'start', contents: ['KATMAI'], keep: true }
+            
+'kent-curwen':
+    catalog: farfetch
+    brand: kent-curwen
+    configuration: 
+        simple_filter:
+            kent: { column: brand, position: start, contents: ['Kent & Curwen'], keep: true }
+        separator:
+            size: ['-'] 
+koko: 
+    catalog: asos  
+    brand: koko
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [Koko], keep: true }
+            
+koko-by-koko:
+    catalog: la-redoute
+    brand: koko-by-koko
+    configuration:
+        simple_filter:
+            marque: { column: 'brand', position: 'start', contents: [koko by koko], keep: true }
+        separator:
+            size: ['.',';']
+            color: [',',';']
+            ean: [';']
+            
+la-fee-maraboutee:
+    catalog: des-marques-et-vous
+    brand: la-fee-maraboutee
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: 'start', contents: ['LA FEE MARABOUTEE'], keep: true}
+            
+la-redoute-collection: 
+    catalog: la-redoute
+    brand: la-redoute-collection
+    configuration:
+        simple_filter:
+            marque: { column: 'brand', position: 'start', contents: [la redoute collection], keep: true }
+            age: { column: 'size', position: 'middle', contents: [ans], keep: false }
+        separator:
+            size: ['.',';']
+            color: [',',';']
+            ean: [';']    
+lee: 
+    catalog: des-marques-et-vous
+    brand: lee
+    configuration: 
+        simple_filter: 
+            lee: { column: brand, position: 'start', contents: ['LEE'], keep: true }
+            cooper: { column: brand, position: 'start', contents: ['COOPER'], keep: false }
+            
+lee-cooper: 
+    catalog: des-marques-et-vous
+    brand: lee-cooper
+    configuration: 
+        simple_filter: 
+            lee-cooper: { column: brand, position: 'start', contents: ['LEE COOPER'], keep: true }
+lesara:
+    catalog: lesara
+    brand: lesara
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: ['Lesara'], keep: true }
+            categorie: { column: category, position: start, contents: ['Homme', 'Femme'], keep: true, glue: or } 
+lh: 
+    catalog: la-halle
+    brand: lh
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: ['LH'], keep: true }
+            categorie: { column: category, position: start, contents: ['Homme', 'Femme'], keep: true, glue: or }
+            
+linea-tesini: 
+    catalog: helline
+    brand: linea-tesini
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [Linea Tesini], keep: true}
+            
+lipsy-curve: 
+    catalog: asos  
+    brand: lipsy-curve
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [Lipsy Curve], keep: true }   
+
+lovedrobe:
+    catalog: la-redoute
+    brand: lovedrobe
+    configuration:
+        simple_filter:
+            marque: { column: 'brand', position: 'start', contents: [LOVEDROBE], keep: true }
+        separator:
+            size: ['.',';']
+            color: [',',';']
+            ean: [';']
+
+madeleine: 
+    catalog: madeleine
+    brand: madeleine
+    separator: 
+        size: [',']
+            
+            
+mademoiselle-r:
+    catalog: la-redoute
+    brand: mademoiselle-r
+    configuration:
+        simple_filter:
+            marque: { column: 'brand', position: 'start', contents: [mademoiselle r], keep: true }
+        separator:
+            size: ['.',';']
+            color: [',',';']
+            ean: [';']            
+
+maison-margiela: 
+    catalog: farfetch
+    brand: maison-margiela
+    configuration: 
+        simple_filter:
+            margiela: { column: brand, position: start, contents: ['maison margiela'], keep: true }
+        separator:
+            size: ['-']     
+mango: 
+    catalog: mango
+    brand: mango
+    configuration: 
+        simple_filter: 
+            mango: { column: brand, position: start, contents: ['mango'], keep: true }
+            kids: { column: brand, position: start, contents: ['mango kids'], keep: false }
+            bebe: { column: brand, position: start, contents: ['mango baby'], keep: false }
+            violeta: { column: brand, position: start, contents: ['violeta by mango'], keep: false }
+        separator: 
+            size: [',']
+        
+mat-fashion: 
+    catalog: la-redoute
+    brand: mat-fashion
+    configuration:
+        simple_filter:
+            marque: { column: 'brand', position: 'start', contents: ['MAT FASHION'], keep: true }
+        separator:
+            size: ['.',';']
+            color: [',',';']
+            ean: [';']
+            
+maritimi:
+    catalog: lesara
+    brand: maritimi
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [maritimi], keep: true }
+mens:
+    catalog: des-marques-et-vous
+    brand: m-e-n-s
+    configuration: 
+        simple_filter: 
+            mens: {column: brand, position: 'start', contents: ['M.E.N.S.'], keep: true}
+
+meyer: 
+    catalog: des-marques-et-vous
+    brand: meyer
+    configuration: 
+        simple_filter:
+            marque: { column: brand, position: start, contents: ['MEYER'], keep: true }
+            
+miss-selfridge:
+    catalog: miss-selfridge
+    brand: miss-selfridge
+    configuration: null
+
+missguided:
+    catalog: missguided
+    brand: missguided
+    configuration: null
+    
+modavista: 
+    catalog: la-halle
+    brand: modavista
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: ['MODAVISTA'], keep: true }
+            categorie: { column: category, position: start, contents: ['Homme', 'Femme'], keep: true, glue: or }    
+
+nebulus:
+    catalog: lesara
+    brand: nebulus
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: ['nebulus'], keep: true }
+
+nina-kalio: 
+    catalog: des-marques-et-vous
+    brand: nina-kalio
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: start, contents: ['NINA KALIO'], keep: true}
+ODB: 
+    catalog: des-marques-et-vous
+    brand: ODB
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: start, contents: ['ODB'], keep: true}
+            
+onitsuka-tiger: 
+    catalog: asics-onitsuka-tiger
+    brand: onitsuka-tiger
+    configuration: 
+        simple_filter:
+            marque: { column: category, position: start, contents: [kids], keep: false }
+only:
+    catalog: only
+    brand: only
+    configuration: null
+
+'only-&-sons':
+    catalog: asos
+    brand: 'only-sons'
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [Only & Sons], keep: true }
+        separator:
+            size: [',']
+
+patrizia-dini: 
+    catalog: helline
+    brand: patrizia-dini
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [Patrizia Dini], keep: true}            
+            
+pieces: 
+    catalog: bestseller
+    brand: pieces
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [PIECES], keep: true }
+            
+pierre-cardin:
+    catalog: lesara
+    brand: pierre-cardin
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: ['pierre cardin'], keep: true }
+pimkie: 
+    catalog: pimkie
+    brand: pimkie
+    configuration: null
+    
+pink-clove : 
+    catalog: asos
+    brand: pink-clove
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [Pink Clove], keep: true }
+        separator:
+            size: [','] 
+  
+pretty-little-thing:
+    catalog: pretty-little-thing
+    brand: pretty-little-thing
+    configuration: null
+
+princesse-tam-tam: 
+    catalog: princessetamtam
+    brand: princesse-tam-tam
+    configuration: null
+    
+promod: 
+    catalog: promod
+    brand: promod
+    configuration:
+        separator: 
+            size: [',']
+    
+'pull-&-bear':
+    catalog: pull-bear
+    brand: pull-bear
+    configuration: null
+puma : 
+    catalog: asos
+    brand: puma
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [puma], keep: true }
+        separator:
+            size: [','] 
+
+pygmees: 
+    catalog: des-marques-et-vous
+    brand: pygmees
+    configuration:
+        simple_filter: 
+            marque: { column: brand, position: 'start', contents: ['PYGMEES'], keep: true }
+            
+            
+rage-plus: 
+    catalog: asos
+    brand: rage-plus
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [rage plus], keep: true }
+        separator:
+            size: [',']     
+            
+ralph-lauren:
+    catalog: ralph-lauren
+    brand: ralph-lauren
+    configuration:
+        simple_filter:
+            enfants: { column: category, position: start, contents: [enfants], keep: false }
+            bebe: { column: category, position: start, contents: [baby], keep: false }
+
+re-verse:
+    catalog: lesara
+    brand: re-verse
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [re-verse], keep: true }
+
+rick-cardona: 
+    catalog: helline
+    brand: rick-cardona
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [Rick Cardona], keep: true}            
+rieker: 
+    catalog: helline
+    brand: rieker
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [Rieker], keep: true}
+            
+river-island:
+    catalog: river-island
+    brand: river-island
+    configuration:
+        simple_filter:
+            Fille: { column: category, position: start, contents: [Fille], keep: false }
+            Garçon: { column: category, position: start, contents: [Garçon], keep: false }
+            Rupture: { column: size, position: middle, contents: ['(en rupture de stock)'], keep: false }
+        action:
+            Delete_FR: { action: replace, column: size, contents: { (FR): '' } }
+            Delete_QTE: { action: replace, column: size, contents: { '(quantité limitée)': '' } }
+
+roxy:
+    catalog: roxy
+    brand: roxy
+    configuration:
+        simple_filter:
+            Fille: { column: name, position: start, contents: [fille], keep: false }
+        separator:
+            size: [',']
+
+secrets-de-mode: 
+    catalog: la-redoute
+    brand: secrets-de-mode
+    configuration: 
+    configuration:
+        simple_filter:
+            marque: { column: 'brand', position: 'start', contents: ['secrets de mode'], keep: true }
+        separator:
+            size: ['.',';']
+            color: [',',';']
+            ean: [';']    
+    
+'simply-be': 
+    catalog: asos
+    brand: 'simply-be'
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [Simply Be], keep: true }
+        separator:
+            size: [',']
+smash: 
+    catalog: des-marques-et-vous
+    brand: smash
+    configuration: 
+        simple_filter: 
+            marque: {column: brand, position: 'start', contents: [SMASH], keep: true}
+            
+south-beach:
+    catalog: asos
+    brand: south-beach
+    configuration:
+        simple_filter:
+            marque: { column: brand, position: start, contents: [South Beach], keep: true }
+        separator:
+            size: [',']
+            
+stradivarius:
+    catalog: stradivarius
+    brand: stradivarius
+    configuration: null
+
+strellson:
+    catalog: strellson
+    brand: strellson
+    configuration: null
+
+superdry: 
+    catalog: superdry
+    brand: superdry
+    configuration: null
+    
+tamaris: 
+    catalog: helline
+    brand: tamaris
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [Tamaris], keep: true }            
+    
+tao: 
+    catalog: tao
+    brand: tao
+    configuration: 
+        simple_filter: 
+            age: { column: size, position: start, contents: [mois], keep: false }
+
+tibet: 
+    catalog: des-marques-et-vous
+    brand: tibet
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: [tibet], keep: true }
+    
+tokyo-laundry:     
+    catalog: asos 
+    brand: tokyo-laundry
+    configuration: 
+        simple_filter:
+            marque: { column: brand, position: start, contents: [tokyo laundry], keep: true }
+        separator:
+            size: [','] 
+            
+topman:
+    catalog: topman
+    brand: topman
+    configuration:
+        separator:
+            size: [',']
+
+topshop:
+    catalog: topshop
+    brand: topshop
+    configuration:
+        simple_filter:
+            beauté: { column: category, position: start, contents: ['shopper la beaute'], keep: false }
+            teint: { column: category, position: start, contents: [teint], keep: false }
+            yeux: { column: category, position: start, contents: [yeux], keep: false }
+        separator:
+            size: [',']
+trois25:  
+    catalog: la-halle
+    brand: trois25
+    configuration: 
+        simple_filter: 
+            marque: { column: brand, position: start, contents: ['TROIS25'], keep: true }
+            categorie: { column: category, position: start, contents: ['Homme', 'Femme'], keep: true, glue: or } 
+
+'unique-21-hero':
+    catalog: asos
+    brand: unique-21-hero
+    configuration: 
+        simple_filter:
+            marque: { column: brand, position: start, contents: [Unique 21 Hero], keep: true }
+        separator:
+            size: [',']    
+            
+unkut: 
+    catalog: unkut 
+    brand: unkut
+    configuration: null
+
+violeta: 
+    catalog: mango
+    brand: violeta-by-mango
+    configuration: 
+        simple_filter: 
+            violeta: { column: brand, position: start, contents: ['violeta by mango'], keep: true }
+        separator: 
+            size: [',']
+    
+volcom:
+    catalog: volcom
+    brand: volcom
+    configuration:
+        separator:
+            size: [',']
+            
+yumi: 
+    catalog: asos 
+    brand: yumi
+    configuration: 
+        simple_filter:
+            marque: { column: brand, position: start, contents: [yumi plus], keep: true }
+        separator:
+            size: [',']  

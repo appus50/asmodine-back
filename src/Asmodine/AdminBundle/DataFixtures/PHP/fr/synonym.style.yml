@@ -1,0 +1,1691 @@
+# synonym.style.yml
+
+style:
+    "/femme/vetements/jupes":
+        "Portefeuille":
+            - { name: 'portefeuille', priority: 120}
+            - { name: 'porte-feuille', priority: 120}
+        "Plissées":
+            - { name: "pli", priority: 90}
+            - { name: 'plissée', priority: 105}
+        "Moulantes":
+            - { name: 'moulant', priority: 110}
+            - { name: 'coupe moulante', priority: 125}
+        "Patineuses":
+            - { name: 'patineuse', priority: 120}
+        "Fourreau / Crayon":
+            - { name: 'fourreau', priority: 120}
+        "Trapèze":
+            - { name: 'trapèze', priority: 120}
+        "Mini jupe":
+            - { name: "mini", priority: 80}
+            - { name: 'mini-jupe', priority: 130}
+        "Jupe jean":
+            - { name: 'jean', priority: 105}
+            - { name: 'jupe denim', priority: 110}
+            - { name: 'jupe en denim', priority: 110}
+        "Droite":
+            - { name: "droit", priority: 85}
+            - { name: 'forme : droite', priority: 105}
+            - { name: 'coupe droite', priority: 115}
+            - { name: 'jupe droite', priority: 115}
+            - { name: 'jupe de tailleur', priority: 110}
+            - { name: 'coupe classique', priority: 105}
+        "Enveloppante":
+            - { name: 'enveloppante', priority: 85}
+        "Evasée":
+            - { name: 'evase', priority: 85}
+            - { name: 'coupe evasee', priority: 120}
+            - { name: 'coupe légèrement évasée', priority: 120}
+        "Crayon":
+            - { name: 'crayon', priority: 120}
+        "Jupe culotte":
+            - { name: 'culotte', priority: 120}
+        "Mini":
+            - { name: 'mini', priority: 65}
+        "Courte":
+            - { name: 'courte', priority: 65 }
+            - { name: 'dessus du genou', priority: 110}
+            - { name: 'coupe courte', priority: 115}
+            - { name: 'jupe courte', priority: 120}
+        "Genoux":
+            - { name: 'genoux', priority: 80}
+            - { name: 'longueur genou', priority: 102}
+        "Midi":
+            - midi
+            - { name: 'mi-longueur', priority: 105}
+            - { name: 'mi-longue', priority: 105}
+            - { name: 'jupe midi', priority: 115}
+        "Longue":
+            - { name: 'longue', priority: 85}
+            - { name: 'jupe longue', priority: 110}
+        "Extra longue":
+            - { name: "extra long", priority: 110}
+            - { name: "extra-long", priority: 110}
+        "Jupe en maille":
+            - { name: 'maille', priority: 105}
+        "Jupes asymétriques":
+            - { name: 'jupe asymétrique', priority: 120}
+            - { name: 'coupe asymétrique', priority: 120}
+        "Jupes en cuir":
+            - cuir
+        "tube":
+            - { name: 'jupe tube', priority: 120}
+        "jupe-short":
+            - short
+            - { name: 'jupe-short', priority: 120}
+
+    "/femme/vetements/robes":
+        "Trapeze":
+            - { name: 'trapeze', priority: 120}
+        "bandeau":
+            - { name: 'bandeau', priority: 115}
+        "Robes de plage":
+            - plage
+        "Corsage":
+            - corsage
+        "Moulante":
+            - { name: 'robe moulante', priority: 115}
+            - { name: 'moulante', priority: 105}
+        "Robes pull":
+            - { name: 'pull', priority: 115}
+        "Fourreau":
+            - { name: 'robe fourreau', priority: 135}
+        "Droite":
+            - { name: 'coupe droite', priority: 135}
+            - { name: 'droit', priority: 85}
+            - { name: 'robe droite', priority: 145}
+            - { name: 'regular', priority: 120}
+            - { name: 'coupe regular', priority: 130}
+            - { name: 'coupe classique', priority: 110}
+            - { name: 'Forme : droite', priority: 120}
+        "Robes chemise":
+            - chemise
+            - { name: 'chemisier', priority: 115}
+            - { name: 'robe chemise', priority: 115}
+        "Patineuse":
+            - { name: 'patineuse', priority: 120}
+        "Robes nuisette":
+            - { name: 'nuisette', priority: 120}
+        "La robe tunique":
+            - { name: 'tunique', priority: 115}
+            - { name: ' robe tunique', priority: 120}
+        "Robes t-shirt":
+            - { name: 't-shirt', priority: 120}
+        "Cintrée":
+            - { name: 'cintrée', priority: 125}
+            - { name: 'coupe slim', priority: 125}
+            - { name: 'près du corps', priority: 120}
+        "Ajustée":
+            - { name: 'ajustee', priority: 120}
+            - { name: 'ajusté', priority: 120}
+        "Taille empire":
+            - { name: 'taille empire', priority: 120}
+        "Froncée":
+            - froncée 
+        "Robes drapées":
+            - drapée
+        "Mini":
+            - mini
+            - { name: 'robe mini', priority: 115}
+        "Courte":
+            - { name: 'courte', priority: 80}
+            - { name: 'dessus du genou', priority: 105}
+            - { name: 'robe courte', priority: 110}
+            - { name: 'coupe courte', priority: 110}
+        "Genoux":
+            - { name: 'genou', priority: 80}
+        "Midi":
+            - midi
+            - { name: 'robe midi', priority: 120}
+        "Longue":
+            - { name: 'longue', priority: 80}
+            - { name: 'robe longue', priority: 105}
+        "Extra longue":
+            - { name: "extra long", priority: 110}
+            - { name: "extra-long", priority: 110}
+        "Dos nu":
+            - { name: 'dos nu', priority: 95}
+        "V plongeant":
+            - { name: 'plongeant', priority: 115}
+        "Droite":
+            - droite           
+        "3 trous":
+            - 3 trous
+            - trois trous
+        "Plissée":
+            - { name: 'plissee', priority: 110}
+        "Manches courtes":
+            - { name: 'manches courtes', priority: 85}
+            - manche courte
+        "Manches longues":
+            - manches longues
+            - manche longue
+        "Manches 3/4":
+            - manche 3/4
+            - { name: 'manches 3/4', priority: 110}
+            - manche trois quart
+        "Sans manches":
+            - { name: 'sans manche', priority: 105}
+        "Bustier":
+            - { name: 'bustier', priority: 118}
+        "Encolure ronde":
+            - { name: 'encolure arrondie', priority: 110}
+            - { name: 'encolure ronde', priority: 125}
+            - { name: 'col rond', priority: 110}
+            - { name: 'col bénitier', priority: 110}
+            - { name: 'ras du cou', priority: 110}
+        "Encolure carrée":
+            - { name: 'encolure carrée', priority: 105}
+            - col carrée
+            - { name: 'col u', priority: 110}
+            - { name: 'décolleté carré', priority: 110}
+        "Encolure bateau":
+            - bateau
+            - { name: 'bardot', priority: 105}
+            - { name: 'col bateau', priority: 105}
+        "Col montant / cheminé / roulé":
+            - { name: 'col montant', priority: 110}
+            - cheminé
+            - col roulé
+        "Evasé":
+            - { name: 'evase', priority: 105}
+            - { name: 'coupe évasée', priority: 115}
+        "Robe en maille":
+            - { name: 'maille', priority: 110}
+            - { name: 'tricot', priority: 105}
+        "Robes asymétriques":
+            - { name: 'robe asymetrique', priority: 130}
+        "Robes casual":
+            - casual
+        "Robes d’été":
+            - { name: 'robe d''été', priority: 120}
+        "Robes de plage":
+            - { name: 'robe de plage', priority: 120}
+        "Robes de soirée":
+            - soirée
+        "Robes en jean":
+            - jean
+        "robe portfeuille":
+            - { name: 'portfeuille', priority: 125}
+        "en jean":
+            - { name: 'en jean', priority: 110}
+            - { name: 'en denim', priority: 110}
+        "kimono":
+            - kimono
+        "col v":
+            - { name: 'col v', priority: 110}
+            - { name: 'col en v', priority: 110}
+            - { name: 'encolure en v', priority: 105}
+        "col tunisien":
+            - col tunisien
+        "cache-coeur":
+            - { name: 'cache-c', priority: 115}
+        "col montant":
+            - col montant
+
+    "/femme/vetements/combinaisons":
+        "Combinaisons de plage":
+            - { name: 'combinaison de plage', priority: 115}
+        "Salopettes":
+            - { name: 'salopette', priority: 115}
+        "Ajusté":
+            - { name: 'ajuste', priority: 105}
+            - { name: 'coupe cintrée', priority: 120}
+        "Combis moulantes":
+            - moulante
+            - { name: 'coupe moulante', priority: 120}
+            - { name: 'coupe slim', priority: 120}
+        "Combis de soirée":
+            - soirée
+            - { name: 'habillee', priority: 105}
+        "Manches longues":
+            - { name: 'manches longue', priority: 105}
+        "Manches courtes":
+            - manche courte
+            - manches courtes
+        "Bretelles":
+            - bretelle
+        "Bustier":
+            - { name: 'bustier', priority: 110}
+        "Combinaison Casual":
+            - casual
+        "combi-pantalon":
+            - combi-pantalon
+            - { name: 'combi pantalon', priority: 110}
+            - { name: 'combinaison', priority: 95}
+        "combinaison portefeuille":
+            - { name: 'portefeuille', priority: 125}
+        "combinaison col montant":
+            - col montant
+        "jambe 3/4":
+            - jambe 3/4
+        "décolleté":
+            - décolleté
+        "cache-coeur":
+            - { name: 'cache-coeur', priority: 125}
+            - { name: 'cache-cur', priority: 125}
+        "coupe régular":
+            - { name: 'coupe régular', priority: 120}
+            - { name: 'classique', priority: 120}
+            - { name: 'coupe droite', priority: 120}
+        "bateau":
+            - bateau
+
+    "/femme/vetements/combishorts":
+        "Combishorts de plage":
+            - { name: 'combishort de plage', priority: 125}
+        "Combishorts":
+            - { name: 'combishort', priority: 95}
+            - { name: 'combi-short', priority: 95}
+            - { name: 'combi short', priority: 95}
+        "ras de cou":
+            - { name: 'ras du cou', priority: 105}
+        "col montant":
+            - { name: 'col montant', priority: 105}
+        "col bardot":
+            - { name: 'col bardote', priority: 105}
+        "col bateau":
+            - { name: 'col bateau', priority: 105}
+        "coup régular":
+            - { name: 'coup régular', priority: 115}
+            - { name: 'coupe classique', priority: 115}
+            - { name: 'coupe droite', priority: 115}
+        "cache-coeur":
+            - { name: 'cache-cœur', priority: 120}
+        "portefeuille":
+            - { name: 'portefeuille', priority: 120}
+        "bandeau":
+            - {name: 'bandeau', priority: 120}
+
+    "/femme/vetements/shorts":
+        "Short jean mini":
+            - jean mini
+        "Short jean boyfriend":
+            - boyfriend
+        "Bermuda droit":
+            - droit
+        "Bermuda classique a revers":
+            - bermuda classique
+            - a revers
+            - { name: 'bermuda', priority: 85}
+        "Bermuda large":
+            - bermuda large
+        "Jupes-shorts":
+            - { name: 'jupe short', priority: 120}
+        "Taille haute":
+            - { name: 'taille haute', priority: 110}
+        "taille basse":
+            - { name: 'taille basse', priority: 110}
+        "Taille normale":
+            - { name: 'normale', priority: 105}
+            - { name: 'taille moyenne', priority: 105}
+        "Short capri":
+            - capri
+        "Short cargo":
+            - { name: 'cargo', priority: 115} 
+        "Short casual":
+            - cusual
+        "Short de ville":
+            - de ville
+            - { name: 'city', priority: 105}
+        "Short jean":
+            - { name: "jean", priority: 95}
+        "SHORTS":
+            - { name: "shorts", priority: 50}
+        "Short en maille":
+            - short
+        "pantacourt":
+            - pantacourt
+        "short regular":
+            - { name: 'coupe regular', priority: 120}
+
+    "/femme/vetements/jeans":
+        "Bootcut":
+            - { name: 'bootcut', priority: 125}
+        "Boyfriend":
+            - { name: 'boyfriend', priority: 130}
+        "Droit":
+            - { name: 'droit', priority: 120}
+            - { name: 'regular', priority: 115}
+            - { name: 'coupe regular', priority: 130}
+            - { name: 'straight', priority: 120}
+            - { name: 'coupe normale', priority: 120}
+        "Evasés":
+            - evase
+            - { name: 'évasé', priority: 120}
+        "Flare":
+            - { name: 'flare', priority: 120}
+        "Large":
+            - { name: 'large', priority: 110}
+            - { name: 'coupe ample', priority: 110}
+        "Skinny":
+            - { name: 'skinny', priority: 130}
+            - { name: 'moulant', priority: 115}
+            - { name: 'stretch', priority: 115}
+        "Slim":
+            - { name: 'slim', priority: 120}
+            - { name: 'près du corps', priority: 110}
+        "Super skinny":
+            - { name: 'super skinny', priority: 125}
+            - { name: 'super stretch', priority: 120}
+            - { name: 'ultra skinny', priority: 125}
+        "Court":
+            - court
+        "Coloré":
+            - colore
+        "Imprimé":
+            - imprime
+        "Jeans mom":
+            - { name: 'mom', priority: 120}
+        "Jeggings":
+            - { name: 'jegging', priority: 120}
+        "Jupes-culottes":
+            - { name: 'culotte', priority: 85}
+        "Salopettes":
+            - salopette
+        "Shorts en jean":
+            - short
+        "7/8e":
+            - { name: '7/8', priority: 115}
+            - { name: 'jean raccourci', priority: 105}
+        "Corsaire":
+            - { name: 'corsaire', priority: 115}
+        "Brut/Foncé":
+            - fonce
+            - brut
+        "Patte d'elephant":
+            - { name: 'elephant', priority: 120}
+            - { name: 'pattes d''eph', priority: 120}
+        "Chambray/Clair":
+            - chambray
+            - clair
+        "Baggy & Large":
+            - Baggy & Large
+        "Fuselé & Carotte":
+            - Fuselé & Carotte
+            - { name: 'coupe fuselée', priority: 125}
+            - cigarette
+        "Stretch":
+            - Stretch
+        "Taille haute":
+            - { name: 'taille haute', priority: 120}
+            - { name: 'taille super haute', priority: 115}
+            - { name: 'taille ultra-haute', priority: 115}
+        "taille haute":
+            - taille haute
+        "taille basse":
+            - taille basse
+        "jean mom":
+            - { name: 'jean mom', priority: 125}
+            - { name: 'jean mum', priority: 125}
+        "capri":
+            - capri
+        "taille mi-haute":
+            - taille mi-haute
+
+    "/femme/vetements/pantalons":
+        "Unis":
+            - unit
+            - unis
+        "Imprimés":
+            - imprime
+        "Droit":
+            - { name: 'coupe droite', priority: 120}
+            - { name: 'regular', priority: 110}
+            - { name: 'pantalon droit', priority: 120}
+            - { name: 'coupe classique', priority: 110}
+            - { name: 'droit', priority: 85}
+            - { name: 'straight', priority: 115}
+            - { name: 'pantalon de ville droit', priority: 135}
+        "Large":
+            - large
+            - { name: 'pantalon large', priority: 105}
+            - { name: 'palazzo', priority: 110}
+            - { name: 'coupe ample', priority: 115}
+            - { name: 'pantalon city', priority: 105}
+            - { name: 'coupe large', priority: 130}
+            - { name: 'loose', priority: 120}
+        "Cigarette":
+            - { name: 'cigarette', priority: 120}
+        "Carotte":
+            - { name: 'carotte', priority: 125}
+            - { name: 'carrot', priority: 125}
+        "Fuseau":
+            - { name: 'fuseau', priority: 120}
+            - { name: 'fuselé', priority: 120}
+        "Legging":
+            - { name: 'legging', priority: 120}
+        "Evasé":
+            - { name: 'évasée', priority: 105}
+            - { name: 'coupe évasée', priority: 120}
+        "Fluide":
+            - { name: 'fluide', priority: 110}
+        "Cuir & faux cuir":
+            - { name: 'cuir', priority: 115}
+        "Baggy":
+            - { name: 'baggy', priority: 120}
+        "Corsaire":
+            - { name: 'corsaire', priority: 120}
+        "7/8e":
+            - { name: '7/8', priority: 105}
+            - { name : 'pantacourt', priority: 105}
+        "Taille haute":
+            - {name: 'taille haute', priority: 105}
+            - { name: 'mom', priority: 95}
+        "Taille basse":
+            - { name: 'taille basse', priority: 105}
+        "Taille normale":
+            - taille normale
+        "Tissu sombre":
+            - { name: "sombre", priority: 90}
+        "Tissu clair":
+            - { name: "clair", priority: 90}
+        "jogging":
+            - { name: 'jogging', priority: 110}
+            - { name: 'city jog', priority: 110}
+            - { name: 'jogpant', priority: 110}
+            - { name: 'survêtement', priority: 110}
+            - { name: 'jogger', priority: 110}
+        "court":
+            - court
+            - {name: 'raccourci', priority: 105}
+        "Jegging":
+            - { name: 'jegging', priority: 120}
+        "Tube":
+            - { name: 'tube', priority: 120}
+            - { name: 'fuselé', priority: 110}
+        "bootcut":
+            - { name: 'bootcut', priority: 120}
+        "A pont":
+            - { name: 'pantalon a pont', priority: 120}
+        "Cargos": 
+            - { name: 'cargo', priority: 125}
+        "Chinos": 
+            - { name: 'Chino', priority: 125}
+        "Pantalons classiques":
+            - classiques
+        "Pantalons Skinny":
+            - { name: 'Skinny', priority: 125}
+        "Pantalons Slim":
+            - { name: 'Slim', priority: 130}
+            - { name: 'ajustée', priority: 125}
+            - { name: 'push up', priority: 115}
+        "Pantalons stretch":
+            - stretch
+        "cintré":
+            - { name: 'cintré', priority: 120}
+            - { name: 'ceintré', priority: 120}
+        "pantalon culotte":
+            - culotte
+        "flare":
+            - flare
+            - { name: 'pantalon flare', priority: 120}
+        "habillé":
+            - habillé
+            - { name: 'pantalon de soirée', priority: 115}
+            - { name: 'pantalon de tailleur', priority: 115}
+        "paperbag":
+            - paperbag
+            - { name: 'paper bag', priority: 120}
+        "moulant":
+            - moulant
+
+    "/femme/vetements/pulls":
+        "Gilets":
+            - { name: 'gilet', priority: 120}
+            - { name: 'cardigan', priority: 120}
+        "Gilet col rond":
+            - { name: 'gilet col rond', priority: 135}
+            - { name: 'gilet à col rond', priority: 135}
+        "Gilet col V":
+            - col V
+        "Twin set":
+            - twin set
+        "Pull encolure ronde":
+            - { name: 'encolure ronde', priority: 120}
+            - { name: 'col arrondi', priority: 120}
+            - { name: 'col rond', priority: 125}
+            - { name: 'ras de cou', priority: 120}
+            - { name: 'ras du cou', priority: 130}
+        "Pull col cheminée":
+            - { name: 'col cheminée', priority: 120}
+            - { name: 'col montant', priority: 115}
+            - { name: 'col haut', priority: 115}
+        "Pull col roulé":
+            - roulé
+            - { name: 'col roulé', priority: 110}
+        "Pull encolure bateau":
+            - { name: 'col bateau', priority: 115}
+        "Pull encolure carrée":
+            - carrée
+        "Pull V":
+            - Pull V
+            - { name: 'cache-coeur', priority: 110}
+            - { name: 'col en v', priority: 115}
+            - { name: 'encolure ', priority: 115}
+            - { name: 'décolleté en v', priority: 110}
+            - { name: 'col polo en V', priority: 110}
+        "Pull manche droite":
+            - manche droite
+        "Pull manche raglan":
+            - { name: 'manches raglan', priority: 105}
+        "Pull manches tombantes":
+            - manche tombante
+            - manches tombantes
+        "Pull manche chauve souris":
+            - manche chauve souris
+            - { name: 'chauve-souris', priority: 105}
+        "Boléros":
+            - Boléros
+        "Cardigans":
+            - { name: 'cardigan', priority: 130}
+        "Kimonos":
+            - Kimonos
+        "pull cintré":
+            - { name: 'cintrée', priority: 125}
+        "pull coupe droite":
+            - { name: 'coupe droite', priority: 135}
+            - { name: 'coupe classique', priority: 125}
+            - { name: 'coupe regular', priority: 125}
+        "col tunisiens / bardot":
+            - col tunisiens / bardot
+        "coupe ample":
+            - { name: 'coupe ample', priority: 120}
+            - { name: 'oversize', priority: 135}
+            - { name: 'coupe loose', priority: 120}
+            - { name: 'pull ample', priority: 120}
+            - { name: 'forme ample', priority: 120}
+        "col boule":
+            - col boule
+        "coupe slim":
+            - { name: 'coupe slim', priority: 120}
+        "col claudine":
+            - col claudine
+        "col chale":
+            - col chale
+        "manche ballon":
+            - manche ballon
+
+    "/femme/vetements/vestes":
+        "Blazers":
+            - { name: 'blazer', priority: 125}
+        "Vestes cintrées":
+            - {name: 'cintrée', priority: 115}
+        "Tailleurs et costumes":
+            - { name: 'tailleur', priority: 85}
+            - costume
+            - { name: 'veste de tailleur', priority: 105}
+        "Vestes casual":
+            - cusual
+        "Vestes en jean":
+            - jean
+            - { name: 'en jean', priority: 105}
+            - { name: 'denim', priority: 105}
+        "Vestes droite":
+            - { name: 'droit', priority: 110}
+            - { name: 'regular', priority: 120}
+            - { name: 'coupe classique', priority: 105}
+        "Kimonos":
+            - kimono
+            - { name: 'coupe kimono', priority: 115}
+            - { name: 'style kimono', priority: 115}
+        "Vestes en cuir":
+            - { name : 'cuir', priority: 110}
+        "Perfecto":
+            - { name: 'perfecto', priority: 130}
+            - {name: 'veste femme blouson', priority: 120}
+        "Smoking":
+            - smoking
+        "Vestes légères":
+            - légère
+        "Epaulettes":
+            - { name: 'epaulettes', priority: 110}
+        "Basques":
+            - { name: 'basque', priority: 120}
+        "Ajusté":
+            - { name: 'ajuste', priority: 110}
+            - { name: 'coupe ajustée', priority: 120}
+        "Bombers":
+            - { name: 'bomber', priority: 120}
+        "Vestes matelassées":
+            - { name: 'matelassée', priority: 120}
+        "Teddy":
+            - {name: 'teddy', priority: 120}
+        "blouson":
+            - { name: 'blouson', priority: 125}
+        "blouson aviateur":
+            - { name: 'aviateur', priority: 115}
+        "oversize":
+            - { name: 'oversize', priority: 135}
+            - { name: 'coupe ample', priority: 105}
+            - { name: 'coupe boyfriend', priority: 110}
+        "matelassé":
+            - { name: 'matelassé', priority: 120}
+        "style motard":
+            - { name: 'motard', priority: 120}
+            - { name: 'biker', priority: 130}
+        "classique":
+            - { name: 'coupe classique', priority: 120}
+            - { name: 'veste basic', priority: 120}
+        "cargo":
+            - cargo
+        "courte":
+            - courte
+        "boléro":
+            - { name: 'boléro', priority: 120}
+
+    "/femme/vetements/manteaux":
+        "Manteaux":
+            - { name: "manteau", priority: 50}
+        "Blousons aviateur":
+            - { name: 'aviateur', priority: 120}
+        "Capes":
+            - capes
+        "Duffle-coats":
+            - duffle
+        "Manteaux longs":
+            - manteau long
+            - manteaux longs
+        "Fausse fourrure":
+            - { name: 'fourrure', priority: 105}
+            - fausse fourrure
+        "Trenchs":
+            - { name: 'trench', priority: 120}
+        "Manteaux oversize":
+            - { name: 'oversize', priority: 115}
+        "Parkas":
+            - { name: 'parka', priority: 125}
+        "Cabans":
+            - { name: 'cabans', priority: 120}
+        "Imperméables":
+            - impermeable
+        "Manteaux trapèze":
+            - { name: 'trapeze', priority: 120}
+        "A capuche":
+            - capuche
+        "Court":
+            - { name: "court", priority: 90}
+        "Mi long":
+            - { name: 'mi-long', priority: 110}
+            - { name: 'mi-longue', priority: 110}
+        "Long":
+            - { name: "long", priority: 95}
+            - { name: 'manteaux long', priority: 110}
+        "doudoune":
+            - { name: 'doudoune', priority: 125}
+        "coupe droite":
+            - coupe droite
+        "poncho":
+            - { name: 'poncho', priority: 120}
+
+    "/femme/vetements/sweats":
+        "A capuche":
+            - capuche
+        "Sweatshirts":
+            - Sweatshirts
+            - { name: 'sweat', priority: 85}
+        "coupe droite (regular)":
+            - { name: 'coupe droite', priority: 120}
+            - { name: 'regular', priority: 120}
+            - { name: 'coupe décontractée', priority: 120}
+            - { name: 'coupe classique', priority: 120}
+        "ajusté / ceintré":
+            - { name: 'coupe ajustée', priority: 120}
+            - { name: 'coupe ceintrée', priority: 120}
+        "fluide":
+            - { name: 'coupe fluide', priority: 120}
+        "col arrondi":
+            - col arrondi
+            - { name: 'ras du cou', priority: 110}
+            - { name: 'col rond', priority: 110}
+        "col V":
+            - col V
+        "col claudine":
+            - col claudine
+        "manche ballon (bouffante)":
+            - manche ballon (bouffante)
+        "ample":
+            - ample
+            - { name: 'oversize', priority: 115}
+            - { name: 'coupe boyfriend', priority: 120}
+        "SWEAT ZIPPE":
+            - SWEAT ZIPPE
+
+    "/femme/vetements/chemises":
+        "Chemisier col classique":
+            - col classique
+            - { name: 'col simple', priority: 105}
+        "Chemisier col claudine":
+            - col claudine
+        "Chemisier col lavalière":
+            - col lavalière
+        "Chemisier sans col":
+            - sans col
+        "Chemisier col mao":
+            - { name: 'col mao', priority: 115}
+        "Chemisier long":
+            - chemisier long
+        "Chemisier court":
+            - chemisier court
+            - { name: 'coupe courte', priority: 110}
+        "Chemise de peintre":
+            - peintre
+        "Chemisier cintrés":
+            - cintrés
+        "Manches longues":
+            - manche longue
+            - { name: 'manches longues', priority: 105}
+        "Manches courtes":
+            - manche courte
+            - { name: 'manches courtes', priority: 105}
+            - { name: 'manche 3/4', priority: 105}
+            - { name: 'manche trois-quarts', priority: 105}
+            - { name: 'manches 3/4', priority: 105}
+            - { name: 'manches coudes', priority: 105}
+            - { name: '3/4 sleeved', priority: 110}
+        "Sans manches":
+            - { name: 'sans manche', priority: 105}
+        "Fluide":
+            - { name: 'fluide', priority: 110}
+            - { name: 'vaporeuse', priority: 110}
+            - { name: 'ample', priority: 110}
+            - { name: 'blouse fluide', priority: 130}
+            - { name: 'tissu ultra léger', priority: 120}
+        "Moulant":
+            - moulant
+        "Long":
+            - long
+        "Court":
+            - court
+        "Droit":
+            - { name: 'coupe droite', priority: 120}
+            - { name: 'coupe classique', priority: 120}
+        "Ajusté / Cintré":
+            - { name: 'ajuste', priority: 120}
+            - { name: 'cintre', priority: 120}
+            - { name: 'coupe slim', priority: 120}
+        "Cache cœur":
+            - { name: 'cache coeur', priority: 115}
+        "Poche poitrine":
+            - poche poitrine
+        "Boutonnés devant":
+            - boutonnés devant
+        "Sans boutons":
+            - sans boutons
+        "dos nu":
+            - dos nu
+        "Asymetrique":
+            - { name: 'asymetrique', priority: 120}
+        "Blouse":
+            - { name: 'Blouse', priority: 115}
+        "blouse col v":
+            - { name: 'blouse col v', priority: 125}
+            - { name: 'encolure V', priority: 120}
+            - { name: 'col v', priority: 120}
+        "chemise en jean":
+            - { name: 'en jean', priority: 120}
+            - { name: 'en denim', priority: 120}
+        "manche 3/4":
+            - { name: 'manche 3/4', priority: 105}
+        "encolure ronde":
+            - encolure ronde
+            - col rond
+        "coupe boxy":
+            - { name: 'coupe boxy', priority: 115}
+
+    "/femme/vetements/t-shirts-debardeurs":
+        "T-shirts classique":
+            - { name: 't-shirt', priority: 85}
+            - { name: 'coupe classique', priority: 105}
+        "Manches 3/4":
+            - { name: '3/4', priority: 105}
+        "Manches longues":
+            - { name: 'manches longues', priority: 102}
+        "Manches courtes":
+            - { name: 'Manches courtes', priority: 102}
+        "Manches raglans":
+            - Manches raglans
+        "Manches ballons":
+            - Manches ballons
+        "Manches kimono":
+            - Manches kimono
+        "Manches chauve souris":
+            - Manches chauve souris
+        "Encolure bateau":
+            - Encolure bateau
+            - { name: 'col bateau', priority: 110}
+        "Encolure carrée":
+            - Encolure carrée
+        "Encolure danseuse":
+            - Encolure danseuse
+        "Encolure ronde":
+            - { name: 'encolure ronde', priority: 110}
+            - { name: 'col rond', priority: 115}
+            - { name: 'col bénitier', priority: 110}
+            - { name: 'col arrondi', priority: 110}
+            - { name: 'ras de cou', priority: 110}
+            - { name: 'ras du cou', priority: 110}
+        "Débardeur classique":
+            - Débardeur classique
+            - { name: 'coupe droite', priority: 115}
+            - { name: 'débardeur', priority: 95}
+        "Débardeur dos nageur":
+            - Débardeur dos nageur
+        "Débardeur fine brette":
+            - Débardeur fine brette
+        "Caracos":
+            - { name: 'Caracos', priority: 120}
+        "Bustier":
+            - {name: 'Bustier', priority: 120}
+        "Fluide":
+            - { name: 'Fluide', priority: 110}
+            - { name: 'coupe droite', priority: 120}
+            - { name: 'regular', priority: 120}
+            - { name: 'tunique', priority: 120}
+        "Moulant":
+            - Moulant
+        "Cintré":
+            - { name: 'Cintré', priority: 115}
+            - { name: 'ajuste', priority: 115}
+        "Long":
+            - Long
+        "Court":
+            - Court
+        "Cache cœur":
+            - { name: 'Cache cœur', priority: 120}
+            - { name: 'cache-coeur', priority: 120}
+        "Croped top":
+            - { name: 'Croped top', priority: 120}
+        "Brassiere":
+            - Brassiere
+        "Dos nu":
+            - Dos nu
+        "Tops":
+            - { name: 'Top', priority: 130}
+        "Peplum":
+            - { name: 'Peplum', priority: 120}
+        "Asymetrique":
+            - { name: 'Asymetrique', priority: 120}
+        "col V":
+            - { name: 'col en V', priority: 120}
+        "coupe ajusté":
+            - { name: 'coupe ajustée', priority: 120}
+        "coupe trapèze":
+            - { name: 'coupe trapèze', priority: 120}
+            - { name: 'trapèze', priority: 110}
+        "coupe oversize":
+            - { name: 'coupe oversize', priority: 120}
+        "près du corp":
+            - près du corp
+            - { name: 'coupe slim', priority: 120}
+            - { name: 'coupe cintré', priority: 120}
+        "ample":
+            - { name: 'coupe ample', priority: 120}
+        "col cheminé":
+            - col cheminé
+        "style baseball":
+            - style baseball
+        "croptop":
+            - { name: 'croptop', priority: 115}
+            - { name: 'crop top', priority: 115}
+        "brassière":
+            - brassière
+        "body":
+            - { name: 'body', priority: 130}
+    "/femme/vetements/tops":   
+            "Croped top"  : 
+                - Croped top
+            "Tops": 
+                - { name: 'top', priority: 95}
+                - tee-shirt
+                - blouse
+                - t-shirt
+                - tunique
+            "croptop": 
+                - { name: 'croptop', priority: 110}
+                - { name: 'crop top', priority: 110}
+            "brassière": 
+                - brassière
+            "body": 
+                - body
+    "/femme/vetements/collants":
+        "Unis":
+            - uni
+            - { name: 'collant', priority: 95}
+        "Imprimés":
+            - imprime
+
+    "/femme/vetements/legging":
+        "Unis":
+            - uni
+        "Imprimés":
+            - imprime
+            - { name: 'legging imprimé', priority:110}
+        "legging": 
+            - { name: 'legging', priority: 85}
+            - { name: 'jegging', priority: 85}
+
+    "/femme/vetements/maillots-de-bain":
+        "Une pièce classique":
+            - une pièce classique
+            - { name: 'maillot 1 pièce', priority: 120}
+            - { name: 'maillot de bain 1 pièce', priority: 125}
+        "Une pièce nageur":
+            - une pièce nageur
+        "Une pièce fine brettelle":
+            - une pièce fine bretelle
+        "Une pièce bustier":
+            - une pièce bustier
+        "Une pièce ceinture":
+            - une pièce ceinture
+        "Bikini":
+            - { name: 'bikini', priority: 95}
+        "Soutien gorge triangle":
+            - { name: "triangle", priority: 90}
+        "Soutien gorge triangle foulard":
+            - triangle foulard
+        "Soutien gorge corbeille":
+            - corbeille
+        "Une brettelle asymetrique":
+            - asymetrique
+        "Bandeau":
+            - Bandeau
+        "Tankini":
+            - Tankini
+        "Avec Armatures":
+            - { name: 'Avec Armatures', priority: 120}
+            - { name: 'a armature', priority: 115}
+        "Sans Armatures":
+            - Sans Armatures
+        "Culotte":
+            - Culotte
+        "Echancrée":
+            - { name: 'Echancré', priority: 110}
+        "Bresilien":
+            - { name: 'Bresilien', priority: 115}
+        "String":
+            - { name: 'string', priority: 120}
+        "Shorty":
+            - { name: 'shorty', priority: 115}
+
+    "/femme/chaussures/bottes":
+        "Tige cheville":
+            - Tige cheville
+        "Tige bas de mollet":
+            - Tige bas de mollet
+        "Tige mollet":
+            - Tige mollet
+        "Tige dessous de genoux":
+            - Tige dessous de genoux
+            - { name: 'cavaliere', priority: 110}
+        "Tige genoux":
+            - Tige genoux
+        "Bottillons":
+            - Bottillons
+            - { name: 'bottine', priority: 120}
+        "Low boots / Chelsea":
+            - Low boots / Chelsea
+            - { name: 'boots', priority: 120}
+            - { name: 'chelsea', priority: 120}
+        "Bottes":
+            - { name: 'bottes', priority: 105}
+        "Cuissardes":
+            - { name: 'cuissarde', priority: 120}
+        "Haut <5 cm":
+            - 1 cm
+            - 2 cm
+            - 2,5 cm
+            - 3,5 cm
+            - 3 cm
+            - 4 cm
+        "Haut 5 à 10 cm":
+            - talons mi-hauts
+            - 5 cm
+            - 6 cm
+            - 7 cm
+            - 8 cm
+            - 9 cm
+            - { name: "10 cm", priority: 110}
+        "Haut > 10 cm":
+            - { name: "11 cm", priority: 110}
+            - { name: "12 cm", priority: 110}
+            - { name: "13 cm", priority: 110}
+            - { name: "14 cm", priority: 110}
+            - { name: "15 cm", priority: 110}
+            - { name: "16 cm", priority: 110}
+            - { name: "17 cm", priority: 110}
+            - { name: "18 cm", priority: 110}
+
+    "/femme/chaussures/talons":
+        "Escarpins":
+            - { name: 'escarpin', priority: 130}
+            - { name: 'à talons', priority: 115}
+        "Talon Aiguille":
+            - aiguille
+        "Talon fin":
+            - talon fin
+        "Talon epais":
+            - talon epai
+        "Talon plat":
+            - talon plat
+        "Talon compensé":
+            - talon compensé
+        "Haut <5 cm":
+            - 1 cm
+            - 2 cm
+            - 3 cm
+            - 4 cm
+        "Haut 5 à 10 cm":
+            - 5 cm
+            - 6 cm
+            - 7 cm
+            - 8 cm
+            - 9 cm
+            - { name: "10 cm", priority: 110}
+        "Haut > 10 cm":
+            - { name: "11 cm", priority: 110}
+            - { name: "12 cm", priority: 110}
+            - { name: "13 cm", priority: 110}
+            - { name: "14 cm", priority: 110}
+            - { name: "15 cm", priority: 110}
+            - { name: "16 cm", priority: 110}
+            - { name: "17 cm", priority: 110}
+            - { name: "18 cm", priority: 110}
+
+    "/femme/chaussures/compensees":
+        "Plateforme":
+            - { name: "plateforme", priority: 110}
+            - { name: "compensée", priority: 110}
+            - { name: "flatform", priority: 110}
+        "Haut <5 cm":
+            - 1 cm
+            - 2 cm
+            - 3 cm
+            - 4 cm
+        "Haut 5 à 10 cm":
+            - 5 cm
+            - 6 cm
+            - 7 cm
+            - 8 cm
+            - 9 cm
+            - { name: "10 cm", priority: 110}
+        "Haut > 10 cm":
+            - { name: "11 cm", priority: 110}
+            - { name: "12 cm", priority: 110}
+            - { name: "13 cm", priority: 110}
+            - { name: "14 cm", priority: 110}
+            - { name: "15 cm", priority: 110}
+            - { name: "16 cm", priority: 110}
+            - { name: "17 cm", priority: 110}
+            - { name: "18 cm", priority: 110}
+
+    "/femme/chaussures/mocassins-et-bateaux":
+        "Mocassins":
+            - { name: 'mocassin', priority: 120}
+            - espadrille
+
+    "/femme/chaussures/sandales":
+        "Sandales":
+            - { name: 'sandale', priority: 115}
+            - spartiate
+            - mules
+            - tong
+            - claquette
+    "/femme/chaussures/derbies":
+        "Derbies":
+            - derbies
+            - derby
+#############################################################################################################
+#######HOMME#################################################################################################
+#############################################################################################################
+    "/homme/vetements/jeans":
+        "Bootcut":
+            - { name: 'bootcut', priority: 120}
+        "Droit":
+            - { name: 'jean droit', priority: 125}
+            - { name: 'regular', priority: 120}
+            - { name: 'jean regular', priority: 120}
+            - { name: 'straight', priority: 120}
+            - { name: 'coupe normale', priority: 120}
+            - { name: 'coupe classique', priority: 120}
+            - { name: 'coupe droite', priority: 120}
+        "Flare":
+            - { name: 'flare', priority: 120}
+        "Stracking":
+            - { name: 'stracking', priority: 120}
+        "Large":
+            - large
+            - { name: 'style skateur', priority: 115}
+        "Skinny":
+            - { name: 'skinny', priority: 120}
+        "Slim":
+            - { name: "slim", priority: 90}
+            - { name: 'slim fit', priority: 120}
+            - { name: 'coupe étroite', priority: 115}
+            - { name: 'comfort fit', priority: 120}
+            - { name: 'coupe cintrée', priority: 120}
+            - { name: 'près du corps', priority: 120}
+            - { name: 'anti fit', priority: 125}
+        "Slim medium":
+            - slim medium
+        "Court":
+            - { name: 'court', priority: 80}
+        "Coloré":
+            - { name: 'coloré', priority: 80}
+        "Salopettes":
+            - { name: 'salopette', priority: 110}
+        "7/8e":
+            - 7/8
+        "Taille haute":
+            - taille haute
+        "Taille basse":
+            - taille basse
+        "Taille normale":
+            - taille normale
+        "coupe ample":
+            - coupe ample
+            - { name: 'jean ample', priority: 115}
+        "jean fuselé":
+            - { name: 'jean fuselé', priority: 120}
+            - { name: 'coupe fuselé', priority: 125}
+            - { name: 'coupe carrote', priority: 120}
+            - { name: 'carrot fit', priority: 120}
+        "coupe décontracté":
+            - coupe décontracté
+            - { name: 'décontracté', priority: 105}
+        "oversize":
+            - oversize
+    "/homme/vetements/pantalons":
+        "Droit":
+            - { name: 'droit', priority: 85}
+            - { name: 'regular', priority: 120}
+            - { name: 'coupe droite', priority: 120}
+            - { name: 'coupe classique', priority: 115}
+        "Large":
+            - large
+            - { name: 'pantalon bouffant', priority: 125}
+        "Cigarette":
+            - { name: 'cigarette', priority: 120}
+        "A pinces":
+            - { name: 'a pince', priority: 120}
+        "Evasé":
+            - evase
+        "Cuir & faux cuir":
+            - { name: 'cuir', priority: 105}
+        "Baggy":
+            - { name: 'baggy', priority: 120}
+            - { name : 'entrejambe bas', priority: 105}
+        "7/8e":
+            - { name: '7/8', priority: 105}
+        "Chino":
+            - { name: 'chino', priority: 115}
+        "Taille haute":
+            - taille haute
+        "Taille basse":
+            - taille basse
+        "Taille normale":
+            - taille normale
+        "Cargos":
+            - { name: 'Cargo', priority: 125}
+            - { name: 'pantalon battle', priority: 125}
+        "Joggings":
+            - { name: 'jogging', priority: 130}
+            - { name: 'jogger', priority: 120}
+            - { name: 'survêtement', priority: 120}
+        "Leggings & Treggings":
+            - Leggings & Treggings
+        "Pantalons classiques":
+            - Pantalons classiques
+        "Pantalons Slim & Skinny ajustée étroite":
+            - Pantalons Slim & Skinny ajustée étroite
+            - { name : 'skinny', priority: 125}
+            - { name: 'slim', priority: 125}
+            - { name: 'coupe ajustée', priority: 120}
+            - { name: 'coupe très ajustée', priority: 120}
+            - { name: 'ultra ajustée', priority: 120}
+            - { name: 'coupe super ajustée', priority: 120}
+            - { name: 'pantalon ajusté', priority: 120}
+        "Pantalons courts":
+            - { name: 'Pantalon court', priority: 125}
+            - { name: 'pantacourt', priority: 125}
+        "costume, smocking, à galon":
+            - costume, smocking, à galon
+        "fuselé, carotte":
+            - fuselé, carotte
+            - { name: 'pantalon fuselé', priority: 120}
+            - { name: 'coupe fuselé', priority: 120}
+            - { name: 'pantalon carotte', priority: 120}
+            - { name: 'carrot fit', priority: 120}
+            - { name: 'jean carotte', priority: 120}
+        "oversize":
+            - oversize
+        "5 poches":
+            - 5 poches
+        "pantalon en jean":
+            - pantalon en jean
+
+    "/homme/vetements/shorts":
+        "Short jean":
+            - Short jean
+            - { name: 'en denim', priority: 105}
+            - { name: 'en jean', priority: 105}
+        "Short toile":
+            - Short toile
+        "Bermuda classique":
+            - { name: 'Bermuda', priority: 95}
+            - { name: 'chino', priority: 105}
+            - { name: 'coupe chino', priority: 110}
+        "Bermuda à poches laterales":
+            - Bermuda à poches laterales
+        "Bermuda long":
+            - Bermuda long
+        "Droit":
+            - Droit
+            - { name: 'straight', priority: 120}
+            - coupe classique
+            - coupe standard
+        "Large":
+            - Large
+        "short coupe chino":
+            - short coupe chino
+        "pantacourt":
+            - pantacourt
+
+    "/homme/vetements/vestes":
+        "Blazers":
+            - { name: 'Blazer', priority: 120}
+        "Veste croisée":
+            - Veste croisée
+            - { name: 'croisée', priority: 90}
+        "Vestes droite":
+            - Vestes droite
+            - {name: 'coupe droite', priority: 135}
+            - { name: 'coupe classique', priority: 120}
+            - { name: 'regular', priority: 125}
+        "Veste cintrées":
+            - Veste cintrées
+            - { name: 'coupe cintrée', priority: 120}
+        "Veste ajustée":
+            - Veste ajustée
+            - { name: 'coupe ajustée', priority: 115}
+            - { name: 'ajstée', priority: 120}
+            - { name: 'coupe slim', priority: 125}
+            - { name: 'ajustée', priority: 125}
+        "Smoking":
+            - Smoking
+            - { name: 'veste de costume', priority: 120}
+            - { name: 'veste de smoking', priority: 115}
+            - { name: 'veste tailleur', priority: 115}
+        "Vestes légères":
+            - Vestes légères
+        "veste 1 bouton":
+            - veste 1 bouton
+            - { name: '1 bouton', priority: 95}
+        "Veste 2 boutons":
+            - Veste 2 boutons
+            - { name: '2 boutons', priority: 95}
+        "Veste 3 boutons":
+            - Veste 3 boutons
+            - { name: '3 boutons', priority: 95}
+        "Costume 3 pieces":
+            - Costume 3 pieces
+        "Smoking":
+            - Smoking
+        "Vestes en cuir":
+            - { name: 'cuir', priority: 95}
+            - { name: 'simili cuir', priority: 115}
+            - { name: 'motard', priority: 115}
+        "Perfecto":
+            - Perfecto
+        "Vestes casual":
+            - Vestes casual
+        "Vestes en jean":
+            - { name: 'Veste en jean', priority: 115}
+            - { name: 'veste en denim', priority: 115}
+            - { name: 'denim', priority: 110}
+            - { name: 'en jean', priority: 110}
+            - { name: 'jean', priority: 105}
+        "Gilets":
+            - { name: 'gilet', priority: 105}
+        "Grands revers (large)":
+            - Grands revers (large)
+        "Bombers":
+            - { name: 'Bomber', priority: 125}
+        "Vestes matelassées":
+            - Vestes matelassées
+            - { name: 'matelassée', priority: 105}
+            - { name: 'effet matelassé', priority: 115}
+            - { name: 'vestes rembourrées', priority: 115}
+            - { name: 'doudoune', priority: 125}
+        "Teddy":
+            - { name: 'Teddy', priority: 125}
+        "blouson":
+            - blouson
+
+    "/homme/vetements/costumes":
+        "pantalon de costume":
+            - pantalon de costume
+        "pantalon ajusté, ceintré":
+            - pantalon ajusté, ceintré
+            - { name: 'pantalon fuselé', priority: 120}
+        "super skinny":
+            - {name: 'super skinny', priority: 120}
+        "skinny":
+            - { name: 'skinny', priority: 115}
+        "slim":
+            - { name: 'slim', priority: 120}
+        "Veste coupe classique":
+            - coupe classique
+            - { name: 'veste de smocking', priority: 120}
+        "veste ceintré":
+            - veste ceintré
+            - { name: 'veste de costume ajustée', priority: 120}
+            - { name: 'coupe cintré', priority: 120}
+            - { name: 'coupe ajustée', priority: 120}
+        "veste ultra ceintré / super skinny":
+            - ultra ceintré
+            - super skinny
+            - { name: 'super ajusté', priority: 120}
+        "gilet slim/ceintré":
+            - gilet slim/ceintré
+            - { name: 'gilet slim', priority: 120}
+            - { name: 'gilet ceintré', priority: 120}
+            - { name: 'gilet', priority: 105}
+        "veste coupe skinny":
+            - veste coupe skinny
+            - { name: 'veston skinny', priority: 120}
+
+    "/homme/vetements/manteaux":
+        "Manteau long":
+            - { name: 'manteau long', priority: 110}
+            - { name: 'manteau homme long', priority: 110}
+            - { name: 'super long', priority: 120}
+            - { name: 'très long', priority: 120}
+            - { name: 'veste longue', priority: 120}
+            - { name: 'coupe longue', priority: 120}
+        "Manteau 3/4":
+            - Manteau 3/4
+            - imper 3/4
+        "Duffle-coats":
+            - { name: 'duffle-coat', priority: 120}
+        "Cabans":
+            - { name: 'Caban', priority: 120}
+        "Parkas":
+            - { name: 'parka', priority: 125}
+        "Blousons aviateur":
+            - Blousons aviateur
+            - { name: 'blouson', priority: 120}
+        "Trenchs":
+            - { name: 'Trench', priority: 110}
+            - { name: ' trench-coat', priority: 120}
+        "Imperméables":
+            - Imperméables
+        "A capuche":
+            - A capuche
+        "Grands cols":
+            - Grands cols
+        "doudoune":
+            - { name: 'doudoune', priority: 120}
+        "doudoune coupe droite":
+            - doudoune coupe droite
+        "doudoune coupe ceintré":
+            - doudoune coupe ceintré
+        "pardessus":
+            - { name: 'pardessus', priority: 120}
+        "coupe-vent":
+            - { name: 'coupe-vent', priority: 120}
+        "fourrure":
+            - { name: 'fourrure', priority: 105}
+        "manteau court":
+            - { name: 'manteau court', priority: 105}
+        "paletot":
+            - { name: 'paletot', priority: 120}
+
+    "/homme/vetements/pulls":
+        "Gilet col V":
+            - Gilet col V
+            - { name: 'cardigan', priority: 120}
+            - { name: 'col v', priority: 120}
+        "Gilet à col chale":
+            - Gilet à col chale
+            - { name: 'col chale', priority: 115}
+        "Pull col polo":
+            - Pull col polo
+        "Pull encolure ronde":
+            - { name: 'encolure ronde', priority: 115}
+            - { name: 'col arrondi', priority: 110}
+            - { name: 'basique', priority: 110}
+            - { name: 'ras de coup', priority: 110}
+            - { name: 'col rond', priority: 110}
+            - { name: 'ras du cou', priority: 110}
+        "Pull col cheminée":
+            - { name: 'col cheminée', priority: 110}
+            - { name: 'col montant', priority: 110}
+        "Pull col roulé":
+            - Pull col roulé
+            - { name: 'col roulé', priority: 110}
+        "Pull encolure bateau":
+            - Pull encolure bateau
+        "Pull V":
+            - Pull V
+            - { name: 'col en v', priority: 110}
+            - { name: 'encolure en v', priority: 110}
+        "Pull manche droite":
+            - Pull manche droite
+        "Pull manche raglan":
+            - Pull manche raglan
+        "Pull manches tombantes":
+            - Pull manches tombantes
+        "Maille epaisse":
+            - Maille epaisse
+        "avec capuche":
+            - avec capuche
+        "pull ajusté":
+            - ajusté
+            - { name: 'coupe moulante', priority: 120}
+            - { name: 'coupe slim', priority: 120}
+            - { name: 'coupe cintrée', priority: 120}
+            - { name: 'coupe près du corps', priority: 120}
+            - { name: 'pull côtelé ajusté', priority: 120}
+            - { name: 'pull ajusté', priority: 120}
+            - { name: 'pull slim', priority: 120}
+            - { name: 'pull moulant', priority: 120}
+            - { name: 'coupe étroite', priority: 120}
+        "coupe droite":
+            - { name: 'coupe droite', priority: 120}
+            - { name: 'coupe classique', priority: 120}
+        "col comioneur":
+            - col comioneur
+        "col chale":
+            - { name: 'col châle', priority: 110}
+        "gilet col rond":
+            - gilet col rond
+        "gilet ajusté":
+            - gilet ajusté
+            - { name: 'coupe ajusté', priority: 120}
+            - { name: 'façon blazer', priority: 120}
+        "gilet droit":
+            - gilet droit
+
+    "/homme/vetements/sweats":
+        "A capuche":
+            - A capuche
+            - { name: 'capuche', priority: 110}
+        "col arondi":
+            - col arondi
+            - { name: 'col rond', priority: 105}
+            - { name: 'ras de cou', priority: 105}
+            - { name: 'ras du cou', priority: 105}
+        "col V":
+            - col V
+        "Col montant":
+            - { name: 'Col montant', priority: 110}
+            - { name: 'col roulé', priority: 110}
+        "Sweats zippés":
+            - Sweats zippés
+            - { name: 'zippé', priority: 95}
+            - { name: 'à zip', priority: 105}
+        "coupe droite":
+            - { name: 'coupe droite', priority: 120}
+            - { name: 'coupe classique', priority: 120}
+        "ajusté":
+            - ajusté
+            - { name: 'coupe ajustée', priority: 120}
+            - { name: 'coupe slim', priority: 120}
+
+    "/homme/vetements/chemises":
+        "Chemise classique":
+            - Chemise classique
+            - { name: 'droite', priority: 115}
+            - { name: 'coupe classique', priority: 120}
+            - { name: 'classic fit', priority: 120}
+            - { name: 'regular', priority: 130}
+            - { name: 'coupe standard', priority: 120}
+        "Chemise ajustée":
+            - { name: 'ajustée', priority: 120}
+            - { name: 'près du corps', priority: 120}
+            - { name: 'près du corps', priority: 115}
+            - { name: 'coupe moulante', priority: 115}
+        "Chemise cintrée":
+            - { name: 'cintrée', priority: 125}
+        "Chemise col classique à boutons":
+            - Chemise col classique à boutons
+        "Chemise col classique sans bouton":
+            - Chemise col classique sans bouton
+        "Chemise col cassé":
+            - Chemise col cassé
+        "Chemise col tunisien":
+            - Chemise col tunisien
+        "Manches longues":
+            - { name: 'manches longues', priority: 105}
+        "Manches courtes":
+            - { name: 'manches courtes', priority: 105}
+        "Long":
+            - Long
+        "Court":
+            - Court
+        "slim":
+            - { name: 'slim', priority: 120}
+            - { name: 'slim fit', priority: 115}
+        "extra slim":
+            - extra slim
+
+    "/homme/vetements/t-shirts":
+        "T-shirts classique":
+            - maillot
+            - tee-shirt
+            - T-shirts classique
+            - {name: 'coupe droite', priority: 120}
+            - { name: 'basique', priority: 120}
+            - { name: 'maillot de corps', priority: 115}
+            - { name: 'coupe classique', priority: 120}
+            - { name: 'regular fit', priority: 120}
+            - { name: 't-shirt', priority: 95}
+        "Manches 3/4":
+            - Manches 3/4
+        "Manches longues":
+            - { name: 'manches longues', priority: 105}
+            - { name: 'long sleeved', priority: 105}
+        "Manches courtes":
+            - { name: 'manches courtes', priority: 110}
+        "Manches raglans":
+            - { name: 'Manches raglan', priority: 105}
+        "Tunisien":
+            - Tunisien
+        "T-shirt ajusté":
+            - T-shirt ajusté
+            - { name: 'ajuste', priority: 120}
+        "T-shirt cintré":
+            - T-shirt cintré
+            - { name: 'ceintré', priority: 120}
+            - { name: 'coupe ceintré', priority: 120}
+            - { name: 'slim fit', priority: 120}
+        "T-shirt moulant":
+            - T-shirt moulant
+            - { name: 'moulant', priority: 120}
+        "Encolure carrée":
+            - Encolure carrée
+        "Encolure bateau":
+            - Encolure bateau
+        "Encolure ronde":
+            - { name: 'encolure ronde', priority: 110}
+            - { name: 'col rond', priority: 115}
+            - { name: 'ras de cou', priority: 110}
+            - { name: 'ras du cou', priority: 110}
+            - { name: 'encolure dégagée', priority: 110}
+        "Débardeur classique":
+            - Débardeur classique
+            - { name: 'débardeur', priority: 130}
+        "Débardeur dos nageur":
+            - Débardeur dos nageur
+        "Polos":
+            - { name: 'Polo', priority: 110}
+        "coupe chino":
+            - coupe chino
+        "col camioneur":
+            - col camioneur
+        "col V":
+            - { name: 'col v', priority: 115}
+            - { name: 'col en v', priority: 115}
+
+    "/homme/vetements/maillots-de-bain":
+        "Slip classique":
+            - slip
+        "Boxer":
+            - boxer
+        "Short de bain court":
+            - shorty de bain
+            - court
+        "Short de bain mi cuisses":
+            - mi cuisse
+            - mi-cuisse
+            - { name: 'short de bain', priority: 90}
+        "Short de bain genoux":
+            - genoux
+        "Short de bain long":
+            - long
+
+    "/homme/chaussures/chaussures-de-ville":
+        "Chaussures basses bout carré":
+            - carré
+        "Chaussures basses bout rond":
+            - rond
+            - { name: 'derby', priority: 115}
+            - { name: 'derbies', priority: 115}
+            - { name: 'bout en amende', priority: 110}
+        "Chaussures basses bout pointu (italienne)":
+            - pointu
+            - italienne
+
+    "/homme/chaussures/baskets":
+        "Basket":
+            - basket
+            - { name: 'tennis', priority: 115}
+            - chuck
+            - { name: 'converse', priority: 80}
+            - sneaker
+            - chaussure de running
+            - chaussure de course
+        "Chaussures montantes sportswear":
+            - { name: 'montante', priority: 120}
+
+    "/homme/chaussures/bottes":
+        "Boots bout rond":
+            - rond
+            - { name: 'chelsea', priority: 110}
+            - { name: 'bottine', priority: 120}
+            - { name: 'boots', priority: 115}
+            - { name: 'desert boots', priority: 110}
+            - { name: 'brodequin', priority: 110}
+            - { name: 'creeper', priority: 110}
+            - { name: 'bout en amende', priority: 105}
+            - { name: 'botte', priority: 116}
+        "Boots bout pointu":
+            - pointu
+        "chealsea & boots":
+            - chealsea & boots
+
+    "/homme/chaussures/mocassins-et-bateaux":
+        "Bateau":
+            - ""

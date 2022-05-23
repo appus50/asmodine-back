@@ -1,0 +1,72 @@
+services:
+    asmodine.admin.associate:
+        class: Asmodine\AdminBundle\Service\AssociateService
+        arguments: ['@service_container', '@monolog.logger.asmodine_admin_associate']
+
+    asmodine.admin.brand.import:
+        class: Asmodine\AdminBundle\Service\ImportBrandService
+        arguments: ['@asmodine.admin.repository.catalog_brand', '@asmodine.admin.repository.model', '@jms_serializer', '@monolog.logger.asmodine_admin_import']
+
+    asmodine.admin.catalog.import:
+        class: Asmodine\AdminBundle\Service\ImportCatalogService
+        arguments: ['@buzz', '@asmodine.admin.repository.catalog', '@asmodine.admin.repository.catalog_import', '%kernel.project_dir%', '@monolog.logger.asmodine_admin_import']
+
+    asmodine.admin.front.update:
+        class: Asmodine\AdminBundle\Service\FrontUpdateService
+        arguments: ['@asmodine.common.api_client', '@asmodine.admin.repository.brand', '@asmodine.admin.repository.category', '@monolog.logger.asmodine_admin_front']
+
+    # Repository
+    asmodine.admin.repository.brand:
+        class: Asmodine\AdminBundle\Repository\BrandRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.model:
+        class: Asmodine\AdminBundle\Repository\ModelRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.image:
+        class: Asmodine\AdminBundle\Repository\ImageRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.product:
+        class: Asmodine\AdminBundle\Repository\ProductRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.catalog:
+        class: Asmodine\AdminBundle\Repository\CatalogRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.catalog_brand:
+        class: Asmodine\AdminBundle\Repository\CatalogBrandRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.catalog_import:
+        class: Asmodine\AdminBundle\Repository\CatalogImportRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.category:
+        class: Asmodine\AdminBundle\Repository\CategoryRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.color:
+        class: Asmodine\AdminBundle\Repository\ColorRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.color_filter:
+        class: Asmodine\AdminBundle\Repository\ColorFilterRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.color_morphotype:
+        class: Asmodine\AdminBundle\Repository\ColorMorphotypeRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.style_category:
+        class: Asmodine\AdminBundle\Repository\StyleCategoryRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.style_morphology:
+        class: Asmodine\AdminBundle\Repository\StyleMorphologyRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.size_brand:
+        class: Asmodine\AdminBundle\Repository\SizeBrandRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.size_guide_measure:
+        class: Asmodine\AdminBundle\Repository\SizeGuideMeasureRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.size_guide_body_part:
+        class: Asmodine\AdminBundle\Repository\SizeGuideBodyPartRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.style:
+        class: Asmodine\AdminBundle\Repository\StyleRepository
+        arguments: ['@doctrine.dbal.default_connection']
+    asmodine.admin.repository.synonym:
+        class: Asmodine\AdminBundle\Repository\SynonymRepository
+        arguments: ['@doctrine.dbal.default_connection']

@@ -1,0 +1,5 @@
+api:
+    front:
+        parameters:
+            description:
+                physical_profile: JSON of PhysicalProfileDTO

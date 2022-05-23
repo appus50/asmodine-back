@@ -1,0 +1,33 @@
+/.web-server-pid
+/app/config/parameters.yml
+/build/
+/phpunit.xml
+/var/*
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/logs
+/var/logs/*
+!var/logs/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+/var/files/catalog/*
+!/var/files/catalog/.gitkeep
+/vendor/
+/web/bundles/
+
+# JetBrains
+.idea
+*~
+
+# Divers
+.DS_Store
+
+# Dev
+tmp/
+*.tmp
+*.tmp.*
+*Tmp*
+copy: conflict*
